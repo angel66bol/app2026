@@ -29,17 +29,25 @@
             display: block;
             font-size: 14px;
         }
+
+        .rank {
+            font-size: 16px;
+            color: #102c2d;
+            font-weight: bold;
+            padding: 10px auto;
+            text-align: center;
+        }
     </style>
 </head>
 
 <body class="">
+    <img src="images/cengob.jpg" style="float: right; width: 300px;" />
     <div style="padding: 20px 0px; font-size: 14px;">Fecha de actualización: <b>Mayo 12, Hrs. 16:00</b></div>
 
     <div style="width: 100%;">
 
 
-        <h1 style="font-size: 25px; text-align: center; font-weight: bold; color: #102c2d; ">DASHBOARD DE
-            INTERVENCIONES</h1>
+        <h1 style="font-size: 25px; text-align: center; font-weight: bold; color: #102c2d;  clear: both">DASHBOARD DE INTERVENCIONES</h1>
 
 
         <div class="container">
@@ -47,10 +55,10 @@
                 <div class="row g-4">
                     <!-- KPI 1: Cantidad Total Principal -->
                     <div class="col-md-4">
-                        <div class="card border-0 shadow-sm h-100 text-white" style="background:#102c2d;">
+                        <div class="card border-0 shadow-sm h-100 text-white" style="background:#198754">
                             <div class="card-body">
                                 <h6 class="text-uppercase fw-bold opacity-75">Cantidad Total de Intervenciones</h6>
-                                <h2 class="display-5 fw-bold mb-0" id="cti"></h2>
+                                <h2 class="display-5 fw-bold mb-0" id="cti" style="font-size: 150px;"></h2>
                                 <!-- <small class="text-white-50">+5% vs mes anterior</small> -->
                             </div>
                         </div>
@@ -105,23 +113,26 @@
                                 <h6 class="text-uppercase fw-bold text-muted mb-3">Rango de montos</h6>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-                                        Inferiores(Menor a 10.000.000 Bs.)<span class="badge bg-success rounded-pill"
+                                        Proyectos menores a 10 Millones Bs.<span class="badge bg-success rounded-pill"
                                             id="inferior">120</span>
                                     </li>
-                                   
                                     <li
                                         class="list-group-item d-flex justify-content-between align-items-center px-0 border-bottom-0">
-                                        Mayores(mayor a 100.000.000 Bs.)<span class="badge bg-danger rounded-pill" id="mayor">12</span>
+                                         Proyectos entre 10 a 100 Millones Bs.<span
+                                            class="badge bg-danger rounded-pill" id="regular">12</span>
                                     </li>
+
                                     <li
                                         class="list-group-item d-flex justify-content-between align-items-center px-0 border-bottom-0">
-                                        Regulares(de 10.000.000 a 100.000.000 Bs.)<span class="badge bg-danger rounded-pill" id="regular">12</span>
+                                        Proyectos Mayores a 100 Millones Bs.<span class="badge bg-danger rounded-pill"
+                                            id="mayor">12</span>
                                     </li>
-                                     <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                    
+                                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">
                                         Sin Referencia<span class="badge bg-warning text-dark rounded-pill"
                                             id="sinmonto">45</span>
                                     </li>
-                                    
+
                                 </ul>
                             </div>
                         </div>
@@ -192,10 +203,129 @@
 
         <!-- <div id="chartdiv4" style="height: 600px; width: 100%;"></div> -->
         <br> <br><br> <br>
-        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Visualizador de Datos
+        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Ranking por Departamento
         </h1>
 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="rank">LA PAZ</h2>
+                    <table id="miTablaLP" class="table table-striped shadow-sm" style="width:100%">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Proyecto</th>
+                                <th>Monto</th>
+                            </tr>
+                        </thead>
+                        <tbody id="contenidoTablaLP">
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="rank">COCHABAMBA</h2>
+                    <table id="miTablaCB" class="table table-striped shadow-sm" style="width:100%">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Proyecto</th>
+                                <th>Monto</th>
+                            </tr>
+                        </thead>
+                        <tbody id="contenidoTablaCB">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-md-6">
+                    <h2 class="rank">BENI</h2>
+                    <table id="miTablaBE" class="table table-striped shadow-sm" style="width:100%">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Proyecto</th>
+                                <th>Monto</th>
+                            </tr>
+                        </thead>
+                        <tbody id="contenidoTablaBE">
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="rank">ORURO</h2>
+                    <table id="miTablaOR" class="table table-striped shadow-sm" style="width:100%">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Proyecto</th>
+                                <th>Monto</th>
+                            </tr>
+                        </thead>
+                        <tbody id="contenidoTablaOR">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="rank">PANDO</h2>
+                    <table id="miTablaPA" class="table table-striped shadow-sm" style="width:100%">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Proyecto</th>
+                                <th>Monto</th>
+                            </tr>
+                        </thead>
+                        <tbody id="contenidoTablaPA">
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="rank">POTOSI</h2>
+                    <table id="miTablaPO" class="table table-striped shadow-sm" style="width:100%">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Proyecto</th>
+                                <th>Monto</th>
+                            </tr>
+                        </thead>
+                        <tbody id="contenidoTablaPO">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="rank">SUCRE</h2>
+                    <table id="miTablaSC" class="table table-striped shadow-sm" style="width:100%">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Proyecto</th>
+                                <th>Monto</th>
+                            </tr>
+                        </thead>
+                        <tbody id="contenidoTabla">
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="rank">TARIJA</h2>
+                    <table id="miTablaTJ" class="table table-striped shadow-sm" style="width:100%">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Proyecto</th>
+                                <th>Monto</th>
+                            </tr>
+                        </thead>
+                        <tbody id="contenidoTablaCB">
+                        </tbody>
+                    </table>
+                </div>
+            </div> -->
 
+        </div>
+
+
+        <br> <br><br> <br>
+        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Visualizador de Datos
+        </h1>
 
         <table id="miTabla" class="table table-striped shadow-sm" style="width:100%">
             <thead class="table-dark">
@@ -204,25 +334,242 @@
                     <th>Tipo de intervención</th>
                     <th>Descripción breve de la intervención (Proyecto, Programa, Actividad u otro)</th>
                     <th>Fecha tentativa de la presentación</th>
-
-                    <th>Resultados esperados</th>
-                    <th>ESTRATEGICO/NO ESTRATEGICO</th>
+                    <th>Monto</th>
                     <th>DEPTO/MUNIC</th>
-                    <th>MES"</th>                
+                  
                 </tr>
             </thead>
             <tbody id="contenidoTabla">
             </tbody>
         </table>
 
+
+
+
     </div>
     <div style="padding: 20px 0px; font-size: 14px;">Fecha de actualización: <b>Mayo 12, Hrs. 16:00</b></div>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
-    <script src="js/data.js?v=12052026_2"></script>
+    <script src="js/data.js?v=12052026_4"></script>
 
     <script>
+        let tableLP = [
+            {
+                "LA PAZ": "CONST. ENLOSETADO AV. ILLIMANI D-8 (CIUDAD EL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+                "MONTOS": " 2.913.198 "
+            },
+            {
+                "LA PAZ": "CONST. ENLOSETADO DE CALLE Y AVENIDAS EN EL DISTRITO 12 (CIUDAD EL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+                "MONTOS": " 2.554.390 "
+            },
+            {
+                "LA PAZ": "CONST. ENLOSETADO DE CALLES Y AVENIDAS EN LAS URBANIZACIONES ALTO CHIJINI U.V. D Y SENOR DE EXALTACION A DISTRITO 12 ( CIUDAD EL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+                "MONTOS": " 2.473.114 "
+            },
+            {
+                "LA PAZ": "CONST. DEFENSIVO EL RÍO LA PAZ COM. HUAJCHILLA (MECAPACA): Implementar en la comunidad de Huajchilla la Construcción de defensivos en base a Muro de Contención en Rio La Paz, para la protección de áreas de cultivo, garantizando el desarrollo integral de la población en beneficio del bienestar de las familias y, así, elevar la calidad de vida de la población.",
+                "MONTOS": " 2.431.823 "
+            },
+            {
+                "LA PAZ": "CONST. ENLOSETADO AV.MARCELO QUIROGA SANTA CRUZ, AV. SAJAMA, AV. CALAMA Y CALLES ADYACENTES 9 CIUDAD EL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+                "MONTOS": " 2.400.274 "
+            },
+            {
+                "LA PAZ": "CONST. ENLOSETADO URBANIZACION LOS PINOS II DISTRITO MUNICIAPAL N14 (CIUDAD EL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+                "MONTOS": " 2.370.800 "
+            },
+            {
+                "LA PAZ": "CONST. ENLOSETADO DE CALLES Y AVENIDAS EN EL DISTRITO 4Y 5 (CIUDAD DEL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+                "MONTOS": " 2.308.512 "
+            },
+            {
+                "LA PAZ": "CONST. ENLOSETADO CALLE ROBLES (CIUDAD EL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+                "MONTOS": " 1.855.782 "
+            },
+            {
+                "LA PAZ": "CONST. ENLOSETADO AV. SANTA CRUZ Y TIAHUANACU, TITICACA Y PASAJE LA PAZ (CIUDAD EL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+                "MONTOS": " 1.551.432 "
+            },
+            {
+                "LA PAZ": "CONST. ENLOSETADO AV.4 DE ENERO, AV. DIANA SPENCER Y AV. CUBAY (CIUDAD DEL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+                "MONTOS": " 1.455.766"
+            }
+        ];
+
+        let tableCB = [
+            {
+                "COCHABAMBA": "Proyecto: CONST. PLANTA DE GENERACIÓN HIDROELÉCTRICA IVIRIZU\" Componente Línea de Transmisión 230 kV Interconexión IVIRIZU al SIN”, El proyecto Línea de Transmisión Interconexión de Ivirizu al SIN, permitira la inyección de la energía eléctrica generada por las centrales de Sehuencas y Juntas al sistema interconectado nacional mediante la construcción de la línea de transmisión eléctrica 230 kV Santiváñez II - Sehuencas y línea de transmisión eléctrica 230 kV Sehuencas – Sucre contemplando además, la ampliación de las subestaciones eléctricas de Santiváñez ii, Sucre y la incorporación de un nodo de compensación próximo a la población de Mizque”",
+                "MONTOS": " 674.943.235 "
+            },
+            {
+                "COCHABAMBA": "CONST. ADUCCION 1 PTAP JOVE RANCHO TIQUIPAYA - COCHABAMBA - SACABA\n",
+                "MONTOS": " 280.931.669 "
+            },
+            {
+                "COCHABAMBA": "CONST. SISTEMA DE AGUA POTABLE SACABA",
+                "MONTOS": " 76.173.124 "
+            },
+            {
+                "COCHABAMBA": "DESAR. PROG. RIEGO SIRIC KFW CONSULTORA S.A.",
+                "MONTOS": " 51.315.371 "
+            },
+            {
+                "COCHABAMBA": "IMPLEM. DEL PROGRAMA SISTEMA DE ADUCCION AREA METROPOLITANA COCHABAMBA",
+                "MONTOS": " 19.532.225 "
+            },
+            {
+                "COCHABAMBA": "CONST. TRASVASE DE AGUAS SACABA - READECUACION INTERCONEXIONES FASE II REDES PRIMARIAS - COCHABAMBA",
+                "MONTOS": " 8.000.000 "
+            },
+            {
+                "COCHABAMBA": "CONST. REPRESA Y SISTEMA DE RIEGO CALA CAJA (CAPINOTA)",
+                "MONTOS": " 1.423.520 "
+            },
+            {
+                "COCHABAMBA": "CONST. SISTEMA DE AGUA POTABLE DE TIQUIPAYA DISTRITOS 4,5 Y 6 COCHABAMBA",
+                "MONTOS": " 1.387.915 "
+            },
+            {
+                "COCHABAMBA": "CONST. BIOPLANTA DE PRODUCCIÓN E IRRADIACIÓN DE LA MOSCA DE LA FRUTA, DEPTO. COCHABAMBA",
+                "MONTOS": " 1.241.211 "
+            },
+            {
+                "COCHABAMBA": "CONST. REPRESA PUKA CHULO - LAGUNA GRANDE, (RAQAYPAMPA)",
+                "MONTOS": " 990.575"
+            }
+        ];
+
+        let tableBE = [
+            {
+                "BENI": "CONST. PLANTA DE TRATAMIENTO DE AGUA POTABLE CIUDAD TRINIDAD - BENI",
+                "MONTOS": " 184.683.254"
+            }
+        ]
+
+        let tableOR = [
+            {
+                "ORURO": "MEJ. Y AMPL. DEL SIST. DE AGUA POTABLE PARA RECIENTES ASENTAMIENTOS URB. DE LA CIUDAD DE ORURO (APRAUR) FASE I\n",
+                "MONTOS": " 98.609.475 "
+            },
+            {
+                "ORURO": "IMPLEM. DE LA INDUSTRIA DE CAMéLIDOS DE ORURO",
+                "MONTOS": " 74.327.694 "
+            },
+            {
+                "ORURO": "CONST. PUENTE DE ENLACE COMUNIDAD DE POMATA Y SAN ANTONIO (CORQUE): Contribuir al mejoramiento vial del Municipio de Corque a través de la construcción de un Puente Vehicular, que coadyuve al flujo del tráfico existente en la zona garantizando de esta manera la transitabilidad continua y segura.",
+                "MONTOS": " 3.613.338 "
+            },
+            {
+                "ORURO": "CONST. PRESA MULTIPROPÓSITO CONDORCHINOCA (SORACACHI – ORURO)",
+                "MONTOS": " 1.371.707"
+            }
+        ]
+
+        let tablePA = [
+            {
+                "PANDO": "Entrega Definitiva (inaguracion) del proyecto \"Construcción e Implementación de un Centro Tecnológico de Innovación Productiva de Madera en el Departamento de Pando – Municipio Cobija\"",
+                "MONTOS": " 30.561.089 "
+            },
+            {
+                "PANDO": "PROGRAMA DE APOYO A LA GESTIÓN DE RIESGOS ANTE EVENTOS ADVERSOS DEL CLIMA, PARA EL MUNICIPIO DE COBIJA",
+                "MONTOS": " 36.000.000"
+            }
+        ]
+
+
+        let tablePO = [
+            {
+                "POTOSI": "AMPL. DEL SISTEMA DE AGUA POTABLE VILLAZON POTOSI",
+                "MONTOS": " 66.149.123 "
+            },
+            {
+                "POTOSI": "IMPLEM. GESTION INTEGRAL DE RESUDUOS SOLIDOS POTOSI\n",
+                "MONTOS": " 62.751.262 "
+            },
+            {
+                "POTOSI": "CONST. PUENTE VEHICULAR COPACABANA GAM DE COLCHA",
+                "MONTOS": " 6.224.290 "
+            },
+            {
+                "POTOSI": "CONST. PUENTE VEHICULAR Y ACCESOS MOLLE MOLLE: Mejorar las condiciones de accesibilidad y transitabilidad que permita el acceso a los mercados potenciales a los productores agropecuarios de las comunidades del municipio de Ravelo, provincia Chayanta, departamento de Potosí, Bolivia",
+                "MONTOS": " 3.505.885 "
+            },
+            {
+                "POTOSI": "CONST. SISTEMA DE RIEGO TORREJON GRANDE VITICHI :Contribuir al mejoramiento de la calidad de vida de los habitantes de la comunidad de Torrejón Grande, a través de la implementación de un sistema de riego que posibilite el incremento de los niveles de producción y productividad agrícola, como consecuencia de la mayor disponibilidad de agua y su aprovechamiento eficiente para la producción, determinando la generación de mayores ingresos económicos familiares provenientes de la actividad agro productiva",
+                "MONTOS": " 2.045.504 "
+            },
+            {
+                "POTOSI": "CONST. SISTEMA DE RIEGO TURURU",
+                "MONTOS": " 1.571.783"
+            }
+        ]
+        let tableSC = [
+            {
+                "SUCRE": "Proyecto: “CONST. ELECTRIFICACION RURAL CULPINA (CHUQUISACA)”, El Proyecto de CONST. ELECTRIFICACION RURAL CULPINA (CHUQUISACA) consiste en la construcción de 59,56 km de líneas de media tensión, 53,09 km de redes de baja tensión y 38 puestos de transformación MT/BT, ampliando la cobertura del servicio eléctrico a zonas rurales.",
+                "MONTOS": " 8.014.554 "
+            },
+            {
+                "SUCRE": "CONST. ELECTRIFICACIÓN RURAL DISTRITO SUPAS MUNICIPIO DE VILLAS CHARCAS (CHUQUISACA)",
+                "MONTOS": " 6.446.956 "
+            },
+            {
+                "SUCRE": "AMPL. DE SISTEMA DE RIEGO PRESURIZADO EL PERAL",
+                "MONTOS": " 3.438.646 "
+            },
+            {
+                "SUCRE": "Proyecto: CONST. PLANTA SOLAR OCCIDENTE (CHUQUISACA)\" El proyecto \"Planta Solar Occidente (Chuquisaca)\", tendrá una potencia de 30 MW que serán inyectados al SIN mediante el uso de tecnología fotovoltaica. Contribuyendo al desplazamiento de gas natural y la reducción de emisiones de Gases de Efecto durante la vida útil del proyecto",
+                "MONTOS": " 2.211.640 "
+            },
+            {
+                "SUCRE": "CONST. PUENTE VEHICULAR RIO SAN JUAN DE HORCAS - MUNICIPIO DE SOPACHUY",
+                "MONTOS": " 2.201.883 "
+            },
+            {
+                "SUCRE": "AMPL. SISTEMA DE RIEGO LOS SOTOS",
+                "MONTOS": " 1.713.634 "
+            },
+            {
+                "SUCRE": "AMPL. DE SISTEMA DE RIEGO SAN JOSE DE MOLLES - SAN ANTONIO MUNICIPIO DE YAMPARAEZ: Asegurar la disponibilidad de agua en cantidad y calidad necesaria en todo el ciclo agrícola mediante la ampliación de la red de distribución de agua del riego tecnificado",
+                "MONTOS": " 1.575.944 "
+            },
+            {
+                "SUCRE": "CONST. PUENTE VEHICULAR COMUNIDAD SOCABON (VILLA SERRANO)",
+                "MONTOS": " 1.103.912 "
+            },
+            {
+                "SUCRE": "CONST. PUENTE VEHICULAR SUCUMAYU, COMUNIDAD PALAJLA",
+                "MONTOS": " 1.080.344"
+            }
+        ]
+
+        let tableTJ = [
+            {
+                "TARIJA": "IMPLEM. OBRAS DE CONTROL HIDRAULICO EN ZONAS DE RIESGO MUNICIPIO DE VILLAMONTES 1RA FASE",
+                "MONTOS": " 6.285.375 "
+            },
+            {
+                "TARIJA": "EQUIP. PARA MONITOREO DE CAUDAL Y PRESION CIUDAD DE TARIJA",
+                "MONTOS": " 4.800.000 "
+            },
+            {
+                "TARIJA": "RESTAU. DE PALEOCAUCES EN EL CONO ALUVIAL DEL RIO PILCOMAYO - PARA RIEGO, PROVINCIA GRAN CHACO",
+                "MONTOS": " 3.957.674 "
+            },
+            {
+                "TARIJA": "CONST. INFRAESTRUCTURA PRODUCTIVA PUENTE VEHICULAR CRUCE DE ROSILLAS GAM PADCAYA DPTO.TARIJA\n",
+                "MONTOS": " 1.633.430 "
+            },
+            {
+                "TARIJA": "CONST. INFRAESTRUCTURA PRODUCTIVA PUENTE VEHICULAR COMUNIDAD RINCON GRANDE GAM PADACAYA",
+                "MONTOS": " 739.868 "
+            },
+            {
+                "TARIJA": "EDTP AMPLIACIÓN SISTEMA DE AGUA POTABLE COMUNIDAD EL MOLINO - MUNICIPIO EL PUENTE TARIJA (ESTUDIO DE DISEÑO TECNICO DE PREINVERSION)",
+                "MONTOS": " 89.069"
+            }
+        ]
+
 
         const dataX = dataJSON;
         let dataJSONtable = dataJSON;
@@ -274,7 +621,7 @@
         // ];
 
         const montos = contarFrecuencia(dataX, " MONTO RANGOS ");
-console.log(montos);
+        console.log(montos);
 
         $("#inferior").html(montos[0].value);
         $("#sinmonto").html(montos[1].value);
@@ -722,6 +1069,13 @@ console.log(montos);
         createBarChart4();
         createPercentChart5('donut');
 
+
+        // <th>Entidad del Estado</th>
+        //             <th>Tipo de intervención</th>
+        //             <th>Descripción breve de la intervención (Proyecto, Programa, Actividad u otro)</th>
+        //             <th>Fecha tentativa de la presentación</th>
+        //             <th>Monto</th>
+        //             <th>DEPTO/MUNIC</th>
         $(document).ready(function () {
             // 2. Insertar los datos en el cuerpo de la tabla
             const tbody = $('#contenidoTabla');
@@ -732,31 +1086,66 @@ console.log(montos);
                         <td>${item["Tipo de intervención"]}</td>
                         <td>${item["Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)"]}</td>
                         <td>${item["Fecha tentativa de la presentación"]}</td>
-                        <td>${item["Resultados esperados(Monto, Población beneficiada, etc.)"]}</td>
-                        <td>${item["ESTRATEGICO/NO ESTRATEGICO"]}</td>
+                                                <td>${item["MONTOS"]}</td>
+
                         <td>${item["DEPTO/MUNIC"]}</td>
-                        <td>${item["MES"]}</td>
                        
                     </tr>
                 `);
             });
 
 
-            // <th>Entidad del Estado</th>
-            //         <th>Tipo de intervención</th>
-            //         <th>Descripción breve de la intervención (Proyecto, Programa, Actividad u otro)</th>
-            //         <th>Fecha tentativa de la presentación"]</th>
-            //         <th>Resultados esperados"]</th>
-            //         <th>ESTRATEGICO/NO ESTRATEGICO"]</th>
-            //         <th>DEPTO/MUNIC"]</th>
-            //         <th>MES"</th>
-            // 3. Inicializar DataTables
+
             $('#miTabla').DataTable({
                 "language": {
                     "url": "//cdn.datatables.net/plug-ins/1.13.6/i18n/es-ES.json" // Traducción al español
                 },
-                "pageLength": 10, // Cantidad de filas por página
                 "responsive": true
+            });
+
+
+            //LP
+            const tbodyLP = $('#contenidoTablaLP');
+            tableLP.forEach(item => {
+                tbodyLP.append(`
+                    <tr>
+                        <td>${item["LA PAZ"]}</td>
+                        <td>${item["MONTOS"]}</td>
+                        
+                       
+                    </tr>
+                `);
+            });
+
+
+            $('#miTablaLP').DataTable({
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/1.13.6/i18n/es-ES.json" // Traducción al español
+                },
+                "paging": false,
+                "responsive": true,
+                "info": false
+            });
+
+            //CB
+            const tbodyCB = $('#contenidoTablaCB');
+            tableCB.forEach(item => {
+                tbodyCB.append(`
+                    <tr>
+                        <td>${item["COCHABAMBA"]}</td>
+                        <td>${item["MONTOS"]}</td>                                           
+                    </tr>
+                `);
+            });
+
+
+            $('#miTablaCB').DataTable({
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/1.13.6/i18n/es-ES.json" // Traducción al español
+                },
+                "paging": false,
+                "responsive": true,
+                "info": false
             });
         });
 
