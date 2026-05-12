@@ -4,155 +4,412 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prioridades</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Dashboard amCharts 5</title>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- amCharts 5 Resources -->
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
     <style>
-        :root {
-            --bg-color: #ffffff;
-            --text-main: #1a1a1a;
-        }
-
         body {
-            background-color: var(--bg-color);
-            font-family: 'Segoe UI', Roboto, sans-serif;
-            color: var(--text-main);
+            padding: 50px;
+            margin-top: 150px;
         }
-
-        .search-wrapper {
-            position: sticky;
-            top: 0;
-            background: rgba(255, 255, 255, 0.9);
-            backdrop-filter: blur(8px);
-            z-index: 10;
-            padding: 2rem 0;
-            border-bottom: 1px solid #eee;
-        }
-
-        .search-input {
-            border-radius: 50px;
-            border: 1px solid #ddd;
-            padding: 0.8rem 1.5rem;
-            transition: all 0.3s ease;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02);
-        }
-
-        .search-input:focus {
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-            border-color: #bbb;
-            outline: none;
-        }
-
-        .menu-list {
-            max-width: 700px;
-            margin: 2rem auto;
-        }
-
-        .item-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1.2rem;
-            margin-bottom: 0.5rem;
-            cursor: pointer;
-            border-radius: 12px;
-            transition: background 0.2s;
-            border: 1px solid transparent;
-        }
-
-        .item-row:hover {
-            background: #f8f9fa;
-            border-color: #eee;
-        }
-
-        .item-number {
-            font-size: 16px;
-            font-weight: bold;
-            color: #999;
-            width: 30px;
-        }
-
-        .item-name {
-            flex-grow: 1;
-            font-weight: 400;
-            font-size: 1.1rem;
-        }
-
-        #modalImg {
-            width: 100%;
-            border-radius: 8px;
-            height: auto;
-        }
-
-        .modal-content {
-            border: none;
-            border-radius: 20px;
-        }
-
-         #chartdiv {
-            width: 100%;
-            height: 600px;
-            background-color: #ffffff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-    /* .modal-xl {
-        --bs-modal-width: 98% !important;
-    } */
     </style>
 </head>
 
-<body>
+<body class="">
 
-    <div class="search-wrapper">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <input type="text" id="searchInput" class="form-control search-input"
-                        placeholder="Buscar prioridades">
-                    <div id="counter" class="text-center mt-2 text-muted" style="font-size: 0.8rem;"></div>
-                </div>
-            </div>
-        </div>
+    <div style="width: 100%;">
+        <br>
+        <h1 style="font-size: 25px; text-align: center; font-weight: bold;padding-top: 20px; ">DASHBOARD DE INTERVENCIONES</h1>
+
+
+        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 20px;">Por Entidades del Estado (En número)</h1>
+
+        <!-- Selector de Gráficos -->
+        <!-- <div class="flex justify-center space-x-4 mb-10">
+            <button onclick="changeChart('bar')" class="flex items-center bg-emerald-500 hover:bg-emerald-600 text-white px-5 py-2.5 rounded-lg transition-all shadow-lg active:scale-95">
+                <i class="fa-solid fa-chart-column mr-2"></i> Barras
+            </button>
+            <button onclick="changeChart('pie')" class="flex items-center bg-orange-500 hover:bg-orange-600 text-white px-5 py-2.5 rounded-lg transition-all shadow-lg active:scale-95">
+                <i class="fa-solid fa-chart-pie mr-2"></i> Pie
+            </button>
+            <button onclick="changeChart('donut')" class="flex items-center bg-rose-500 hover:bg-rose-600 text-white px-5 py-2.5 rounded-lg transition-all shadow-lg active:scale-95">
+                <i class="fa-solid fa-circle-dot mr-2"></i> Donut
+            </button>
+        </div> -->
+
+        <!-- Contenedor del Gráfico -->
+        <div id="chartdiv" style="height: 600px; width: 100%;"></div>
+                <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 20px;">Por Tipo de Intervención (En número)</h1>
+
+        <div id="chartdiv2" style="height: 600px; width: 100%;"></div>
+        <!-- <div id="chartdiv3" style="height: 600px; width: 100%;"></div>
+        <div id="chartdiv4" style="height: 600px; width: 100%;"></div> -->
     </div>
-
-    <div class="container">
-        <div id="menuContainer" class="menu-list">
-            <!-- Los 34 items aparecerán aquí -->
-        </div>
-    </div>
-
-    <!-- Modal -->
-    <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content shadow-lg">
-                <div class="modal-header border-0">
-                    <h5 class="modal-title" id="mTitle">mTitle</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body text-center p-4">
-                    <h2> </h2>
-                    <div id="chartdiv"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Recursos de amCharts 5 -->
-    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
-    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
-    <script src="https://cdn.amcharts.com/lib/5/plugins/colorPicker.js"></script>
-    <script src="https://cdn.amcharts.com/lib/5/gantt.js"></script>
-    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
-    <script src="https://cdn.amcharts.com/lib/5/locales/es_ES.js"></script>
-
     <script src="js/data.js"></script>
 
-    <script type="text/javascript" src="js/app.js">
-    </script>
+    <script>
 
+        const dataX = dataJSON;
+
+        function contarFrecuencia(data, campo) {
+            const frecuencias = data.reduce((acc, item) => {
+                const valor = item[campo];
+
+                acc[valor] = (acc[valor] || 0) + 1;
+
+                return acc;
+            }, {});
+
+            return Object.entries(frecuencias)
+                .map(([category, value]) => ({
+                    category,
+                    value
+                }))
+                .sort((a, b) => b.value - a.value);
+        }
+
+        const entidad = contarFrecuencia(dataX, "Entidad del Estado");
+        const tipoIntervencion = contarFrecuencia(dataX, "Tipo de intervención");
+
+        console.log(entidad);
+        console.log(tipoIntervencion);
+        console.log();
+        let root; let root2; let root3;
+
+        // const data = [
+        //     { category: "Ventas", value: 450 },
+        //     { category: "Marketing", value: 300 },
+        //     { category: "I+D", value: 200 },
+        //     { category: "Soporte", value: 150 },
+        //     { category: "RRHH", value: 100 }
+        // ];
+
+        const data = [
+            {
+                "category": "Proyecto de inversión/Obra",
+                "value": 121
+            },
+            {
+                "category": "Otro",
+                "value": 5
+            },
+            {
+                "category": "Programa",
+                "value": 3
+            },
+            {
+                "category": "Actividad",
+                "value": 2
+            },
+            {
+                "category": "Decreto/Norma",
+                "value": 2
+            }
+        ];
+
+
+
+
+
+        function changeChart(type) {
+            // 1. Limpiar el root anterior si existe para evitar conflictos de memoria
+            if (root) {
+                root.dispose();
+            }
+
+            // 2. Crear nuevo elemento Root
+            root = am5.Root.new("chartdiv");
+
+            // 3. Aplicar tema animado
+            root.setThemes([am5themes_Animated.new(root)]);
+
+            if (type === 'bar') {
+                createBarChart();
+            } else {
+                createPercentChart(type);
+            }
+        }
+
+        // function createBarChart() {
+        //     let chart = root.container.children.push(am5xy.XYChart.new(root, {
+        //         panX: true,
+        //         panY: true,
+        //         wheelX: "panX",
+        //         wheelY: "zoomX",
+        //         pinchZoomX: true
+        //     }));
+
+        //     // Crear ejes
+        //     let xRenderer = am5xy.AxisRendererX.new(root, { minGridDistance: 30 });
+        //     xRenderer.labels.template.setAll({
+        //         rotation: -90,
+        //         centerY: am5.p50,
+        //         centerX: am5.p100,
+        //         paddingRight: 15
+        //     });
+        //     let xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(root, {
+        //         categoryField: "category",
+        //         renderer: xRenderer,
+        //         tooltip: am5.Tooltip.new(root, {})
+        //     }));
+        //     xAxis.data.setAll(entidad);
+
+        //     let yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root, {
+        //         renderer: am5xy.AxisRendererY.new(root, {})
+        //     }));
+
+        //     // Crear Serie
+        //     let series = chart.series.push(am5xy.ColumnSeries.new(root, {
+        //         name: "Valores",
+        //         xAxis: xAxis,
+        //         yAxis: yAxis,
+        //         valueYField: "value",
+        //         categoryXField: "category",
+        //         tooltip: am5.Tooltip.new(root, { labelText: "{valueY}" })
+        //     }));
+
+        //     // Estilizar columnas
+        //     series.columns.template.setAll({ cornerRadiusTL: 5, cornerRadiusTR: 5, strokeOpacity: 0 });
+        //     series.columns.template.adapters.add("fill", (fill, target) => {
+        //         return chart.get("colors").getIndex(series.columns.indexOf(target));
+        //     });
+
+        //     series.data.setAll(entidad);
+        //     series.appear(1000);
+        //     chart.appear(1000, 100);
+        // }
+
+        function createBarChart() {
+            let chart = root.container.children.push(am5xy.XYChart.new(root, {
+                panX: false,
+                panY: true,
+                wheelX: "none",
+                wheelY: "zoomY", // Cambiamos el zoom al eje Y
+                layout: root.verticalLayout
+            }));
+
+            // --- EJE Y (Ahora es el eje de Categorías) ---
+            let yRenderer = am5xy.AxisRendererY.new(root, {
+                minGridDistance: 30,
+                inversed: true // Para que la primera categoría aparezca arriba
+            });
+
+            let yAxis = chart.yAxes.push(am5xy.CategoryAxis.new(root, {
+                categoryField: "category",
+                renderer: yRenderer,
+                tooltip: am5.Tooltip.new(root, {})
+            }));
+
+            yAxis.data.setAll(entidad);
+
+            // --- EJE X (Ahora es el eje de Valores) ---
+            let xAxis = chart.xAxes.push(am5xy.ValueAxis.new(root, {
+                renderer: am5xy.AxisRendererX.new(root, {})
+            }));
+
+            // --- CREAR SERIE (Intercambiamos X por Y) ---
+            let series = chart.series.push(am5xy.ColumnSeries.new(root, {
+                name: "Valores",
+                xAxis: xAxis,
+                yAxis: yAxis,
+                valueXField: "value",      // El valor va en X
+                categoryYField: "category", // La categoría va en Y
+                tooltip: am5.Tooltip.new(root, {
+                    pointerOrientation: "horizontal",
+                    labelText: "{valueX}"
+                })
+            }));
+
+            // Estilizar columnas
+            series.columns.template.setAll({
+                cornerRadiusTR: 5,
+                cornerRadiusBR: 5,
+                strokeOpacity: 0
+            });
+
+            series.columns.template.adapters.add("fill", (fill, target) => {
+                return chart.get("colors").getIndex(series.columns.indexOf(target));
+            });
+
+            series.data.setAll(entidad);
+            series.appear(1000);
+            chart.appear(1000, 100);
+        }
+
+        function createPercentChart(type) {
+            let chart = root.container.children.push(am5percent.PieChart.new(root, {
+                layout: root.verticalLayout,
+                innerRadius: type === 'donut' ? am5.percent(50) : 0
+            }));
+
+            let series = chart.series.push(am5percent.PieSeries.new(root, {
+                valueField: "value",
+                categoryField: "category",
+                alignLabels: false
+            }));
+
+            series.labels.template.setAll({ textType: "circular", centerX: 0, centerY: 0 });
+            series.data.setAll(data);
+
+            // Aparecer con animación
+            series.appear(1000, 100);
+        }
+
+        // Iniciar con gráfico de barras
+        changeChart('bar');
+
+
+
+        function changeChart2(type) {
+            // 1. Limpiar el root anterior si existe para evitar conflictos de memoria
+            if (root2) {
+                root2.dispose();
+            }
+
+            // 2. Crear nuevo elemento Root
+            root2 = am5.Root.new("chartdiv2");
+
+            // 3. Aplicar tema animado
+            root2.setThemes([am5themes_Animated.new(root2)]);
+
+            if (type === 'bar') {
+                createBarChart2();
+            } else {
+                createPercentChart2(type);
+            }
+        }
+
+        function createBarChart2() {
+            let chart = root.container.children.push(am5xy.XYChart.new(root2, {
+                panX: true,
+                panY: true,
+                wheelX: "panX",
+                wheelY: "zoomX",
+                pinchZoomX: true
+            }));
+
+            // Crear ejes
+            let xRenderer = am5xy.AxisRendererX.new(root2, { minGridDistance: 30 });
+            xRenderer.labels.template.setAll({
+                rotation: -90,
+                centerY: am5.p50,
+                centerX: am5.p100,
+                paddingRight: 15
+            });
+            let xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(root2, {
+                categoryField: "category",
+                renderer: xRenderer,
+                tooltip: am5.Tooltip.new(root2, {})
+            }));
+            xAxis.data.setAll(tipoIntervencion);
+
+            let yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root2, {
+                renderer: am5xy.AxisRendererY.new(root2, {})
+            }));
+
+            // Crear Serie
+            let series = chart.series.push(am5xy.ColumnSeries.new(root2, {
+                name: "Valores",
+                xAxis: xAxis,
+                yAxis: yAxis,
+                valueYField: "value",
+                categoryXField: "category",
+                tooltip: am5.Tooltip.new(root2, { labelText: "{valueY}" })
+            }));
+
+            // Estilizar columnas
+            series.columns.template.setAll({ cornerRadiusTL: 5, cornerRadiusTR: 5, strokeOpacity: 0 });
+            series.columns.template.adapters.add("fill", (fill, target) => {
+                return chart.get("colors").getIndex(series.columns.indexOf(target));
+            });
+
+            series.data.setAll(tipoIntervencion);
+            series.appear(1000);
+            chart.appear(1000, 100);
+        }
+
+        function changeChart3(type) {
+            // 1. Limpiar el root anterior si existe para evitar conflictos de memoria
+            if (root3) {
+                root3.dispose();
+            }
+
+            // 2. Crear nuevo elemento Root
+            root3 = am5.Root.new("chartdiv3");
+
+            // 3. Aplicar tema animado
+            root3.setThemes([am5themes_Animated.new(root3)]);
+
+            if (type === 'bar') {
+                createBarChart3();
+            } else {
+                createPercentChart(type);
+            }
+        }
+
+        function createBarChart3() {
+            let chart = root3.container.children.push(am5xy.XYChart.new(root3, {
+                panX: true,
+                panY: true,
+                wheelX: "panX",
+                wheelY: "zoomX",
+                pinchZoomX: true
+            }));
+
+            // Crear ejes
+            let xRenderer = am5xy.AxisRendererX.new(root3, { minGridDistance: 30 });
+            xRenderer.labels.template.setAll({
+                rotation: -90,
+                centerY: am5.p50,
+                centerX: am5.p100,
+                paddingRight: 15
+            });
+            let xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(root3, {
+                categoryField: "category",
+                renderer: xRenderer,
+                tooltip: am5.Tooltip.new(root3, {})
+            }));
+            xAxis.data.setAll(data);
+
+            let yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root3, {
+                renderer: am5xy.AxisRendererY.new(root3, {})
+            }));
+
+            // Crear Serie
+            let series = chart.series.push(am5xy.ColumnSeries.new(root3, {
+                name: "Valores",
+                xAxis: xAxis,
+                yAxis: yAxis,
+                valueYField: "value",
+                categoryXField: "category",
+                tooltip: am5.Tooltip.new(root3, { labelText: "{valueY}" })
+            }));
+
+            // Estilizar columnas
+            series.columns.template.setAll({ cornerRadiusTL: 5, cornerRadiusTR: 5, strokeOpacity: 0 });
+            series.columns.template.adapters.add("fill", (fill, target) => {
+                return chart.get("colors").getIndex(series.columns.indexOf(target));
+            });
+
+            series.data.setAll(data);
+            series.appear(1000);
+            chart.appear(1000, 100);
+        }
+
+        changeChart('bar');
+        changeChart2('bar');
+        changeChart3('bar');
+
+
+    </script>
 </body>
 
 </html>

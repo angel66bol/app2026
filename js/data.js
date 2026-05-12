@@ -1,3995 +1,1575 @@
-
-let data = [
-    {
-        "code": "i1",
-        "name": "Co-construcción de la Agenda 50/50",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Coordinación Técnica",
-                "fi": 1772164800000,
-                "ff": 1772164800000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "\"Presentación de la \"\"Propuesta técnica de diálogo para un pacto fiscal\"\"\"",
-                        "fi": 1772164800000,
-                        "ff": 1772164800000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Primera reunión interministerial de coordinación del proceso de co construcción de la Agenda 50/50",
-                        "fi": 1773806400000,
-                        "ff": 1773806400000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Registro de Equipos Técnicos de entidades del nivel central del Estado ",
-                        "fi": 1774843200000,
-                        "ff": 1774843200000
-                    },
-                    {
-                        "sub": "└ Sub 4",
-                        "name": "Reuniones de coordinación con instituciones del Sistema Asociativo Municipal (FAM, AMB y ACOBOL) y la Coordinadora Nacional de Autonomías Indígena Originario Campesinas (CONAIOC)",
-                        "fi": 1772337600000,
-                        "ff": 1772337600000
-                    },
-                    {
-                        "sub": "└ Sub 5",
-                        "name": "\"Elaboración y remisión del Proyecto de Decreto Supremo \"\"Agenda 50/50 y fortalecimiento de la coordinación intergubernativa\"\"\"",
-                        "fi": 1773374400000,
-                        "ff": 1773374400000
-                    },
-                    {
-                        "sub": "└ Sub 6",
-                        "name": "Registro de diagnósticos sectoriales enviados por las entidades del NCE ",
-                        "fi": 1775620800000,
-                        "ff": 1775620800000
-                    },
-                    {
-                        "sub": "└ Sub 7",
-                        "name": "Sistematización de diagnósticos sectoriales registrados",
-                        "fi": 1776139200000,
-                        "ff": 1776139200000
-                    },
-                    {
-                        "sub": "└ Sub 8",
-                        "name": "Reunión  con 286 alcaldes electos y el Presidente del Estado ",
-                        "fi": 1775793600000,
-                        "ff": 1775793600000
-                    },
-                    {
-                        "sub": "└ Sub 9",
-                        "name": "Reunión de coordinación con Grupo de Socios para el Desarrollo de Bolivia (GruS)",
-                        "fi": 1776225600000,
-                        "ff": 1776225600000
-                    },
-                    {
-                        "sub": "└ Sub 10",
-                        "name": "Diagnósticos Territoriales",
-                        "fi": 1778472000000,
-                        "ff": 1778472000000
-                    },
-                    {
-                        "sub": "└ Sub 11",
-                        "name": "Balance de las Autonomías ",
-                        "fi": 1781841600000,
-                        "ff": 1781841600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Priorización Temática y construcciones de alternativas",
-                "fi": 1780027200000,
-                "ff": 1785470400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Agenda temática priorizada",
-                        "fi": 1782792000000,
-                        "ff": 1782792000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "\"Alternativas de solución\"",
-                        "fi": 1785470400000,
-                        "ff": 1785470400000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "\"Diagnóstico sectorial y territorial articulado\"",
-                        "fi": 1780027200000,
-                        "ff": 1780027200000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Co-construcción de la Agenda 50/50",
-                "fi": 1785470400000,
-                "ff": 1790740800000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "9 propuesta departamentales",
-                        "fi": 1785470400000,
-                        "ff": 1790740800000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Acuerdos intergubernativos",
-                        "fi": 1785470400000,
-                        "ff": 1790740800000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Mecanismos de coordinación en funcionamiento",
-                        "fi": 1785556800000,
-                        "ff": 1790740800000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Implementación y seguimiento",
-                "fi": 1785470400000,
-                "ff": 1790740800000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "\"Agenda 50/50 en marcha\"",
-                        "fi": 1785470400000,
-                        "ff": 1790740800000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Sistema de seguimiento y monitoreo (CEN.GOB)",
-                        "fi": 1785470400000,
-                        "ff": 1790740800000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Proyectos normativos ",
-                        "fi": 1785470400000,
-                        "ff": 1790740800000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i2",
-        "name": "\"Implementación del Programa \"\"Tranca Cero\"\" (DS N° 5595, Reglamento, Sistemas y Guías)\"",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "\"Promulgación del DS N° 5595 – Programa \"\"Tranca Cero\"\"\"",
-                "fi": 1772510400000,
-                "ff": 1774843200000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Elaboración del anteproyecto y revisión técnico-jurídica interministerial",
-                        "fi": 1772510400000,
-                        "ff": 1774324800000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Aprobación en Gabinete Ministerial",
-                        "fi": 1774843200000,
-                        "ff": 1774843200000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Publicación en Gaceta Oficial del Estado Plurinacional",
-                        "fi": 1774843200000,
-                        "ff": 1774843200000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "\"Aprobación de los Reglamentos del Programa \"\"Tranca Cero\"\" y el Comité Interministerial del Programa Tranca Cero\"",
-                "fi": 1775016000000,
-                "ff": 1777262400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Elaboración de los Proyectos de Reglamentos por el VCME",
-                        "fi": 1775448000000,
-                        "ff": 1776657600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Revisión Jurídica por la DGAJ del Ministerio de la Presidencia y emisión de los Informes Legales.",
-                        "fi": 1776657600000,
-                        "ff": 1776916800000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Aprobación formal del Reglamento del Comité Interministerial del PTC y publicación de la Resolución Ministerial.",
-                        "fi": 1777262400000,
-                        "ff": 1777262400000
-                    },
-                    {
-                        "sub": "└ Sub 4",
-                        "name": "Aprobación formal del Reglamento del Prorama Tranca Cero (DS 5595) y publicación de la Resolución Ministerial.",
-                        "fi": 1777262400000,
-                        "ff": 1777262400000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Implementación Metodológica y Sistemica del Catálogo Nacional de Trámites (CNT) del Órgano Ejecutivo",
-                "fi": 1777348800000,
-                "ff": 1789358400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Elaboración de las Guías Técnicas y Metodológicas provisionales del CNT",
-                        "fi": 1777348800000,
-                        "ff": 1780632000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Aprobación de las Guías Técnicas y Metodológicas provisionales del CNT (plazo: 45 días calendario desde vigencia del Reglamento)",
-                        "fi": 1780891200000,
-                        "ff": 1780891200000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Diseño y Desarrollo del SCNT provisional (plazo: 45 días calendario desde vigencia del Reglamento)",
-                        "fi": 1777348800000,
-                        "ff": 1780027200000
-                    },
-                    {
-                        "sub": "└ Sub 4",
-                        "name": "Producción y pruebas del SCNT provisional (plazo: 90 días calendario desde vigencia del Reglamento)",
-                        "fi": 1780286400000,
-                        "ff": 1781150400000
-                    },
-                    {
-                        "sub": "└ Sub 5",
-                        "name": "Habilitación del SCNT para el registro provisional de trámites por las entidades públicas",
-                        "fi": 1781236800000,
-                        "ff": 1781236800000
-                    },
-                    {
-                        "sub": "└ Sub 6",
-                        "name": "Primera Etapa de la validación técnica de trámites registrados en el SCNT provisional",
-                        "fi": 1781496000000,
-                        "ff": 1785470400000
-                    },
-                    {
-                        "sub": "└ Sub7",
-                        "name": "Elaboración de las Guías Técnicas y Metodológicas definitivas del CNT",
-                        "fi": 1780718400000,
-                        "ff": 1784260800000
-                    },
-                    {
-                        "sub": "└ Sub 8",
-                        "name": "Aprobación de las Guías Técnicas y Metodológicas definitivas del CNT (plazo: 90 días calendario desde vigencia del Reglamento)",
-                        "fi": 1784520000000,
-                        "ff": 1784520000000
-                    },
-                    {
-                        "sub": "└ Sub 9",
-                        "name": "Diseño y Desarrollo del SCNT definitivas (plazo: 90 días calendario desde vigencia del Reglamento)",
-                        "fi": 1781496000000,
-                        "ff": 1784088000000
-                    },
-                    {
-                        "sub": "└ Sub 10",
-                        "name": "Producción y pruebas del SCNT definitivas (plazo: 90 días calendario desde vigencia del Reglamento)",
-                        "fi": 1784174400000,
-                        "ff": 1785384000000
-                    },
-                    {
-                        "sub": "└ Sub 11",
-                        "name": "Habilitación plena del registro interoperable de los Trámites en el SCNT definitiva.",
-                        "fi": 1785470400000,
-                        "ff": 1785470400000
-                    },
-                    {
-                        "sub": "└ Sub 12",
-                        "name": "Articular la interoperabilidad de los sistemas y fuentes de información de las Entidades Públicas con el SCNT",
-                        "fi": 1785729600000,
-                        "ff": 1789358400000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "\"Implementación Metodológica y Sistémica del Sistema Digital \"\"Reporta Tu Tranca\"\" (RTT) y gestión operativa de reportes ciudadanos\"",
-                "fi": 1777348800000,
-                "ff": 1793073600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub1",
-                        "name": "Elaboración de las Guías Técnicas y Metodológicas del RTT",
-                        "fi": 1777348800000,
-                        "ff": 1780027200000
-                    },
-                    {
-                        "sub": "└ Sub2",
-                        "name": "Aprobación de las Guías Técnicas y Metodológicas definitivas del RTT (plazo: 45 días calendario desde vigencia del Reglamento)",
-                        "fi": 1780286400000,
-                        "ff": 1780286400000
-                    },
-                    {
-                        "sub": "└ Sub3",
-                        "name": "Diseño y Desarrollo del RTT (plazo: 90 días calendario desde vigencia del Reglamento)",
-                        "fi": 1777348800000,
-                        "ff": 1779940800000
-                    },
-                    {
-                        "sub": "└ Sub4",
-                        "name": "Producción y pruebas del RTT (plazo: 90 días calendario desde vigencia del Reglamento)",
-                        "fi": 1780027200000,
-                        "ff": 1782446400000
-                    },
-                    {
-                        "sub": "└ Sub5",
-                        "name": "Habilitación interoperable del RTT",
-                        "fi": 1782705600000,
-                        "ff": 1782705600000
-                    },
-                    {
-                        "sub": "└ Sub6",
-                        "name": "\"Registro de correos institucionales de entidades",
-                        "fi": null,
-                        "ff": null
-                    },
-                    {
-                        "sub": "└ Sub7",
-                        "name": "\"Articular la interoperabilidad de los sistemas entre entidades del Órgano Ejecutivo y el sistema \"\"Reporta Tu Tranca\"\" (plazo: 120 días desde implementación)\"",
-                        "fi": 1782792000000,
-                        "ff": 1793073600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Implementación Metodológica y Sistémica del Ranking de Simplificación Regulatoria del Estado (RK-SIM)",
-                "fi": 1777348800000,
-                "ff": 1796961600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub1",
-                        "name": "Elaboración de las Guías Técnicas y Metodológicas del RK-SIM",
-                        "fi": 1777348800000,
-                        "ff": 1781841600000
-                    },
-                    {
-                        "sub": "└ Sub2",
-                        "name": "Aprobación de las Guías Técnicas y Metodológicas del RK-SIM (plazo: 45 días calendario desde vigencia del Reglamento)",
-                        "fi": 1782100800000,
-                        "ff": 1782100800000
-                    },
-                    {
-                        "sub": "└ Sub3",
-                        "name": "Diseño y Desarrollo del RK-SIM",
-                        "fi": 1777348800000,
-                        "ff": 1779681600000
-                    },
-                    {
-                        "sub": "└ Sub4",
-                        "name": "Producción y pruebas del RK-SIM",
-                        "fi": 1779768000000,
-                        "ff": 1782360000000
-                    },
-                    {
-                        "sub": "└ Sub5",
-                        "name": "Habilitación Sistema de gestión del RK-SIM",
-                        "fi": 1782446400000,
-                        "ff": 1782446400000
-                    },
-                    {
-                        "sub": "└ Sub6",
-                        "name": "Evaluación de medición conforme a categorias",
-                        "fi": 1782705600000,
-                        "ff": 1796356800000
-                    },
-                    {
-                        "sub": "└ Sub7",
-                        "name": "Aprobación del Rankin por el Comité Interministerial",
-                        "fi": 1796616000000,
-                        "ff": 1796616000000
-                    },
-                    {
-                        "sub": "└ Sub8",
-                        "name": "Primera publicación semestral del Ranking de Simplificación Regulatoria del Estado (RK-SIM) con evaluación de desempeño interinstitucional",
-                        "fi": 1796961600000,
-                        "ff": 1796961600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 6",
-                "name": "\"Implementación Metodológica y Sistémica de la Certificación \"\"Tranca Cero\"\" (CTC)\"",
-                "fi": 1777348800000,
-                "ff": 1790308800000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Elaboración de las Guías Técnicas y Metodológicas del CTC",
-                        "fi": 1777348800000,
-                        "ff": 1787284800000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Aprobación de las Guías Técnicas y Metodológicas definitivas del CTC",
-                        "fi": 1787544000000,
-                        "ff": 1787544000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Diseño y Desarrollo del CTC (plazo: 120 días calendario desde vigencia del Reglamento))",
-                        "fi": 1777348800000,
-                        "ff": 1782446400000
-                    },
-                    {
-                        "sub": "└ Sub 4",
-                        "name": "Producción y pruebas del CTC (plazo: 120 días calendario desde vigencia del Reglamento)",
-                        "fi": 1782705600000,
-                        "ff": 1787630400000
-                    },
-                    {
-                        "sub": "└ Sub 5",
-                        "name": "Habilitación del CTC (plazo: 120 días calendario desde vigencia del Reglamento)",
-                        "fi": 1787716800000,
-                        "ff": 1787716800000
-                    },
-                    {
-                        "sub": "└ Sub 6",
-                        "name": "Recepción de Solicitudes",
-                        "fi": 1787803200000,
-                        "ff": 1787803200000
-                    },
-                    {
-                        "sub": "└ Sub 7",
-                        "name": "Evaluación Técnica para otorgación de Certificaciones",
-                        "fi": 1787889600000,
-                        "ff": 1789531200000
-                    },
-                    {
-                        "sub": "└ Sub 8",
-                        "name": "Aprobación de la emisión de Certificaciones por el Comité Interministerial",
-                        "fi": 1789963200000,
-                        "ff": 1789963200000
-                    },
-                    {
-                        "sub": "└ Sub 9",
-                        "name": "\"Otorgación de primeras Certificaciones \"\"Tranca Cero\"\" a entidades voluntarias (ETA, universidades, órganos de control) con impacto comprobado\"",
-                        "fi": 1790308800000,
-                        "ff": 1790308800000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i3",
-        "name": "Integración de Ciudadanía Digital en Entidades Públicas.",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Diagnóstico de integracion de Ciudadanía Digital ene Entidades Públicas",
-                "fi": 1780286400000,
-                "ff": 1782792000000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Unificación y/o adaptación normativa que facilite el Registro y la Integración de Ciudadanía Digital",
-                "fi": 1788235200000,
-                "ff": 1790740800000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Mejora y optimización de procesos y procedimientos de Ciudadanía Digital",
-                "fi": 1796097600000,
-                "ff": 1798689600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Mejoras y/o optimización de procesos de pre-registro y registro de Ciudadanía Digital",
-                        "fi": 1796097600000,
-                        "ff": 1797307200000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Mejoras y/o optimización de procesos de autenticación y QR redirección ",
-                        "fi": 1797393600000,
-                        "ff": 1798689600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Integracion tecnologica de Ciudadania Digital en Entidades Publicas. ",
-                "fi": 1796097600000,
-                "ff": 1798689600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Desarrollar interfases / asegurar la compatibilidad de los sistemas",
-                        "fi": 1796097600000,
-                        "ff": 1797307200000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Implementación de los mecanismos de autenticación y servicios web de la plataforma de Ciudadanía Digital en los sistemas de la entidad.",
-                        "fi": 1797393600000,
-                        "ff": 1798689600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Capacitación y Gestión del cambio para la integración de Ciudadanía digital en Entidades Públicas",
-                "fi": 1803873600000,
-                "ff": 1806465600000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 6",
-                "name": "Pruebas piloto, control de calidad y despliegue de Ciudadania Digital en Entidades Públicas.",
-                "fi": 1811822400000,
-                "ff": 1814328000000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 7",
-                "name": "Coordinación y seguimiento a Entidades publicas que aplican los mecanismos de Ciudadanía Digital en sus servicios  al ciudadano.  ",
-                "fi": 1819771200000,
-                "ff": 1822276800000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 8",
-                "name": "Evaluación y retroalimentación para la mejora de mecanismos y servicios publicos a traves de la plataforma de Ciudadanía Digital. ",
-                "fi": 1827633600000,
-                "ff": 1830225600000,
-                "sub": []
-            }
-        ]
-    },
-    {
-        "code": "i4",
-        "name": "Elaboración y adecuación de instrumentos normativos en materia de transparencia, seguridad jurídica, derechos humanos y lucha contra la corrupción",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Diagnóstico del marco normativo vigente",
-                "fi": 1785556800000,
-                "ff": 1788148800000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Identificación de vacíos y duplicidades normativas",
-                "fi": 1790827200000,
-                "ff": 1793419200000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Elaboración de propuestas de instrumentos normativos",
-                "fi": 1796097600000,
-                "ff": 1798689600000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Validación técnica e interinstitucional",
-                "fi": 1803873600000,
-                "ff": 1806465600000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Gestión para aprobación normativa",
-                "fi": 1809144000000,
-                "ff": 1811736000000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 6",
-                "name": "Registro y difusión de normativa aprobada",
-                "fi": 1814414400000,
-                "ff": 1817006400000,
-                "sub": []
-            }
-        ]
-    },
-    {
-        "code": "i5",
-        "name": "Proceso saneamiento de tierras (+ modif. Ley INRA)",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Diagnóstico tierras pendientes",
-                "fi": 1782878400000,
-                "ff": 1785470400000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Diseño proceso acelerado",
-                "fi": 1785556800000,
-                "ff": 1788062400000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Aprobación resolución INRA",
-                "fi": 1788235200000,
-                "ff": 1790740800000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Campaña territorial",
-                "fi": 1790827200000,
-                "ff": 1793332800000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Titulación masiva",
-                "fi": 1793505600000,
-                "ff": 1796011200000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 6",
-                "name": "Registro en DD.RR.",
-                "fi": 1796097600000,
-                "ff": 1798603200000,
-                "sub": []
-            }
-        ]
-    },
-    {
-        "code": "i6",
-        "name": "Seguimiento y Evaluación PDESA",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Articulación de los planes de mediano plazo al PDESA",
-                "fi": 1777608000000,
-                "ff": 1788148800000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Socialización del PDESA y capacitación en las guías metodológicas para la formulación de planes de mediano plazo.",
-                        "fi": 1777608000000,
-                        "ff": 1782792000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Recepción de planes articulados al PDESA.",
-                        "fi": 1780286400000,
-                        "ff": 1788148800000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Desarrollo e implementación del Sistema de Seguimiento y Evaluación del PDESA",
-                "fi": 1775016000000,
-                "ff": 1798689600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Desarrollo del sistema",
-                        "fi": 1775016000000,
-                        "ff": 1785470400000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Implementación del sistema",
-                        "fi": 1782878400000,
-                        "ff": 1798689600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Evaluación de medio término PDESA",
-                "fi": 1851393600000,
-                "ff": 1877486400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Período de preparación de la evaluación",
-                        "fi": 1851393600000,
-                        "ff": 1861848000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Evaluación de medio término PDESA",
-                        "fi": 1861934400000,
-                        "ff": 1872216000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Recomendación de acciones correctivas",
-                        "fi": 1869710400000,
-                        "ff": 1877486400000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i7",
-        "name": "Diagnóstico y propuesta de nueva estructura organizacional del Órgano Ejecutivo.",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Conformación de equipo técnico interministerial",
-                "fi": 1775016000000,
-                "ff": 1782792000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Designación de miembros de Ministeios para conformar  Equipo Técnico",
-                        "fi": 1775016000000,
-                        "ff": 1780200000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Elaboración de plan de trabajo y formación de equipos técnicos",
-                        "fi": 1780200000000,
-                        "ff": 1782792000000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Diagnóstico estructuras organizacionales de Ministerios y EBT del Órgano Ejecutivo",
-                "fi": 1780286400000,
-                "ff": 1790740800000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Recopilación y análisis de información técnica  y normativa",
-                        "fi": 1780286400000,
-                        "ff": 1782878400000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Presentación de informe de resultados a las MAE - Asesoría",
-                        "fi": 1782878400000,
-                        "ff": 1788235200000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Presentación de propuestas de ajuste integral y nuevo modelo de organización del Órgano Ejecutivo.",
-                "fi": 1793505600000,
-                "ff": 1798689600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Presentación de propuesta a instancias correspondientes",
-                        "fi": 1793505600000,
-                        "ff": 1798689600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Adecuación de propuestas, formulación de Proyecto de Decreto",
-                        "fi": 1796097600000,
-                        "ff": 1798689600000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i8",
-        "name": " Financiamiento Climático",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Conformación de equipo técnico lider",
-                "fi": 1769918400000,
-                "ff": 1777521600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Identificacion de puntos focales de ministerios concurrentes y Asamblea Legislativa",
-                        "fi": 1769918400000,
-                        "ff": 1774929600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Equipos conformados",
-                        "fi": 1769918400000,
-                        "ff": 1774929600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Diagnostico de normativa vigente, realizado.",
-                "fi": 1769918400000,
-                "ff": 1777521600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Reuniones preparatorias con personas clave para elaborar metodologias de consulta y logistica",
-                        "fi": 1769918400000,
-                        "ff": 1777521600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Talleres de analisis del Proyecto con actores representativos",
-                        "fi": 1772337600000,
-                        "ff": 1777521600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Propuesta de Ley Marco",
-                "fi": 1772337600000,
-                "ff": 1782792000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Organización y sistematizacion de la informacion resultante de los talleres de análisis",
-                        "fi": 1772337600000,
-                        "ff": 1780200000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Elaboracion de la propuesta",
-                        "fi": 1772337600000,
-                        "ff": 1782792000000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Factibilidad para la implementación de propuesta",
-                "fi": 1777608000000,
-                "ff": 1782792000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Evaluacion juridica de la propuesta respecto a las categorias normativas (Ley , DS)",
-                        "fi": 1775016000000,
-                        "ff": 1780200000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Analisis técnico, social, ambiental economico de la factibilidad/viabiliad de implementar los cambios propuestos",
-                        "fi": 1777608000000,
-                        "ff": 1782792000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Socializacion de la Norma, con las modificacion incluidas .",
-                        "fi": 1780286400000,
-                        "ff": 1785470400000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Gestion para aprobacion  modificado/actualizado",
-                "fi": 1782878400000,
-                "ff": 1798689600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Presentacion y gestion para aprobacion ante la instancia competente",
-                        "fi": 1777608000000,
-                        "ff": 1782792000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Seguimiento, ajustes, enmiendas al proceso de aprobacion del reglamento actualizado",
-                        "fi": 1780286400000,
-                        "ff": 1798689600000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i9",
-        "name": "Propuesta de modernización de la Ley SAFCO 1178 y sus sistemas/reglamentos no financieros ",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Evaluación del Modelo de Gestión que sustenta la Ley 1178, particularmente de sistemas no financieros.",
-                "fi": 1777608000000,
-                "ff": 1790740800000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Revisión y sistematización de información secundaria (diagnósticos realizados, propuestas, consultorías, etc)",
-                        "fi": 1777608000000,
-                        "ff": 1785470400000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Talleres de evaluación del Modelo 1178 y propuestas de ajuste estructural y reglamentos. ",
-                        "fi": 1777608000000,
-                        "ff": 1785470400000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Informe final de evaluación del Modelo de Gestión de la Ley 1178 y evaluación general de sus sistemas y reglamentos",
-                        "fi": 1785556800000,
-                        "ff": 1790740800000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Propuesta de modificaciones a reglamentos no financieros.",
-                "fi": 1788235200000,
-                "ff": 1798689600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "\"Evaluación de Reglamentos no financieros priorizados con el MEFP primera etapa: Programación Operativa SPO ",
-                        "fi": null,
-                        "ff": 1788235200000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Evaluación de Reglamentos no financieros priorizados con el MEFP segunda etapa:SOA,  SAP y  SC. ",
-                        "fi": 1788235200000,
-                        "ff": 1793419200000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Propuesta de modificaciones a reglamentos del sistema de organización administrativa y administración de personal ",
-                        "fi": 1790827200000,
-                        "ff": 1798689600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Seguimiento a implementación de recomendaciones a sistemas y reglamentaciones",
-                "fi": 1798776000000,
-                "ff": 1806465600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Reuniones de coordinación ",
-                        "fi": 1798776000000,
-                        "ff": 1803787200000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Reportes de seguimiento y avances del proceso",
-                        "fi": 1801454400000,
-                        "ff": 1806465600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Propuesta de proyecto de ley de modernización de la Ley 1178 ",
-                "fi": 1806552000000,
-                "ff": 1817006400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Redacción de propuesta de proyecto de ley de modernización de la Ley 1178",
-                        "fi": 1806552000000,
-                        "ff": 1814328000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Presentacion y gestion para aprobacion ante la instancia competente",
-                        "fi": 1811822400000,
-                        "ff": 1817006400000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i10",
-        "name": "Nueva Ley de Inversiones",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Diagnóstico y anteproyecto de ley",
-                "fi": 1776657600000,
-                "ff": 1780200000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Revisión de marcos normativos vigentes (Ley 516, DS reglamentarios, normativa sectorial)",
-                        "fi": 1776657600000,
-                        "ff": 1777780800000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Consulta con cámaras empresariales, Organismos Internacionales y Ministerios Concurrentes",
-                        "fi": 1777867200000,
-                        "ff": 1778904000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Redacción del documento base del anteproyecto de Ley",
-                        "fi": 1778990400000,
-                        "ff": 1780200000000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Consulta previa y revisión interministerial",
-                "fi": 1780286400000,
-                "ff": 1782792000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Mesa interministerial de revisión técnico-jurídica (constitucional) del anteproyecto",
-                        "fi": 1780286400000,
-                        "ff": 1781064000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Proceso de consulta previa con cámaras empresariales y Ministerios Concurrentes",
-                        "fi": 1781150400000,
-                        "ff": 1781841600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Incorporación de observaciones y emisión de informe de viabilidad constitucional",
-                        "fi": 1781928000000,
-                        "ff": 1782792000000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Remisión y tratamiento en la Asamblea Legislativa",
-                "fi": 1782878400000,
-                "ff": 1785470400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Presentación formal del proyecto de ley ante la Asamblea Legislativa Plurinacional",
-                        "fi": 1782878400000,
-                        "ff": 1783656000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Tratamiento en comisiones de la Cámara de Diputados y Senado",
-                        "fi": 1783742400000,
-                        "ff": 1784520000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Aprobación en grande y en detalle por ambas cámaras",
-                        "fi": 1784606400000,
-                        "ff": 1785470400000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Promulgación y publicación en Gaceta Oficial",
-                "fi": 1785556800000,
-                "ff": 1788148800000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Reglamentación y normativa secundaria",
-                "fi": 1785556800000,
-                "ff": 1788148800000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Elaboración y aprobación del Decreto Supremo Reglamentario",
-                        "fi": 1785556800000,
-                        "ff": 1786334400000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Emisión de resoluciones ministeriales y normas técnicas complementarias",
-                        "fi": 1786420800000,
-                        "ff": 1787198400000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Socialización de la nueva Ley",
-                        "fi": 1787284800000,
-                        "ff": 1788148800000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i11",
-        "name": "Agua potable y saneamiento básico para todos",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Diagnóstico cobertura",
-                "fi": 1782878400000,
-                "ff": 1785470400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1 ",
-                        "name": "\"Verificación del estado actual de la Cartera de Estudios.\"",
-                        "fi": 1782878400000,
-                        "ff": 1785470400000
-                    },
-                    {
-                        "sub": "\"└ Sub 2\"",
-                        "name": "Identificación de los Proyectos críticos y actores involucrados en la ejecución de los proyectos.",
-                        "fi": 1782878400000,
-                        "ff": 1785470400000
-                    },
-                    {
-                        "sub": "\"└ Sub 3\"",
-                        "name": "Revisión de los informes de supervisión y fiscalización y emisión de criterio técnico",
-                        "fi": 1782878400000,
-                        "ff": 1785470400000
-                    },
-                    {
-                        "sub": "└ Sub 4",
-                        "name": "Gestión al cumplimiento de compromisos institucionales para la operación de los proyectos",
-                        "fi": 1782878400000,
-                        "ff": 1785470400000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Implementación de soluciones estructurales de agua potable y saneamiento",
-                "fi": 1796097600000,
-                "ff": 1798689600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1 ",
-                        "name": "\"Pre Inversión Verificación de las acciones implementadas de las soluciones estructurales\"",
-                        "fi": 1796097600000,
-                        "ff": 1798689600000
-                    },
-                    {
-                        "sub": "└ Sub 2 ",
-                        "name": "\"Inversión (Ejecución de Obras). Coordinación con los actores involucrados para la solución de conflictos sociales, técnicos, ambientales o económicos.\"",
-                        "fi": 1796097600000,
-                        "ff": 1798689600000
-                    },
-                    {
-                        "sub": "└ Sub 3 ",
-                        "name": "\"Puesta en Marcha (Operación Inicial).Seguimiento al cumplimiento de compromisos institucionales.  \"",
-                        "fi": 1796097600000,
-                        "ff": 1798689600000
-                    },
-                    {
-                        "sub": "└ Sub 4 ",
-                        "name": "\"Operación y Sostenibilidad Seguimiento al cumplimiento de compromisos institucionales.  \"",
-                        "fi": 1796097600000,
-                        "ff": 1798689600000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i12",
-        "name": "Nueva Ley del Sistema de Seguridad Ciudadanareglamentarios de la Ley N° 264",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Diagnóstico inicial",
-                "fi": 1777608000000,
-                "ff": 1780200000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Identificacion de necesidades de modificacion a la Ley N° 264 e instrumentos reglamentarios.",
-                        "fi": 1777608000000,
-                        "ff": 1778126400000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Elaboracion del diagnostico sobre la implentacion de la Ley y los instrumentos que la reglamentan.",
-                        "fi": 1746676800000,
-                        "ff": 1780113600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Elaboración de propuesta ",
-                "fi": 1780286400000,
-                "ff": 1782792000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Analisis del instrumento normativo vigente (Deceto Supremo u otro)",
-                        "fi": 1780286400000,
-                        "ff": 1780804800000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Redaccion del proyecto de modificacion",
-                        "fi": 1780891200000,
-                        "ff": 1782792000000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Coordinacion con actores",
-                "fi": 1782878400000,
-                "ff": 1785470400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Socializar el anteproyecto con Policía Boliviana, gobiernos departamentales, municipales y otros",
-                        "fi": 1782878400000,
-                        "ff": 1783483200000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Relevar las observaciones y consensuar ajustes.",
-                        "fi": 1783569600000,
-                        "ff": 1784088000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Revision Interna institucional",
-                        "fi": 1784174400000,
-                        "ff": 1784520000000
-                    },
-                    {
-                        "sub": "└ Sub 4",
-                        "name": "Consolidacion y elaboracion de la proyecto final",
-                        "fi": 1784606400000,
-                        "ff": 1785470400000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Revision por el Ministerio de la Presidencia",
-                "fi": 1785556800000,
-                "ff": 1788148800000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Analisis del proyecto de modificacion.",
-                        "fi": 1785556800000,
-                        "ff": 1788148800000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Remisión a Planificación y evaluación en CONAPES.",
-                "fi": 1785556800000,
-                "ff": 1788148800000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Presentación al Consejo de Política Económica y Social (CONAPES), para analisis de su viabilidad.",
-                        "fi": 1785556800000,
-                        "ff": 1786075200000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Revisión final e incorporación a agenda de Consejo de Ministros.",
-                        "fi": 1786161600000,
-                        "ff": 1788148800000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 6",
-                "name": "Consideración y aprobación en Consejo de Ministros.",
-                "fi": 1785556800000,
-                "ff": 1788148800000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Consideración política y gubernamental previa a su aprobación definitiva",
-                        "fi": 1785556800000,
-                        "ff": 1786075200000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Analisis juridico del proyecto de modificacion.",
-                        "fi": 1786161600000,
-                        "ff": 1788148800000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 7",
-                "name": "Aprobacion, firma y publicacion",
-                "fi": 1785556800000,
-                "ff": 1788148800000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Aprobado el proyecto, el Decreto Supremo es suscrito por la Presidenta o Presidente y por las ministras(os) correspondientes",
-                        "fi": 1785556800000,
-                        "ff": 1786075200000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Publicacion el instrumento legal en la Gaceta Oficial de Bolivia",
-                        "fi": 1786161600000,
-                        "ff": 1788148800000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i13",
-        "name": "Nuevo Sistema Nacional de Salud",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Análisis de la situación del Sistema De Salud ",
-                "fi": 1775016000000,
-                "ff": 1782792000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "\"Análisis Epidemiológico.\"",
-                        "fi": 1775016000000,
-                        "ff": 1777521600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Análisis de la Estructura Sanitaria y del Seguro Público De Salud.",
-                        "fi": 1777608000000,
-                        "ff": 1780113600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Análisis de la Seguridad Social A corto Plazo ",
-                        "fi": 1780286400000,
-                        "ff": 1782792000000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Diseño del nuevo modelo",
-                "fi": 1785556800000,
-                "ff": 1796011200000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Análisis y consenso con los actores clave.",
-                        "fi": 1785556800000,
-                        "ff": 1788062400000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Análisis y consenso con los niveles subnacionales.",
-                        "fi": 1788235200000,
-                        "ff": 1790740800000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Validación del documento preliminar del nuevo Sistema Nacional de Salud.",
-                        "fi": 1790827200000,
-                        "ff": 1796011200000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Socialización del Nuevo Sistema de Salud",
-                "fi": 1796097600000,
-                "ff": 1806465600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Socialización con actores clave y sociedad civil.",
-                        "fi": 1796097600000,
-                        "ff": 1798603200000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Socialización del modelo a nivel central.",
-                        "fi": 1798776000000,
-                        "ff": 1801281600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Socialización a nivel departamental y subnacional.",
-                        "fi": 1801454400000,
-                        "ff": 1806465600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Proceso Administrativo Legal",
-                "fi": 1798776000000,
-                "ff": 1827547200000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Elaboración de la propuesta normativa del nuevo Sistema Nacional de Salud.",
-                        "fi": 1798776000000,
-                        "ff": 1809057600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Revisión técnica y jurídica de la propuesta normativa.",
-                        "fi": 1809144000000,
-                        "ff": 1822276800000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Aprobación de la normativa correspondiente.",
-                        "fi": 1822363200000,
-                        "ff": 1827547200000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Aplicación de la Norma",
-                "fi": 1830312000000,
-                "ff": 1856577600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Difusión de la normativa del nuevo Sistema Nacional de Salud.",
-                        "fi": 1830312000000,
-                        "ff": 1840680000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Coordinación con gobiernos subnacionales para su implementación.",
-                        "fi": 1840766400000,
-                        "ff": 1822276800000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Implementación progresiva del nuevo Sistema Nacional de Salud.",
-                        "fi": 1853985600000,
-                        "ff": 1856491200000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 6",
-                "name": "Evaluación del Sistema Nacional de Salud",
-                "fi": 1856664000000,
-                "ff": 1861848000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Seguimiento a la implementación del nuevo Sistema Nacional de Salud.",
-                        "fi": 1856664000000,
-                        "ff": 1857182400000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Evaluación de los resultados del proceso de implementación.",
-                        "fi": 1857268800000,
-                        "ff": 1857441600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Ajustes y mejora del modelo del Sistema Nacional de Salud.",
-                        "fi": 1857528000000,
-                        "ff": 1861848000000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i34",
-        "name": "Participación laboral de mujeres (cuidados)",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Gestión con la cooperación",
-                "fi": 1772337600000,
-                "ff": 1774929600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Reuniones de coordiación para definir el alcance del programa.",
-                        "fi": 1775016000000,
-                        "ff": 1777521600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Elaboración de TDRs para una consultoría para la elaboración del programa.",
-                        "fi": 1772337600000,
-                        "ff": 1774929600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Contraación de la consultoría",
-                        "fi": 1775016000000,
-                        "ff": 1777521600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Diseño del programa",
-                "fi": 1777608000000,
-                "ff": 1780113600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Diagnóstico",
-                        "fi": 1777608000000,
-                        "ff": 1780113600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Mapeo de actores",
-                        "fi": 1777608000000,
-                        "ff": 1780113600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Diseño de los compenentes",
-                        "fi": 1777608000000,
-                        "ff": 1780113600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Coordinacion interinstitucional",
-                "fi": 1775016000000,
-                "ff": 1777521600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Reuniones con ministerios intervientes",
-                        "fi": 1775016000000,
-                        "ff": 1777521600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Reuniones con las ETAs involucradas",
-                        "fi": 1780286400000,
-                        "ff": 1782792000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Reuniones con entidades privadas involucradas (ONGs) y otras.",
-                        "fi": 1780286400000,
-                        "ff": 1782792000000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Presentación del programa",
-                "fi": 1782878400000,
-                "ff": 1785470400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Elaboración del Informe Técnico de Condiciones Previas - TTCP para consideración del Ministro.",
-                        "fi": 1782878400000,
-                        "ff": 1785470400000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Busqueda de Financiamiento",
-                        "fi": 1785556800000,
-                        "ff": 1788148800000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Implementación Programa",
-                        "fi": 1790827200000,
-                        "ff": 1793419200000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i14",
-        "name": "Implementación y fortalecimiento de Redes Integrales de Servicios de Salud",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Diagnóstico de redes de servicios",
-                "fi": 1775016000000,
-                "ff": 1782792000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Identificación de redes de servicios existentes.",
-                        "fi": 1775016000000,
-                        "ff": 1777521600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Caracterización de actores institucionales y mecanismos de coordinación.",
-                        "fi": 1777608000000,
-                        "ff": 1780113600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Actualizaciòn del registro unico de establecimientos de salud (RUES).",
-                        "fi": 1780286400000,
-                        "ff": 1782792000000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Evaluación de redes según FESP",
-                "fi": 1777608000000,
-                "ff": 1788148800000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Evaluación del desempeño de las Funciones Esenciales de Salud Pública según SEDES.",
-                        "fi": 1777608000000,
-                        "ff": 1780113600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Identificación de brechas en la articulación de servicios.",
-                        "fi": 1780286400000,
-                        "ff": 1788148800000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Plan de fortalecimiento de redes",
-                "fi": 1788235200000,
-                "ff": 1793419200000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Definición de lineamientos para la organización de RISS.",
-                        "fi": 1788235200000,
-                        "ff": 1788753600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Definición de prioridades de fortalecimiento de las redes.",
-                        "fi": 1788840000000,
-                        "ff": 1790740800000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Elaboración del plan de fortalecimiento de redes.",
-                        "fi": 1790827200000,
-                        "ff": 1793419200000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Desarrollo de redes de servicios",
-                "fi": 1793505600000,
-                "ff": 1793505600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Definición de roles entre niveles de atención.",
-                        "fi": 1793505600000,
-                        "ff": 1793505600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Fortalecimiento de mecanismos de referencia y contrarreferencia.",
-                        "fi": 1793505600000,
-                        "ff": 1793505600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Articulación entre establecimientos de salud.",
-                        "fi": 1793505600000,
-                        "ff": 1793505600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Implementación del modelo RISS",
-                "fi": 1798776000000,
-                "ff": 1827547200000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Transferencia de capacidades a los SEDES y REDES en la implementación en los planes de salud locales",
-                        "fi": 1798776000000,
-                        "ff": 1809057600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Sistemas de información y digitalización",
-                        "fi": 1809144000000,
-                        "ff": 1819598400000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Seguimiento a la implementación.",
-                        "fi": 1819771200000,
-                        "ff": 1827547200000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 6",
-                "name": "Evaluación y mejora continua",
-                "fi": 1827633600000,
-                "ff": 1827633600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Evaluación del funcionamiento de redes.",
-                        "fi": 1827633600000,
-                        "ff": 1827633600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Identificación de mejoras en la continuidad de la atención.",
-                        "fi": 1827633600000,
-                        "ff": 1827633600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Ajustes al modelo de redes integrales.",
-                        "fi": 1827633600000,
-                        "ff": 1827633600000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i15",
-        "name": "Atención primaria – capacidad resolutiva (medicamentos, suministros, educación)",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Diagnóstico de la capacidad Instalada",
-                "fi": 1775016000000,
-                "ff": 1782878400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Análisis de la disponibilidad de medicamentos e insumos esenciales en establecimientos del primer nivel de atención.",
-                        "fi": 1775016000000,
-                        "ff": 1777521600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Análisis de la capacidad instalada del primer y segundo nivel.",
-                        "fi": 1777608000000,
-                        "ff": 1782878400000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Diseño del plan de fortalecimiento",
-                "fi": 1777608000000,
-                "ff": 1780286400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Elaboración del documento técnico del plan de fortalecimiento de la Atención Primaria en Salud.",
-                        "fi": 1777608000000,
-                        "ff": 1778126400000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Validación técnica del plan con instancias del Ministerio de Salud y SEDES.",
-                        "fi": 1778212800000,
-                        "ff": 1778817600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Implementación de Salud Digital y Plataformas de Gestión de Atención",
-                        "fi": 1778904000000,
-                        "ff": 1780286400000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Financiamiento ",
-                "fi": 1777608000000,
-                "ff": 1782878400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Identificación de fuentes de financiamiento para la implementación del plan de fortalecimiento de la APS.",
-                        "fi": 1777608000000,
-                        "ff": 1780113600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Gestión de recursos financieros para el fortalecimiento del primer nivel.",
-                        "fi": 1780286400000,
-                        "ff": 1782878400000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Equipamiento y RRHH",
-                "fi": 1817092800000,
-                "ff": 1822363200000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Dotación de equipamiento médico básico y tecnología sanitaria en establecimientos del primer nivel de atención.",
-                        "fi": 1817092800000,
-                        "ff": 1819598400000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Fortalecimiento y asignación de recursos humanos en salud en establecimientos de Atención Primaria.",
-                        "fi": 1819771200000,
-                        "ff": 1822276800000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Actualización del personal de salud en protocolos de atención integral y fortalecimiento de la capacidad resolutiva.",
-                        "fi": 1822363200000,
-                        "ff": 1822363200000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Implementación",
-                "fi": 1793505600000,
-                "ff": 1796097600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Implementación del plan de fortalecimiento de la capacidad resolutiva en establecimientos del primer nivel de atención.",
-                        "fi": 1793505600000,
-                        "ff": 1796011200000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Articulación con redes de servicios de salud y gobiernos subnacionales para la aplicación del plan.",
-                        "fi": 1796097600000,
-                        "ff": 1798603200000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i16",
-        "name": "La implementación del HUB Viru Viru - Cielos Abiertos.",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Planificación estratégica e inicio de gestión de financiamiento del HUB (2026)",
-                "fi": 1779768000000,
-                "ff": 1814414400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Diagnóstico integral de infraestructura y capacidad operativa",
-                        "fi": 1779768000000,
-                        "ff": 1803873600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Inicio de gestión de financiamiento del Hub en base al RBP vigente",
-                        "fi": 1806120000000,
-                        "ff": 1814414400000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Estudio a Diseño Final (2026 - 2027)",
-                "fi": 1816660800000,
-                "ff": 1840766400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Análisis de mercado, rutas y carga",
-                        "fi": 1816660800000,
-                        "ff": 1827633600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Elaboración del Estudio a Diseño Final y el Plan Maestro del HUB Viru Viru",
-                        "fi": 1829880000000,
-                        "ff": 1840766400000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Desarrollo de infraestructura y conectividad (2027–2029)",
-                "fi": 1843099200000,
-                "ff": 1919736000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Infraestructura aeroportuaria aérea y accesos terrestres",
-                        "fi": 1843099200000,
-                        "ff": 1919736000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Centro de carga aérea y logística",
-                        "fi": 1843099200000,
-                        "ff": 1903838400000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Conectividad intermodal",
-                        "fi": 1843099200000,
-                        "ff": 1903838400000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Gobernanza, alianzas operativas y modelo de negocio (2026–2030)",
-                "fi": 1906344000000,
-                "ff": 1919736000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Incorporación progresiva de aerolíneas de pasajeros y carga",
-                        "fi": 1906344000000,
-                        "ff": 1919736000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Convenios operativos y de cooperación institucional",
-                        "fi": 1816660800000,
-                        "ff": 1848369600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Incentivos operativos y aplicación gradual de cielos abiertos",
-                        "fi": 1782446400000,
-                        "ff": 1877400000000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Operación, tecnología y sostenibilidad (2028–2029)",
-                "fi": 1906344000000,
-                "ff": 1922241600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Sistemas tecnológicos y automatización operativa",
-                        "fi": 1906344000000,
-                        "ff": 1922241600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Gestión de flujos de pasajeros y servicios",
-                        "fi": 1906344000000,
-                        "ff": 1922241600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Gestión ambiental y sostenibilidad",
-                        "fi": 1906344000000,
-                        "ff": 1922241600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 6",
-                "name": "Certificación operacional y regulatoria (2029)",
-                "fi": 1906344000000,
-                "ff": 1922241600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Certificaciones aeronáuticas y de seguridad",
-                        "fi": 1906344000000,
-                        "ff": 1922241600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Certificaciones logísticas y de carga",
-                        "fi": 1906344000000,
-                        "ff": 1922241600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 7",
-                "name": "Puesta en marcha y operación plena del HUB (2030)",
-                "fi": 1922241600000,
-                "ff": 1932696000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Operaciones de prueba (marcha blanca)",
-                        "fi": 1919736000000,
-                        "ff": 1930017600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Inicio de operación regular del HUB Viru Viru",
-                        "fi": 1927684800000,
-                        "ff": 1932696000000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i17",
-        "name": "Reformas e incentivos tributarios",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Diagnóstico fiscal",
-                "fi": 1762660800000,
-                "ff": 1798689600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Acuerdos y/o convenios con sectores",
-                        "fi": 1762660800000,
-                        "ff": 1798689600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Propuesta Preliminar de Incentivos Tributarios",
-                "fi": 1762660800000,
-                "ff": 1798689600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Propuesta borrador",
-                        "fi": 1762660800000,
-                        "ff": 1798689600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Sustento Técnico y Legal",
-                "fi": 1762660800000,
-                "ff": 1798689600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Informe Técnico",
-                        "fi": 1762660800000,
-                        "ff": 1796011200000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Informe Legal",
-                        "fi": 1796097600000,
-                        "ff": 1798689600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Aprobación normativa",
-                "fi": 1762660800000,
-                "ff": 1798689600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Normativa de aprobación (Ley, Decreto u otro)",
-                        "fi": 1762660800000,
-                        "ff": 1798689600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Publicación",
-                "fi": 1762660800000,
-                "ff": 1798689600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Sitio Web de la Gaceta",
-                        "fi": 1762660800000,
-                        "ff": 1798689600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 6",
-                "name": "Implementación SIN",
-                "fi": 1798776000000,
-                "ff": 1801281600000,
-                "sub": []
-            }
-        ]
-    },
-    {
-        "code": "i18",
-        "name": "Protección Civil y Reducción de Riesgos de Desastre",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Saneamiento de Predios",
-                "fi": 1767240000000,
-                "ff": 1780286400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Revision y analisis tecnico legal",
-                        "fi": 1769918400000,
-                        "ff": 1772424000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Gestion de la inscripcion de dominio y derecho propietario",
-                        "fi": 1772337600000,
-                        "ff": 1774843200000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Emision del Titulo de propiedad a favor de la UMEE",
-                        "fi": 1775016000000,
-                        "ff": 1780286400000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Adecuacion de la Infraestructura",
-                "fi": 1777608000000,
-                "ff": 1785556800000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Elaboracion del proyecto",
-                        "fi": 1777608000000,
-                        "ff": 1780113600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Inscripcion del proyecto y gestion de recursos",
-                        "fi": 1780286400000,
-                        "ff": 1782792000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Ejecucion del proyecto",
-                        "fi": 1782878400000,
-                        "ff": 1785556800000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Dotación de efectivos",
-                "fi": 1777608000000,
-                "ff": 1785470400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Relevamiento de necesidades y organización de la estructura operativa",
-                        "fi": 1777608000000,
-                        "ff": 1780113600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Gestiones tecnico, legales, administrativas",
-                        "fi": 1780286400000,
-                        "ff": 1782792000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Asignacion y designacion del personal",
-                        "fi": 1782878400000,
-                        "ff": 1785470400000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Equipamiento",
-                "fi": 1780286400000,
-                "ff": 1788235200000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Relevamiento de necesidades operativas",
-                        "fi": 1780286400000,
-                        "ff": 1782792000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Gestiones logisticas de adquisicion de equipos (TGN)",
-                        "fi": 1782878400000,
-                        "ff": 1785384000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Gestiones logisticas de dotacion de equipos (Cooperacion Internacional)",
-                        "fi": 1785556800000,
-                        "ff": 1788235200000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Capacitacion",
-                "fi": 1772337600000,
-                "ff": 1790827200000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Deteccion de Necesidades de Capacitacion",
-                        "fi": 1772337600000,
-                        "ff": 1775016000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Formulacion del plan de capacitacion",
-                        "fi": 1777608000000,
-                        "ff": 1780113600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Gestion de recursos humanos y financieros",
-                        "fi": 1780286400000,
-                        "ff": 1782792000000
-                    },
-                    {
-                        "sub": "└ Sub 4",
-                        "name": "Ejecucion del Plan de Capacitacion",
-                        "fi": 1782878400000,
-                        "ff": 1790827200000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 6",
-                "name": "Alerta Temprana (SAT)",
-                "fi": 1780286400000,
-                "ff": 1790827200000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Conocimiento de Riesgos",
-                        "fi": 1780286400000,
-                        "ff": 1782792000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Monitoreo territorial",
-                        "fi": 1782878400000,
-                        "ff": 1785384000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Difusion de alertas (Broadcast)",
-                        "fi": 1785556800000,
-                        "ff": 1788062400000
-                    },
-                    {
-                        "sub": "└ Sub 4",
-                        "name": "Capacidad de Respuesta en coordinacion con GAD y GAM",
-                        "fi": 1788235200000,
-                        "ff": 1790827200000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 7",
-                "name": "Articulacion de actores y/o involucrados en la Gestion de Riesgos",
-                "fi": 1780286400000,
-                "ff": 1796097600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Articulacion con Ministerios Involucrados",
-                        "fi": 1780286400000,
-                        "ff": 1788062400000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Articulacion con GAD y GAM",
-                        "fi": 1788235200000,
-                        "ff": 1790740800000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Articulacion con Cooperacion Internacional y ONGs",
-                        "fi": 1790827200000,
-                        "ff": 1793505600000
-                    },
-                    {
-                        "sub": "└ Sub 4",
-                        "name": "Articulacion con Sector Empresarial",
-                        "fi": 1793592000000,
-                        "ff": 1796097600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 8",
-                "name": "Desarrollo de la Plataforma Pais",
-                "fi": 1780286400000,
-                "ff": 1796097600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Diseño de la Plataforma",
-                        "fi": 1780286400000,
-                        "ff": 1785384000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Ensayo de la Plataforma",
-                        "fi": 1785556800000,
-                        "ff": 1788062400000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i19",
-        "name": "Construcción del anteproyecto de una Nueva Ley EducativaNueva Ley Educativa",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Lanzamiento/Presentación del proceso de construción de la nueva Ley Educativa.",
-                "fi": 1772078400000,
-                "ff": 1772078400000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Recopilación y sistematización de propuestas.",
-                "fi": 1772424000000,
-                "ff": 1776225600000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Encuentro por la Educación.",
-                "fi": 1776830400000,
-                "ff": 1776830400000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Mesas de trabajo.",
-                "fi": 1782273600000,
-                "ff": 1791518400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Desarrollo de mesas temáticas (nacional).",
-                        "fi": 1782273600000,
-                        "ff": 1782273600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Procesamiento y sistematización de los resultados.",
-                        "fi": 1782360000000,
-                        "ff": 1784088000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Desarrollo de mesas de trabajo departamentales.",
-                        "fi": 1787889600000,
-                        "ff": 1787889600000
-                    },
-                    {
-                        "sub": "└ Sub 4",
-                        "name": "Procesamiento y sistematización de los resultados.",
-                        "fi": 1788148800000,
-                        "ff": 1789012800000
-                    },
-                    {
-                        "sub": "Etapa 5",
-                        "name": "Elaboración del anteproyecto de la Nueva Ley Educativa.",
-                        "fi": 1789358400000,
-                        "ff": 1793937600000
-                    },
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Elaboración del anteproyecto de la Nueva Ley Educativa.",
-                        "fi": 1789358400000,
-                        "ff": 1791518400000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Revisión ministerial de la Nueva Ley de Educación.",
-                        "fi": 1791777600000,
-                        "ff": 1792555200000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Elaboración del anteproyecto de la Nueva Ley Educativa (versión final).",
-                        "fi": 1792641600000,
-                        "ff": 1793160000000
-                    },
-                    {
-                        "sub": "└ Sub 4",
-                        "name": "Remisión del anteproyecto de la nueva Ley de Educación a la Asamblea Legislativa Plurinacional.",
-                        "fi": 1793246400000,
-                        "ff": 1793937600000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i20",
-        "name": "Gestión educativa y curricular eficiente",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Reducción de la carga administrativa de maestros y directores",
-                "fi": 1764561600000,
-                "ff": 1767240000000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Asegurar el cumplimiento de 200 días de gestión escolar.",
-                "fi": 1770004800000,
-                "ff": 1796961600000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Elaborar el Reglamento de Evaluación Curricular",
-                "fi": 1775016000000,
-                "ff": 1798689600000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Elaborar Hojas de Trabajo para el mejoramiento de la comprensión lectora y el razonamiento lógico matemático",
-                "fi": 1775016000000,
-                "ff": 1793332800000,
-                "sub": []
-            }
-        ]
-    },
-    {
-        "code": "i21",
-        "name": "Maestros competentes y comprometidos",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Diseño de nueva Convocatoria y Reglamento con criterios de transparencia y meritocracia.",
-                "fi": 1766116800000,
-                "ff": 1766116800000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Construcción y publicación del banco de preguntas.",
-                "fi": 1764561600000,
-                "ff": 1766721600000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Digitalización del proceso de toma de pruebas.",
-                "fi": 1768795200000,
-                "ff": 1769745600000,
-                "sub": []
-            }
-        ]
-    },
-    {
-        "code": "i22",
-        "name": "Conectividad para UEs (dotación de antenas Starlink)Transformación digital educativa",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Gestión de la donación de las antenas Starlik",
-                "fi": 1767585600000,
-                "ff": 1772164800000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Firma de Convenio MINEDU-ENTEL",
-                "fi": 1776225600000,
-                "ff": 1776225600000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Firma de convenios ENTEL - GAMs  ",
-                "fi": 1779076800000,
-                "ff": 1780027200000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Dotación e instalación de Antenas Starlink",
-                "fi": 1779163200000,
-                "ff": 1798516800000,
-                "sub": []
-            }
-        ]
-    },
-    {
-        "code": "i23",
-        "name": "Fuentes de financiamiento turismo-cultura-gastronomía-desarrollo productivo",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Identificación de fuentes de financiamiento",
-                "fi": 1777608000000,
-                "ff": 1782792000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Mapeo de Fuentes de Financiamiento",
-                        "fi": 1777608000000,
-                        "ff": 1780200000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Revisión y Consulta Normativa",
-                        "fi": 1780286400000,
-                        "ff": 1782792000000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Priorización y Análisis de viabilidad",
-                "fi": 1782878400000,
-                "ff": 1786766400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Evaluación Técnica y Legal de Fuentes",
-                        "fi": 1782878400000,
-                        "ff": 1784088000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Identificación de Barreras de Acceso",
-                        "fi": 1784088000000,
-                        "ff": 1785470400000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Selección de Fuentes Prioritarias",
-                        "fi": 1785556800000,
-                        "ff": 1786766400000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Elaboración de la Guía de Inversiones",
-                "fi": 1775448000000,
-                "ff": 1790740800000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Diseño y Validación de la Guía de Inversiones",
-                        "fi": 1775448000000,
-                        "ff": 1778817600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Implementación de Medidas para la Atracción de Inversiones",
-                        "fi": 1778817600000,
-                        "ff": 1788148800000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Lanzamiento Oficial de la Guía de Inversiones",
-                        "fi": 1788235200000,
-                        "ff": 1790740800000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Gestión y Articulación Interinstitucional",
-                "fi": 1788235200000,
-                "ff": 1796011200000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Coordinación con Entidades relacionadas",
-                        "fi": 1788235200000,
-                        "ff": 1790740800000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Gestión de Acuerdos y Mecanismos de Financiamiento",
-                        "fi": 1790827200000,
-                        "ff": 1793419200000
-                    },
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Difusión de oportunidades de financiamiento",
-                        "fi": 1793505600000,
-                        "ff": 1796011200000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i24",
-        "name": "Posicionamiento internacional de Bolivia mediante la articulación de  Marca País y servicios turísticos para el destino Uyuni–Lagunas.",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Implementación de la Marca País",
-                "fi": 1775448000000,
-                "ff": 1801454400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Licitación del Proceso de Diseño de la Marca País",
-                        "fi": 1775448000000,
-                        "ff": 1778817600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Entrega de la metodología Cualitativa y Cuantitativa para el Diseño de Marca País",
-                        "fi": 1777608000000,
-                        "ff": 1780200000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Diseño de la Identidad Visual de la Marca País",
-                        "fi": 1780200000000,
-                        "ff": 1790740800000
-                    },
-                    {
-                        "sub": "└ Sub 4",
-                        "name": "Lanzamiento oficial de la Marca País",
-                        "fi": 1785556800000,
-                        "ff": 1788062400000
-                    },
-                    {
-                        "sub": "└ Sub 5",
-                        "name": "Estrategia de Promoción e Internacionalización de la Marca País",
-                        "fi": 1788235200000,
-                        "ff": 1801454400000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Diagnóstico y Diseño del Plan Estratégico de Desarrollo del destino Uyuni-Lagunas",
-                "fi": 1775016000000,
-                "ff": 1788148800000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Especificaciones Técnicas y Firma de Cooperación Técnica para el Plan Estratégico de Desarrollo - BID",
-                        "fi": 1775016000000,
-                        "ff": 1777521600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Documento técnico del Diagnóstico (identificación de brechas) - BID",
-                        "fi": 1780286400000,
-                        "ff": 1782792000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Documento técnico del Plan Estratégico de Desarrollo - BID",
-                        "fi": 1782878400000,
-                        "ff": 1788148800000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Ejecución de Infraestructura Turística del Destino Uyuni-Lagunas",
-                "fi": 1775016000000,
-                "ff": 1801454400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Entrega de infraestructura (Restaurante en Villazón y San Pablo de Lipez) ",
-                        "fi": 1775016000000,
-                        "ff": 1777521600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Adjudicación y Contratación para la construcción de la Infraestructura (Hotel Colcha K)",
-                        "fi": 1777608000000,
-                        "ff": 1782792000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Construcción y Entrega de infraestructura (Hotel Tahua) ",
-                        "fi": 1775016000000,
-                        "ff": 1801454400000
-                    },
-                    {
-                        "sub": "└ Sub 4",
-                        "name": "Firma Cooperación técnica - CAF (Modelo de Gestión Operativa de Hoteles y Restaurantes)",
-                        "fi": 1775016000000,
-                        "ff": 1777521600000
-                    },
-                    {
-                        "sub": "└ Sub 5",
-                        "name": "Licitación y Adjudicación de la Gestión Operativa de los Restaurantes de Villazón y San Pablo de Lipez",
-                        "fi": 1780286400000,
-                        "ff": 1785384000000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Capacitación y Fortalecimiento de Servicios Turísticos",
-                "fi": 1777608000000,
-                "ff": 1796011200000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Capacitación y Certificación Gastronómica",
-                        "fi": 1777608000000,
-                        "ff": 1796011200000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Capacitación y Certificación de Hostelería",
-                        "fi": 1780286400000,
-                        "ff": 1796011200000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Mejoras en las Condiciones Habilitantes para Uyuni–Lagunas.",
-                "fi": 1782878400000,
-                "ff": 1798689600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Plan de Desarrollo de Nuevas Infraestructuras Turística - BID",
-                        "fi": 1782878400000,
-                        "ff": 1790827200000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Gestión de Financiamiento para la Implementación de las Nuevas Infraestructuras Turística",
-                        "fi": 1790827200000,
-                        "ff": 1798689600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Gestión para la Inclusión de Proyectos y Mejoras en Carreteras",
-                        "fi": 1780286400000,
-                        "ff": 1798689600000
-                    },
-                    {
-                        "sub": "└ Sub 4",
-                        "name": "Gestión para la Inclusión de Proyectos y Mejoras en Servicios Básicos",
-                        "fi": 1780286400000,
-                        "ff": 1798689600000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i25",
-        "name": "Promoción de Inversiones extranjeras",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Estructura orgánica del MRE ajustada según nuevo enfoque de Gobierno tomando coo eje principal las inversiones",
-                "fi": 1764561600000,
-                "ff": 1774929600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Análisis de la DOE y LOE para identificar las atribuciones contempladas para el MRE y los vacíos existentes en el marco de la nueva visión de Gobierno",
-                        "fi": 1764561600000,
-                        "ff": 1767153600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Elaboración de propuesta de estructura organizacional del MRE considerando la temática de inversión extranjera entre otros",
-                        "fi": 1767240000000,
-                        "ff": 1772251200000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Gestión de aprobación del DS con la nueva estructura",
-                        "fi": 1772337600000,
-                        "ff": 1774929600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Diagnóstico de las demandas de inversión en Bolivia y el comportamiento de las mismas a nivel internacional",
-                "fi": 1772337600000,
-                "ff": 1782792000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Análisis de la situación actual",
-                        "fi": 1772337600000,
-                        "ff": 1774843200000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Identificación de restricciones estructurales",
-                        "fi": 1775016000000,
-                        "ff": 1777521600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Identificación de experiencias exitosas en otros países",
-                        "fi": 1777608000000,
-                        "ff": 1780113600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Evaluación de alternativas institucionales",
-                "fi": 1780286400000,
-                "ff": 1788062400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Identificación de posibles escenarios para la instauración del mecanismo",
-                        "fi": 1780286400000,
-                        "ff": 1782792000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Estructura, funciones y mecanismo de financiamiento para su funcionamiento de cada escenario",
-                        "fi": 1782878400000,
-                        "ff": 1785384000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Evaluación de la viabilidad institucional legal y financiera de cada escenario considerando su sostenibilidad",
-                        "fi": 1785556800000,
-                        "ff": 1788062400000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Diseño del mecanismo institucional",
-                "fi": 1780286400000,
-                "ff": 1796011200000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Socialización de los diferentes escenarios con los actores involucrados (sector público, privado, cooperación internacional)",
-                        "fi": 1780286400000,
-                        "ff": 1782792000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Presentación de la propuesta a la MAE del MRE para definición del mecanismo",
-                        "fi": 1782878400000,
-                        "ff": 1785384000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Desarrollo de la propuesta del mecanismo definido considerando su sostenibilidad",
-                        "fi": 1785556800000,
-                        "ff": 1788062400000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Desarrollo del instrumento de aprobación del mecanismo",
-                "fi": 1793505600000,
-                "ff": 1798603200000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Elaboración del informe técnico y legal",
-                        "fi": 1793505600000,
-                        "ff": 1796011200000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Gestión para aprobación",
-                        "fi": 1796097600000,
-                        "ff": 1798603200000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i26",
-        "name": "Plataforma digital de multiservicios automatizada de los trámites y servicios consulares priorizados",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Análisis de los actuales servicios consulares",
-                "fi": 1736654400000,
-                "ff": 1774929600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Identificación y levantamiento de servicios y trámites vigentes",
-                        "fi": 1736654400000,
-                        "ff": 1774929600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Análisis de los procesos identificados",
-                        "fi": 1736654400000,
-                        "ff": 1774929600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Identificación de los trámites y servicios priorizados que serán optimizados (Iniciando con (Salvo conductos y emisión de visas)",
-                        "fi": 1736654400000,
-                        "ff": 1774929600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Selección de procesos a ser priorizados",
-                "fi": 1767499200000,
-                "ff": 1782792000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Definición de criterios de mejora de procesos de atención al público",
-                        "fi": 1767499200000,
-                        "ff": 1782792000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Selección de áreas específicas de mejora de proceso de acuerdo a los criterios establecidos",
-                        "fi": 1767499200000,
-                        "ff": 1782792000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Acuerdo con entidades involucradas",
-                        "fi": 1767499200000,
-                        "ff": 1782792000000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Puesta en marcha de los procesos optimizados",
-                "fi": 1767758400000,
-                "ff": 1798603200000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Rediseño de procesos",
-                        "fi": 1767758400000,
-                        "ff": 1798430400000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Prueba piloto que incluye estándares de calidad",
-                        "fi": 1767758400000,
-                        "ff": 1798516800000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Aprobación del flujo de proceso optimizado",
-                        "fi": 1767758400000,
-                        "ff": 1798603200000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 1",
-                "name": "Diagnóstico normativo",
-                "fi": 1770004800000,
-                "ff": 1772251200000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Recolección de la información",
-                        "fi": 1770004800000,
-                        "ff": 1770696000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Análisis de situación",
-                        "fi": 1770782400000,
-                        "ff": 1771387200000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Propuesta de redacción",
-                        "fi": 1771473600000,
-                        "ff": 1772251200000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Elaboración anteproyecto",
-                "fi": 1772424000000,
-                "ff": 1774843200000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Presentación el Propuesta (19-03-2026)",
-                        "fi": 1772424000000,
-                        "ff": 1773115200000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Presentación de ajuste a la Propuesta (24-03-2026)",
-                        "fi": 1773201600000,
-                        "ff": 1773979200000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Presentación al Presidente (25-03-2026)",
-                        "fi": 1774065600000,
-                        "ff": 1774843200000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Consulta intersectorial",
-                "fi": 1775448000000,
-                "ff": 1777521600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Coordinación con el Ministerio de Economía y Finanzas Públicas",
-                        "fi": 1775448000000,
-                        "ff": 1776052800000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Socialización Previa en la Asamblea Legislativa Plurinacional",
-                        "fi": 1776139200000,
-                        "ff": 1776744000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Socialización con la Cámara Bolivia de Hidrocarburos",
-                        "fi": 1776830400000,
-                        "ff": 1777521600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Aprobación Asamblea Legislativa",
-                "fi": 1777867200000,
-                "ff": 1780200000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Comité y Comisión Cámara de Diputados",
-                        "fi": 1777867200000,
-                        "ff": 1778558400000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Comité y Comisión Cámara de Senadores",
-                        "fi": 1778644800000,
-                        "ff": 1779336000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Plenarios Cámara de Diputados y Senadores",
-                        "fi": 1779422400000,
-                        "ff": 1780200000000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Promulgación",
-                "fi": 1782792000000,
-                "ff": 1782792000000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 6",
-                "name": "Reglamentación",
-                "fi": 1782878400000,
-                "ff": 1785470400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Elaboración de Reglamento sobre Regalías y Participaciones",
-                        "fi": 1782878400000,
-                        "ff": 1783656000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Elaboración de Reglamento Bloque Mayoristas de Comercialización",
-                        "fi": 1783742400000,
-                        "ff": 1784520000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Elaboración de Reglamento Consulta Pública",
-                        "fi": 1784606400000,
-                        "ff": 1785470400000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i28",
-        "name": "Elaboración y promulgación de la Ley de Energías Verdes",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Diagnóstico marcos normativos",
-                "fi": 1775016000000,
-                "ff": 1780200000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Evaluación del marco normativo aplicabable para articulación del proyecto de ley con las disposciones normativas vigentes",
-                        "fi": 1775016000000,
-                        "ff": 1776657600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Elaboración del borrador de Anteproyecto de Ley",
-                "fi": 1780286400000,
-                "ff": 1785470400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Elaboración de dispociones generales para  la Taxonomia Sectorial Energetica dentro del Proyecto de Ley",
-                        "fi": 1780286400000,
-                        "ff": 1781928000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Elaborar una estructura de la Ley conforme la tecnica normativa",
-                        "fi": 1782014400000,
-                        "ff": 1783656000000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Socialización Interna del Proyecto de Ley",
-                "fi": 1785556800000,
-                "ff": 1790740800000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Presentación de Propuesta al Ministro de Hidrocarburos y Energias",
-                        "fi": 1785556800000,
-                        "ff": 1787198400000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Socialización con los Viceministerio del MHE sujetos a la aplicación de la norma ",
-                        "fi": 1787284800000,
-                        "ff": 1788926400000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Socilización del Proyecto de Ley con diferentes actores externos al MHE",
-                "fi": 1790827200000,
-                "ff": 1796011200000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Socialización externa del Proyecto de Ley con los diferentes Ministerios",
-                        "fi": 1790827200000,
-                        "ff": 1792468800000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Socialización con actores privados externos",
-                        "fi": 1792555200000,
-                        "ff": 1794196800000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Presentación del Anteproyecto de Ley al Ministerio de la Presidencia  con los informes tecnicos y legales /Por definirse",
-                "fi": 1796097600000,
-                "ff": 1801368000000,
-                "sub": []
-            }
-        ]
-    },
-    {
-        "code": "i.29",
-        "name": "Ley de Electricidad",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Diagnóstico normativo",
-                "fi": 1764820800000,
-                "ff": 1773979200000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Recolección de la información",
-                        "fi": 1764820800000,
-                        "ff": 1767067200000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Análisis de situación",
-                        "fi": 1767240000000,
-                        "ff": 1769745600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Propuesta de Borrador",
-                        "fi": 1769918400000,
-                        "ff": 1773979200000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Elaboración de Anteproyecto de Ley",
-                "fi": 1774065600000,
-                "ff": 1778040000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Informe técnico ",
-                        "fi": 1780632000000,
-                        "ff": 1780632000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Informe Legal ",
-                        "fi": 1780632000000,
-                        "ff": 1780718400000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Presentación de Propuesta MAE MHE  y posterior remisión al Ministerio de la Presidencia",
-                        "fi": 1780718400000,
-                        "ff": 1780718400000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Gestión del Anteproyecto de Ley",
-                "fi": 1778126400000,
-                "ff": 1780113600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Presentación el Propuesta UDAPE, socialización con actores directos",
-                        "fi": 1778126400000,
-                        "ff": 1778731200000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Presentación de Propuesta en CONAPES",
-                        "fi": 1778817600000,
-                        "ff": 1779336000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Presentación Gabinete  ",
-                        "fi": 1779422400000,
-                        "ff": 1780113600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Gestión de aprobación de la Ley en la Asamblea Legislativa Plurinacional",
-                "fi": 1780286400000,
-                "ff": 1782792000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Comité y Comisión Cámara de Diputados",
-                        "fi": 1780286400000,
-                        "ff": 1780804800000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Comité y Comisión Cámara de Senadores",
-                        "fi": 1780891200000,
-                        "ff": 1781496000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Plenarios Cámara de Diputados y Senadores",
-                        "fi": 1781582400000,
-                        "ff": 1782360000000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Promulgacion de Ley por parte del Ejecutivo",
-                "fi": 1782446400000,
-                "ff": 1782792000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Publicación en la Gaceta Oficial",
-                        "fi": 1782446400000,
-                        "ff": 1782792000000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 6",
-                "name": "Socialización del Proyecto de Ley con diferentes actores externos al MHE",
-                "fi": 1782878400000,
-                "ff": 1784088000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Socialización con organizaciones sociales, sectores productivos, comunidades de todo el país y actores privados externos",
-                        "fi": 1782878400000,
-                        "ff": 1784088000000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 7",
-                "name": "Reglamentación",
-                "fi": 1784174400000,
-                "ff": 1798603200000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Reglamento de precios y tarifas ",
-                        "fi": 1784174400000,
-                        "ff": 1785384000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Reglamento de operación del mercado  ",
-                        "fi": 1785556800000,
-                        "ff": 1786766400000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Reglamento de licencias ",
-                        "fi": 1786852800000,
-                        "ff": 1788062400000
-                    },
-                    {
-                        "sub": "└ Sub 4",
-                        "name": "Reglamento comercialización e intercambios internacionales  ",
-                        "fi": 1788235200000,
-                        "ff": 1789444800000
-                    },
-                    {
-                        "sub": "└ Sub 5",
-                        "name": "Reglamento del servicio público de distribución ",
-                        "fi": 1789531200000,
-                        "ff": 1790740800000
-                    },
-                    {
-                        "sub": "└ Sub 6",
-                        "name": "Reglamento de calidad de distribución  ",
-                        "fi": 1790827200000,
-                        "ff": 1792036800000
-                    },
-                    {
-                        "sub": "└ Sub 7",
-                        "name": "Reglamento de multas y sanciones ",
-                        "fi": 1792123200000,
-                        "ff": 1793332800000
-                    },
-                    {
-                        "sub": "└ Sub 8",
-                        "name": "Reglamento de calidad de transmisión ",
-                        "fi": 1793505600000,
-                        "ff": 1794715200000
-                    },
-                    {
-                        "sub": "└ Sub 9",
-                        "name": "Reglamento de electrificación rural  ",
-                        "fi": 1794801600000,
-                        "ff": 1796011200000
-                    },
-                    {
-                        "sub": "└ Sub 10",
-                        "name": "Reglamento de subastas ",
-                        "fi": 1796097600000,
-                        "ff": 1797307200000
-                    },
-                    {
-                        "sub": "└ Sub 11",
-                        "name": "Reglamento de uso de bienes de dominio público y constitución de servidumbres ",
-                        "fi": 1797393600000,
-                        "ff": 1798603200000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i30",
-        "name": "Resolución Ministerial de adecuación a ATE´s y CAMs",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Diagnóstico CAM pendientes",
-                "fi": 1764561600000,
-                "ff": 1766116800000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Diseño procedimiento transitorio",
-                "fi": 1770609600000,
-                "ff": 1771560000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Borrador de RM",
-                        "fi": 1771560000000,
-                        "ff": 1773633600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Aprobación",
-                        "fi": 1774411200000,
-                        "ff": 1774584000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Envio a UDAPE",
-                        "fi": 1776398400000,
-                        "ff": 1777521600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Validación jurídica",
-                "fi": 1777867200000,
-                "ff": 1778212800000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Aprobación de la RM",
-                        "fi": 1777867200000,
-                        "ff": 1777867200000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Aprobación resolución",
-                "fi": 1778472000000,
-                "ff": 1780027200000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Implementación AJAM",
-                "fi": 1780286400000,
-                "ff": 1782792000000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 6",
-                "name": "Evaluación resultados",
-                "fi": 1790740800000,
-                "ff": 1791259200000,
-                "sub": []
-            }
-        ]
-    },
-    {
-        "code": "i31",
-        "name": "Reposicionamiento de Bolivia en el mapa minero global",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Diagnóstico oferta minera",
-                "fi": 1765166400000,
-                "ff": 1766721600000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Preparación Proyectos Bolivia ",
-                "fi": 1770004800000,
-                "ff": 1771560000000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Agenda posicionamiento Bolivia PDAC 2026 Toronto",
-                "fi": 1770004800000,
-                "ff": 1771560000000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Seguimiento contactos",
-                "fi": 1773028800000,
-                "ff": 1774929600000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Compromisos formalizados",
-                "fi": 1775016000000,
-                "ff": 1780200000000,
-                "sub": []
-            }
-        ]
-    },
-    {
-        "code": "i32",
-        "name": "Nueva Ley de Minería",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Diagnóstico normativo",
-                "fi": 1777089600000,
-                "ff": 1777521600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Recolección de la información",
-                        "fi": 1777089600000,
-                        "ff": 1777262400000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Análisis de situación",
-                        "fi": 1777348800000,
-                        "ff": 1777521600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Propuesta de redacción",
-                        "fi": 1777348800000,
-                        "ff": 1777521600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Elaboración anteproyecto",
-                "fi": 1777521600000,
-                "ff": 1780113600000,
-                "sub": [
-                    {
-                        "sub": "Sub 1",
-                        "name": "Presentación de Propuesta",
-                        "fi": 1777521600000,
-                        "ff": 1777953600000
-                    },
-                    {
-                        "sub": "Sub 2",
-                        "name": "Presentación de ajuste a la Propuesta",
-                        "fi": 1778040000000,
-                        "ff": 1780113600000
-                    },
-                    {
-                        "sub": "Sub 3",
-                        "name": "Diagnóstico Artículos 151 y 152 Ley Minera 535",
-                        "fi": 1764561600000,
-                        "ff": 1765252800000
-                    },
-                    {
-                        "sub": "Sub 4",
-                        "name": "Diseño modificaciones puntuales",
-                        "fi": 1776398400000,
-                        "ff": 1777521600000
-                    },
-                    {
-                        "sub": "Sub 5",
-                        "name": "Validación jurídica",
-                        "fi": 1777608000000,
-                        "ff": 1778126400000
-                    },
-                    {
-                        "sub": "Sub 6",
-                        "name": "Aprobación resolución",
-                        "fi": 1777608000000,
-                        "ff": 1778126400000
-                    },
-                    {
-                        "sub": "Sub 7",
-                        "name": "Implementación a la nueva ley",
-                        "fi": 1777608000000,
-                        "ff": 1778126400000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Consulta intersectorial",
-                "fi": 1780286400000,
-                "ff": 1782792000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Coordinación con el Ministerio de Minería y Metalurgia",
-                        "fi": 1780286400000,
-                        "ff": 1780804800000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Socialización Previa en la Asamblea Legislativa Plurinacional",
-                        "fi": 1780891200000,
-                        "ff": 1781496000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Socialización con AJAM y otras entidades pertinentes",
-                        "fi": 1781582400000,
-                        "ff": 1782792000000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Aprobación Asamblea Legislativa",
-                "fi": 1782878400000,
-                "ff": 1784088000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Comité y Comisión Cámara de Diputados",
-                        "fi": 1782878400000,
-                        "ff": 1784088000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Comité y Comisión Cámara de Senadores",
-                        "fi": 1782878400000,
-                        "ff": 1784088000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Plenarios Cámara de Diputados y Senadores",
-                        "fi": 1782878400000,
-                        "ff": 1784088000000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Promulgación",
-                "fi": 1785384000000,
-                "ff": 1785470400000,
-                "sub": []
-            },
-            {
-                "eta": "Etapa 6",
-                "name": "Reglamentación",
-                "fi": 1785556800000,
-                "ff": 1788062400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Elaboración de Reglamento sobre Regalías y Participaciones",
-                        "fi": 1785556800000,
-                        "ff": 1786075200000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Elaboración de Reglamento",
-                        "fi": 1786161600000,
-                        "ff": 1786766400000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Elaboración de Reglamento Consulta Pública",
-                        "fi": 1786852800000,
-                        "ff": 1788062400000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i33",
-        "name": "Jóvenes de Excelencia en la Gestión Pública",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Normativa y Diseño de plataformas",
-                "fi": 1775016000000,
-                "ff": 1777521600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Redacción de un Decreto Supremo de “Jóvenes de excelencia en la función pública”",
-                        "fi": 1775016000000,
-                        "ff": 1777521600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Mesas técnicas con el Comité Ejecutivo de Universidades Bolivianas - CEUB y la Asociación Nacional de Universidades Privadas de Bolivia – ANUP, para la integración de las bases de datos de promedios de jóvenes titulados con excelencia académica a nivel nacional, a través de Convenios.",
-                        "fi": 1775016000000,
-                        "ff": 1777521600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Alianzas para el Diseño y la construcción de la Plataforma Digital de Postulación Única y la Plataforma Digital de Excelencia, con la AGETIC u otra Cooperación identificada. Diseño de las pruebas para los examenes ciegos.",
-                        "fi": 1775016000000,
-                        "ff": 1777521600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Convocatoria Nacional",
-                "fi": 1746072000000,
-                "ff": 1780113600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "\"Invitación a Universidaes Públicas y Privadas, CEUB, ANUB y grupos de jóvenes para la Promulgación de DS \"\"Jóvenes de excelencia en la función pública\"\" por el Sr. Presidente Rodrigo Paz en Palacio de Gobierno.\"",
-                        "fi": 1746072000000,
-                        "ff": 1780113600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Convocatoria nacional masiva, a través de la Plataforma Digital de Postulación Única. Reporte del total de inscritos en la Plataforma",
-                        "fi": 1746072000000,
-                        "ff": 1780113600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Reporte de items y áreas para ocupar cargos por entidad pública.",
-                        "fi": 1746072000000,
-                        "ff": 1780113600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Evaluación de Filtro (Exámenes Ciegos)",
-                "fi": 1777608000000,
-                "ff": 1780113600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Preparación de exámenes digitales, sorteo de preguntas aleatorias a través de la Plataforma Digital de Excelencia.",
-                        "fi": 1777608000000,
-                        "ff": 1780113600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Toma de examenes digitales",
-                        "fi": 1777608000000,
-                        "ff": 1780113600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Publicaciones de puntajes de los postulantes",
-                        "fi": 1777608000000,
-                        "ff": 1780113600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Asignación Selectiva y Entrevista de Habilidades Blandas",
-                "fi": 1777608000000,
-                "ff": 1780113600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "La Terna de Excelencia: Envío de los tres mejores puntajes a las diferentes entidades gubernamentales de acuerdo a espacios.",
-                        "fi": 1777608000000,
-                        "ff": 1780113600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Entrevista Laboral con Veeduría, enfocada en inteligencia emocional y habilidades blandas, acompañado por un veedor de transparencia o representante académico.",
-                        "fi": 1777608000000,
-                        "ff": 1780113600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Conferencia de Prensa: Reporte del total de jóvenes que forman parte de la Función Pública. (Cargos, sueldos, entidad pública)",
-                        "fi": 1777608000000,
-                        "ff": 1780113600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 5",
-                "name": "Inducción, Monitoreo y Salida hacia la Carrera Administrativa",
-                "fi": 1780286400000,
-                "ff": 1782792000000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Capacitación de Inducción (formación intensiva en gestión pública, presupuesto y ética funcionaria) por el lapso de una semana.",
-                        "fi": 1780286400000,
-                        "ff": 1782792000000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Evaluación Semestral: Monitoreo del desempeño para identificar fortalezas y áreas de mejora.",
-                        "fi": 1769918400000,
-                        "ff": 1798603200000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Puente a la Estabilidad: A los 12 meses, los jóvenes con evaluaciones sobresalientes quedan habilitados para postular a la Carrera Administrativa en otros cargos de la entidad (20%).",
-                        "fi": 1811822400000,
-                        "ff": 1814328000000
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "code": "i34",
-        "name": "Participación laboral de mujeres (cuidados)",
-        "etapa": [
-            {
-                "eta": "Etapa 1",
-                "name": "Gestión con la cooperación",
-                "fi": 1772337600000,
-                "ff": 1774929600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Reuniones de coordiación para definir el alcance del programa.",
-                        "fi": 1775016000000,
-                        "ff": 1777521600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Elaboración de TDRs para una consultoría para la elaboración del programa.",
-                        "fi": 1772337600000,
-                        "ff": 1774929600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Contraación de la consultoría",
-                        "fi": 1775016000000,
-                        "ff": 1777521600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 2",
-                "name": "Diseño del programa",
-                "fi": 1777608000000,
-                "ff": 1780113600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Diagnóstico",
-                        "fi": 1777608000000,
-                        "ff": 1780113600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Mapeo de actores",
-                        "fi": 1777608000000,
-                        "ff": 1780113600000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Diseño de los compenentes",
-                        "fi": 1777608000000,
-                        "ff": 1780113600000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 3",
-                "name": "Coordinacion interinstitucional",
-                "fi": 1775016000000,
-                "ff": 1777521600000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Reuniones con ministerios intervientes",
-                        "fi": 1775016000000,
-                        "ff": 1777521600000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Reuniones con las ETAs involucradas",
-                        "fi": 1780286400000,
-                        "ff": 1782792000000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Reuniones con entidades privadas involucradas (ONGs) y otras.",
-                        "fi": 1780286400000,
-                        "ff": 1782792000000
-                    }
-                ]
-            },
-            {
-                "eta": "Etapa 4",
-                "name": "Presentación del programa",
-                "fi": 1782878400000,
-                "ff": 1785470400000,
-                "sub": [
-                    {
-                        "sub": "└ Sub 1",
-                        "name": "Elaboración del Informe Técnico de Condiciones Previas - TTCP para consideración del Ministro.",
-                        "fi": 1782878400000,
-                        "ff": 1785470400000
-                    },
-                    {
-                        "sub": "└ Sub 2",
-                        "name": "Busqueda de Financiamiento",
-                        "fi": 1785556800000,
-                        "ff": 1788148800000
-                    },
-                    {
-                        "sub": "└ Sub 3",
-                        "name": "Implementación Programa",
-                        "fi": 1790827200000,
-                        "ff": 1793419200000
-                    }
-                ]
-            }
-        ]
-    }
+let dataJSON = [
+  {
+    "Marca temporal": "5/11/26 15:20",
+    "Entidad del Estado": "SENAMHI",
+    "Nombre completo del funcionario": "Luis Chávez Torrico",
+    "Telefono": "73075134",
+    "Tipo de intervención": "Otro",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "El SENAMHI no cuenta con ningún proyecto de inversión actualmente, ha gestionado un proyecto de ampliación y modernización de la red hidrometeorológica y prestación de servicios climáticos.",
+    "Fecha tentativa de la presentación": "1/8/27",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Mayor cobertura y modernización de la Red de estaciones Meteorológicas e Hidrológicas del país.\nProyecto de préstamo del BID (Falta la aprobación por parte del BID y posteriormente la Asamblea Legislativa)\n45,5 Millones de Dólares\nToda la población del país (instituciones de gobierno, distintos sectores, instituciones subnacionales, universidades, institutos de investigación productores y otros usuarios de la información hidrometeorológica)",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 15:42",
+    "Entidad del Estado": "Zona Franca Comercial e Industrial de Cobija",
+    "Nombre completo del funcionario": "Juan -Enrrique Pacheco Bonifaz",
+    "Telefono": "77100175",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "Entrega Definitiva (inaguracion) del proyecto \"\"Construcción e Implementación de un Centro Tecnológico de Innovación Productiva de Madera en el Departamento de Pando – Municipio Cobija\"\"",
+    "Fecha tentativa de la presentación": "8/7/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Bs.- 30.561.089,20 Beneficiarios Directos 79 Indirectos 1200, N° familias beneficiadas 1320\nLa construcción e implementación del Centro Tecnológico de Innovación Productiva de Madera en el departamento de Pando permitirá satisfacer una parte significativa de la demanda insatisfecha de servicios especializados de secado y beneficiado de madera, con una capacidad anual proyectada de 480,000 pies tablares operando a plena capacidad. Este centro cubrirá hasta el 30.69% de la producción total de madera del departamento, mejorando sustancialmente la calidad del producto final y elevando su valor comercial en el mercado.\nAsimismo, el centro proporcionará servicios auxiliares estratégicos, tales como el afilado de herramientas para aserraderos y carpinterías, ofreciendo una solución integral y adaptada a las necesidades específicas del sector maderero local. Estos servicios se establecerán bajo un esquema de precios accesibles, respaldados por estudios de mercado que garantizan la viabilidad económica y la competitividad de la oferta.\nEn conjunto, esta iniciativa fortalecerá la innovación tecnológica, incrementará la eficiencia productiva y fomentará el desarrollo sostenible del sector forestal en Pando, generando impactos socioeconómicos positivos para las familias y comunidades vinculadas a la actividad forestal. La implementación del centro tecnológico especializado optimizará los procesos productivos, incrementará el valor agregado de la madera y consolidará la competitividad regional en el mercado forestal nacional e internacional.\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "Municpio de Cobija",
+    "ESTRATEGICO/NO ESTRATEGICO": "Estrategico"
+  },
+  {
+    "Marca temporal": "5/11/26 15:48",
+    "Entidad del Estado": "EMPRESA BOLIVIANA DE ALIMENTOS -EBA",
+    "Nombre completo del funcionario": "Ninette Cornejo",
+    "Telefono": "70544605",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "IMPLEM. PLANTA DE TRANSFORMACIÓN DE PRODUCTOS DE LA AMAZONÍA BOLIVIANA",
+    "Fecha tentativa de la presentación": "12/30/27",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 15:49",
+    "Entidad del Estado": "SENARECOM",
+    "Nombre completo del funcionario": "Juan Marcelo Argollo Valdez",
+    "Telefono": "70186176",
+    "Tipo de intervención": "Actividad",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "SINACOM 3.0",
+    "Fecha tentativa de la presentación": "7/20/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Mejorar el control de regalías, disminuyendo el riesgo de evasión. Los trámites se digitalizarán y permitira reducir su tiempo de gestión en un 80%. Los beneficiarios intermedios son las empresas que comercializan y/o exportan minerales. Los beneficiarios finales son los gobiernos departamentales y municipales de acuerdo con la recaudación de regalías de su región.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 15:52",
+    "Entidad del Estado": "EMPRESA BOLIVIANA DE ALIMENTOS - EBa",
+    "Nombre completo del funcionario": "Ninette Cornejo",
+    "Telefono": "70544605",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "IMPLEM. PLANTA DE INDUSTRIALIZACIÓN DE FRUTAS DE LOS CINTIS- MUNICIPIO DE CULPINA - IMPLEM. PLANTA PROCESADORA DE PIÑA MUNICIPIO DE ENTRE RíOS - COCHABAMBA - IMPLEM. PLANTA DE INDUSTRIALIZACIÓN DE ALMENDRA RIBERALTA – BENI - IMPLEM. PLANTA DE PROCESAMIENTO DE FRUTAS BARTOLINA SISA SAPAHAQUI - IMPLEM. DE LA INDUSTRIA DE PRODUCTOS DEL CHACO",
+    "Fecha tentativa de la presentación": "12/30/27",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Todos los proyectos estan en etapa de inversión y no estan programados para entrega en tres meses.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 16:13",
+    "Entidad del Estado": "Ministerio de Hidrocarburos y Energias",
+    "Nombre completo del funcionario": "Gonzalo Lucero",
+    "Telefono": "72079700",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "Proyecto: \"\"“AMPLIACIÓN Y RENOVACION LINEAS MT/BT SISTEMA DISTRIBUCIÓN CAMARGO”, el proyecto comprende el suministro de materiales, construcción de líneas en Media y Baja Tensión, montaje de equipos de distribución, dentro las poblaciones del sistema Camargo. Por otro lado, comprende la adquisición de medidores monofásicos, adquisición de ferretería para acometida y registradores de redes de distribución",
+    "Fecha tentativa de la presentación": "12/31/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Monto Total 2020-2026: 38,07 MM Bs; Monto Total 2026: 6,28 MM Bs; FINANCIAMIENTO: RECURSOS PROPIOS; Población Beneficiada (Periodo 2020 - 2026): 4962 BENEFICIARIOS; Población Beneficiada (Gestión) 2026): 495 BENEFICIARIOS; Municipio Beneficiarios: MUNICIPIO DE SAN LUCAS, CAMARGO, VILLA ABECIA, CULPINA, INCAHUASI, VILLA CHARCAS Y LAS CARRERAS; Avance Físico Acumulado del Proyecto en %: 84.48%; Avance Financiero Acumulado del Proyecto en %: 81,59%",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 16:25",
+    "Entidad del Estado": "Ministerio de Hidrocarburos y Energías (ENDE)",
+    "Nombre completo del funcionario": "Gonzalo Lucero",
+    "Telefono": "72079700",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "Proyecto: “CONST. ELECTRIFICACION RURAL CULPINA (CHUQUISACA)”, El Proyecto de CONST. ELECTRIFICACION RURAL CULPINA (CHUQUISACA) consiste en la construcción de 59,56 km de líneas de media tensión, 53,09 km de redes de baja tensión y 38 puestos de transformación MT/BT, ampliando la cobertura del servicio eléctrico a zonas rurales.",
+    "Fecha tentativa de la presentación": "12/26/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Monto Total 8.014.554,39 Bs; FINANCIAMIENTO: BID; ENTIDAD EJECUTORA: ENDE MATRIZ ; Población Beneficiada: 327 BENEFICIARIOS; Municipio Beneficiario: CULPINA; Avance Físico Acumulado del Proyecto en %: 0.0%; Avance Financiero Acumulado del Proyecto en %: 0,0%, FECHA DE INICIO: 01/04/2026; FECHA CONCLUSIÓN: 26/12/2026",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 16:32",
+    "Entidad del Estado": "Ministerio de Hidrocarburos y Energías (ENDE)",
+    "Nombre completo del funcionario": "Gonzalo Lucero",
+    "Telefono": "72079700",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. ELECTRIFICACIÓN RURAL DISTRITO SUPAS MUNICIPIO DE VILLAS CHARCAS (CHUQUISACA)",
+    "Fecha tentativa de la presentación": "11/11/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Monto Total 6.446.955,73 Bs; FINANCIAMIENTO: BID; ENTIDAD EJECUTORA: ENDE MATRIZ ; Población Beneficiada: 336 BENEFICIARIOS; Municipio Beneficiario: VILLA CHARCAS; Avance Físico Acumulado del Proyecto en %: 0.0%; Avance Financiero Acumulado del Proyecto en %: 0,0%, FECHA DE INICIO: 17/03/2026; FECHA CONCLUSIÓN: 11/11/2026",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 16:37",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Juan Jose",
+    "Telefono": "78793238",
+    "Tipo de intervención": "Programa",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "PROGRAMA DE ALIANZAS RURALES III, Contribuir a incrementar la seguridad alimentaria, el acceso a mercados y la adopción de enfoques climáticamente inteligentes por parte de los beneficiarios del proyecto a nivel nacional\n",
+    "Fecha tentativa de la presentación": "12/31/27",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "llegar a 255.800 familias productoras en los nueve departamentos con insumos agropecuarios, equipamientos y otros (puentes, caminos, sistemas de riego entre los mas relevantes)",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 16:47",
+    "Entidad del Estado": "Ministerio de Hidrocarburos y Energías (ENDE)",
+    "Nombre completo del funcionario": "Gonzalo Lucero",
+    "Telefono": "72079700",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "Proyecto: CONST. PLANTA DE GENERACIÓN HIDROELÉCTRICA IVIRIZU\"\" Componente Línea de Transmisión 230 kV Interconexión IVIRIZU al SIN”, El proyecto Línea de Transmisión Interconexión de Ivirizu al SIN, permitira la inyección de la energía eléctrica generada por las centrales de Sehuencas y Juntas al sistema interconectado nacional mediante la construcción de la línea de transmisión eléctrica 230 kV Santiváñez II - Sehuencas y línea de transmisión eléctrica 230 kV Sehuencas – Sucre contemplando además, la ampliación de las subestaciones eléctricas de Santiváñez ii, Sucre y la incorporación de un nodo de compensación próximo a la población de Mizque”",
+    "Fecha tentativa de la presentación": "7/2/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Monto Total 674.943.235 Bs; FINANCIAMIENTO: RECURSOS PROPIOS; ENTIDAD EJECUTORA: ENDE MATRIZ ; Población Beneficiada: USUARIOS DEL SIN, CON EL REFUERZO EN EL SISTEMA TRONCAL INTERCONECTADO EN SISTEMA CENTRAL Y SUD; Municipio Beneficiario: SANTIVAÑEZ, MIZQUE, TOTORA, SUCRE; Avance Físico Acumulado del Proyecto en %: 80.50%; Avance Financiero Acumulado del Proyecto en %: 60,78%, FECHA DE INICIO: 04/12/2023; FECHA CONCLUSIÓN: CIRCUITO 1: SANTIVAÑEZ II – SEHUENCAS (02/07/2026); CIRCUITO 2: SANTIVAÑEZ II – SUCRE (11/12/2026)",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 16:54",
+    "Entidad del Estado": "Ministerio de Hidrocarburos y Energías (ENDE)",
+    "Nombre completo del funcionario": "Gonzalo Lucero",
+    "Telefono": "72079700",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "Proyecto: CONST. PLANTA SOLAR OCCIDENTE (CHUQUISACA)\"\" El proyecto \"\"Planta Solar Occidente (Chuquisaca)\"\", tendrá una potencia de 30 MW que serán inyectados al SIN mediante el uso de tecnología fotovoltaica. Contribuyendo al desplazamiento de gas natural y la reducción de emisiones de Gases de Efecto durante la vida útil del proyecto",
+    "Fecha tentativa de la presentación": "12/30/27",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Monto Total Preinversion: 2.211.640 Bs; FINANCIAMIENTO: RECURSOS PROPIOS; ENTIDAD EJECUTORA: ENDE MATRIZ ; Población Beneficiada: Usuarios del Sistema Interconectado Nacional (SIN); Municipio Beneficiario: YAMPARAEZ; Avance Físico Acumulado del Proyecto en %: 53.20%; Avance Financiero Acumulado del Proyecto en %: 24,92%, FECHA DE INICIO: 01/01/2025; FECHA CONCLUSIÓN: 30/12/2027",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:18",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Ninfa Quisbert Saavedra",
+    "Telefono": "71542221",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR BELLA VISTA - SAPAHAQUI: Proyectar la Construcción del Puente Vehicular Bella Vista en el área de influencia de éste, desde el punto de vista de los beneficios socioeconómicos para la población.",
+    "Fecha tentativa de la presentación": "7/17/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Ejecutar la mejor solución estructural desde el punto de vista tanto técnico, económico y ambiental, Implementar métodos constructivos basados en las mejores prácticas de ingeniería, Emplazar de manera efectiva todos los elementos del puente, incluidos los accesos y Mejorar el sistema de vialidad caminera en la zona permitiendo optimizar la transitabilidad de personas y productos.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:23",
+    "Entidad del Estado": "MDRyA",
+    "Nombre completo del funcionario": "RICARDO URGEL PINTO",
+    "Telefono": "62018048",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR RIO CAUNA G.A.M. CARANAVI",
+    "Fecha tentativa de la presentación": "5/21/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Construir un puente vehicular de longitud de 30 metros, de tipología viga losa, con infraestructura formado por estribos de HºAº, superestructura soportado por dos vigas postensadas de HºAº de 1.60 m de altura además construcción de losa, aceras y barandas en HºAº.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:23",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Ninfa Quisbert Saavedra",
+    "Telefono": "71542221",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR MACHACAMARCA: Vincular a las poblaciones del área de influencia del proyecto, implementando un proyecto de construcción de un puente para mejorar las condiciones de transitabilidad, y asegurando un tráfico fluido en toda Época del año.",
+    "Fecha tentativa de la presentación": "7/17/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Construir un puente vehicular sobre el Río Katari, de una longitud de 30,00 m, con ancho de calzada de 4,0 m. con paso peatonal en ambos lados, que garantice la transitabilidad durante todo el año. Costo Total del Proyecto: Bs1.549.422. Mejorar las condiciones socioeconómicas de 110 familias campesinas de las Comunidades que se encuentran en el área de influencia, coadyuvando al mejoramiento de la integración física, económica y social entre las poblaciones beneficiadas del Municipio de Laja con los centros de producción y mercado aledaños.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:23",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "MADELEY M. ALVAREZ A.",
+    "Telefono": "60550595",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. BIOPLANTA DE PRODUCCIÓN E IRRADIACIÓN DE LA MOSCA DE LA FRUTA, DEPTO. COCHABAMBA",
+    "Fecha tentativa de la presentación": "6/17/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO: 1.241.211,00",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:23",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Mónica Barrientos Fernández",
+    "Telefono": "79109159",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR JISKA COLLANTACA MUNICIPIO LAJA DPTO LA PAZ",
+    "Fecha tentativa de la presentación": "7/7/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Bs. 756689\n-Incrementar la producción agrícola en el cantón de LAJA y sus alrededores mediante la implementación de infraestructura vial adecuada con la construcción de un puente vehicular.\n-Diversificar la producción dentro del cantón y de esta manera contribuir con el desarrollo y capacidad de los productores\n-Construcción de un puente vehicular con plataforma de HoAo e infraestructura de HºAº.\n-Construir obras complementarias y de protección como: cunetas, accesos al puente, gaviones, etc.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:25",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Ninfa Quisbert Saavedra",
+    "Telefono": "71542221",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR QUELLA QUELLA (LAJA): La construcción de un puente vehicular para vincular la comunidad de Quella Quella con las comunidades aledañas, para mejorar las condiciones de transitabilidad, y asegurando un tráfico fluido en toda Época del año.",
+    "Fecha tentativa de la presentación": "7/17/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Construir un puente vehicular de una longitud de 20.00 m, con ancho de calzada de 4.0 m. con paso peatonal en ambos lados, que mejore las condiciones de transitabilidad, permitiendo mejorar las actividades económicas de la región durante todo el año. Costo total del Proyecto: Bs850.377. Mejorar las condiciones socioeconómicas de 141 familias campesinas de las Comunidades que se encuentran en el área de influencia, coadyuvando al mejoramiento de la integración física, económica y social entre las poblaciones beneficiadas del Municipio de Laja con los centros de producción y mercado aledaños.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:26",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "JUAN JOSE VELASQUEZ MAMANI",
+    "Telefono": "78793238",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. MURO DE CONTENCIÓN EN RIO LA PAZ COMUNIDAD AVIRCATO MUNICIPIO MECAPACA",
+    "Fecha tentativa de la presentación": "5/21/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "CON UNA INVERSION DE BS 2.396.523, Implementar una infraestructura de muro de contención, Proteger y recuperar las áreas cultivables, Mejorar las condiciones de vida",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:26",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Jorge Andrés Salinas Trigo",
+    "Telefono": "72594593",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "IMPLEM. OBRAS DE CONTROL HIDRAULICO EN ZONAS DE RIESGO MUNICIPIO DE VILLAMONTES 1RA FASE",
+    "Fecha tentativa de la presentación": "6/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO TOTAL BS. 6.285.375, construcción de defensivos de protección con malla de gavión, que serán ubicados en las zonas de alto riesgo de inundación en los márgenes de los ríos que circundan las comunidades de Pelicano, Tarairi, Igüembe y Palmar Estación pertenecientes al municipios de Villamontes.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:26",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "MADELEY. M. ALVAREZ A.",
+    "Telefono": "60550595",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "DESAR. PROG. RIEGO SIRIC KFW CONSULTORA S.A.",
+    "Fecha tentativa de la presentación": "7/31/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO: 51.315.371,00\nOBJETIVO: Contribuir a la reducción de la pobreza a través de:\na) El aumento de los ingresos agrícolas de los agricultores participantes en el Programa\nb) El fomento de cambios estructurales en el sector de riego\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:27",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Mónica Barrientos Fernández",
+    "Telefono": "79109159",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR CALA CALA ALTA MUNICIPIO DE ACHACACHI DPTO DE LA PAZ",
+    "Fecha tentativa de la presentación": "7/7/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Bs. 815210, Construir con un PUENTE VEHICULAR que permita implementar un paso seguro y permanente sobre el curso de agua de RIO JALSU que impiden el paso de vehículos durante la temporada de lluvias. De esta manera, se logrará la integración y vinculación segura y efectiva de las poblaciones y comunidades del área de influencia de manera permanente con los centros de consumo, mediante la ejecución del proyecto de CONSTRUCCIÓN PUENTE VEHICULAR CALA CALA ALTA de 15 metros de longitud de hormigón Armado, de un solo tramo para beneficiar directamente a las familias de la comunidad de: CALA CALA ALTA - PONGUNHUYO, con el fin de contribuir al desarrollo económico e integración de las comunidades de este sector y mejorar la calidad de vida de las diferentes familias.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:27",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Marvin Alejandro Arias Herrera",
+    "Telefono": "69221211",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PLANTA DE TRATAMIENTO DE AGUA POTABLE CIUDAD TRINIDAD - BENI",
+    "Fecha tentativa de la presentación": "6/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Inversión de Bs. 184.683.254,00 con el objetivo de diseñar y construir un Sistema de Agua Potable, enfocado en la captación de aguas superficiales del rio Ibare, su planta de tratamiento de aguas y el tendido de redes de distribución; las obras estarán ubicadas en el municipio de Trinidad.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:27",
+    "Entidad del Estado": "MDRyA",
+    "Nombre completo del funcionario": "RICARDO URGEL PINTO",
+    "Telefono": "62018048",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR COHANA G.A.M. PUCARANI",
+    "Fecha tentativa de la presentación": "7/8/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Realizar la construcción del puente vehicular, que vincule a las comunidades beneficiarias del sector.\nFortalecer la producción agropecuaria mediante la construcción del puente vehicular, facilitando así el acceso de los pobladores agropecuarios a las comunidades de la región y a los centros de comercialización más cercanos y a las ciudades\nOptimizar las condiciones de transporte para los productores de la zona de influencia, quienes se encargan del transporte de productos agropecuarios.\nMejorar las condiciones socioeconómicas de las familias beneficiarias directos e indirectos de la Zona, coadyuvando al mejoramiento de la integración física, económica y social entre las poblaciones beneficiadas del Municipio con los centros de producción permitiendo acceso y salida de productos agropecuarios a los mercados locales y departamentales.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:28",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Ninfa Quisbert Saavedra",
+    "Telefono": "71542221",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR CANTAPA : Vincular a las poblaciones del área de influencia del proyecto, implementando un proyecto de construcción de un puente para mejorar las condiciones de transitabilidad, y asegurando un tráfico fluido en toda Época del año.",
+    "Fecha tentativa de la presentación": "7/18/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Construir un puente vehicular el Río Cantapa de una longitud de 30,00 m, con ancho de calzada de 4,0 m. con paso peatonal en ambos lados, que permita facilitar y mejorar la transitabilidad vehicular y peatonal durante todo el año. Costo Total del Proyecto: Bs1.546.926; Mejorar las condiciones socioeconómicas de 120 familias campesinas de las Comunidades que se encuentran en el área de influencia, coadyuvando al mejoramiento de la integración física, económica y social entre las poblaciones beneficiadas del Municipio de Laja con los centros de producción y mercado aledaños.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:29",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "SAUL MEJIA RIVAS",
+    "Telefono": "71887299",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. MURO DE CONTENCIÓN EN RíO LA PAZ COMUNIDAD LLACASA, MUNICIPIO MECAPACA:",
+    "Fecha tentativa de la presentación": "7/21/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Implementar la construcción de un muro de contención con base técnica del diseño para la protección de los cultivos de las riadas.\nProteger y recuperar las áreas cultivables para una mayor producción agrícola de las familias de la comunidad de Llacasa. Costo Total de la Intervencion Bs. 2.495.484,00",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:30",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "JUAN JOSE VELASQUEZ MAMANI",
+    "Telefono": "78793238",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. SISTEMA DE RIEGO TURURU",
+    "Fecha tentativa de la presentación": "7/21/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Con una Inversion de Bs. 1.571.783,00; Coadyuvar a mejorar las condiciones de vida y seguridad alimentaría de los pobladores de la comunidad de Los Sotos, incrementando sus ingresos (acceso a los alimentos), a través de la implementación de sistemas de riego que permitan el uso de agua en forma permanente para la producción agrícola y frutícola",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:30",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Jorge Andrés Salinas Trigo",
+    "Telefono": "72594593",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "RESTAU. DE PALEOCAUCES EN EL CONO ALUVIAL DEL RIO PILCOMAYO - PARA RIEGO, PROVINCIA GRAN CHACO",
+    "Fecha tentativa de la presentación": "5/20/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO TOTAL BS. 3.957.674, restaurar los paleocauces en la llanura chaqueña para represar agua tomada del Rio Pilcomayo no afectando el caudal mínimo del rio, para crear una laguna artificial que permita almacenar un volumen aproximado de 138 hectómetros, garantizando agua para riego alcanzando una cobertura de 6.890 ha.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:31",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Ninfa Quisbert Saavedra",
+    "Telefono": "71542221",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR ORKOJIPIñA (LAJA): La construcción de un puente vehicular para vincular la comunidad de Orkojipiña con las comunidades aledañas, para mejorar las condiciones de transitabilidad, y asegurando un tráfico fluido en toda Época del año.",
+    "Fecha tentativa de la presentación": "7/18/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "El proyecto pretende construir un puente vehicular sobre el Río Challajahuira de una longitud de 13.00 m, con ancho de calzada de 4.00 m. con paso peatonal, Superestructura construida de H°A°, asi como la construccion de accesos y gaviones como obras de proteccion; Costo total del proyecto: Bs611.108; Mejorar las condiciones socioeconómicas de 150 beneficiarios directos de la Comunidad de Orkojipiña e indirectamente a otras comunidades y municipios aledaños como es el caso del Municipio de Pucarani y permitir el acceso directo hacia la carretera a Copacabana, coadyuvando al mejoramiento de la integración física, económica y social entre las poblaciones beneficiadas del Municipio con los centros de producción y mercado aledaños.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:31",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "SAUL MEJIA RIVAS",
+    "Telefono": "71887299",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. SISTEMA DE RIEGO TICA PAMPA : Mejorar la disponibilidad de agua en cantidad y calidad necesaria en todo el ciclo agrícola mediante la construcción de un Sistema de Riego en la comunidad de Tica Pampa con todos los componentes, permitiendo mejorar los ingresos económicos provenientes de la actividad agrícola.",
+    "Fecha tentativa de la presentación": "6/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Alcanzar 38,89 hectáreas increméntales con una producción agrícola diversificada.\nBeneficiar a 50 Familias compuesta de pequeños agricultores mediante el incremento de la producción y productividad agrícola.\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:31",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Mónica Barrientos Fernández",
+    "Telefono": "79109159",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR JALLPUSU PONGONHUYO MUNICIPIO DE ACHACACHI DPTO DE LA PAZ",
+    "Fecha tentativa de la presentación": "7/7/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Bs. inversion 1003583 Construir un Puente Vehicular con una longitud total de 18.60 mts., de hormigón Armado y superestructura de hormigón postensado, de un solo tramo, con un ancho de calzada de 4.0 mts., de una sola vía, el cual permitirá el tráfico vehicular los 12 meses del año, vinculando las poblaciones del área de influencia con los centros de comercialización garantizando el traslado de la producción a los centros de compra y venta.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:31",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Marvin Alejandro Arias Herrera",
+    "Telefono": "69221211",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "AMPL. DEL SISTEMA DE AGUA POTABLE VILLAZON POTOSI",
+    "Fecha tentativa de la presentación": "6/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Inversión de Bs. 66.149.123,00 para mejorar las condiciones de vida de los pobladores de la ciudad de Villazon, a través del abastecimiento de agua segura en condiciones técnicas y sanitarias adecuadas, con un servicio eficiente, asimismo, implementar un proceso de fortalecimiento institucional para lograr la autogestión y sostenibilidad",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:32",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "JUAN JOSE VELASQUEZ MAMANI",
+    "Telefono": "78793238",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "AMPL. SISTEMA DE RIEGO LOS SOTOS",
+    "Fecha tentativa de la presentación": "7/15/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Con una inversión de Bs. 1.713.634,00; implementación de un sistema de riego, que permitirá mejorar las condiciones de vida de la población beneficiaria a través del incremento de su producción agrícola \n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:33",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Mónica Barrientos Fernández",
+    "Telefono": "79109159",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR IGACHI, MUNICIPIO DE BATALLAS",
+    "Fecha tentativa de la presentación": "7/7/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Bs. 837.382,00 Mejorar las condiciones de vida de los habitantes de la zona proyecto, brindándoles seguridad en el transporte peatonal y vehicular, además de permitirles la extracción de productos agrícolas de las zonas de producción a los centros de comercialización más convenientes para el agricultor, principalmente a la ciudad comercial de Batallas. \n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:33",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Ninfa Quisbert Saavedra",
+    "Telefono": "71542221",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR QUERQUETA (LAJA): Vincular a las poblaciones del área de influencia del proyecto, implementando un proyecto de construcción de un puente para mejorar las condiciones de transitabilidad, y asegurando un tráfico fluido en toda Época del año.",
+    "Fecha tentativa de la presentación": "7/18/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Construir un puente vehicular el Río Querqueta de una longitud de 30,00 m, con ancho de calzada de 4,0 m. con paso peatonal en ambos lados que permita garantizar la transitabilidad vehicular y peatonal durante todo el año; Costo Total del Proyecto: 1.513.436; Mejorar las condiciones socioeconómicas de 120 familias campesinas de las Comunidades que se encuentran en el área de influencia, coadyuvando al mejoramiento de la integración física, económica y social entre las poblaciones beneficiadas del Municipio de Laja con los centros de producción y mercado aledaños.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:33",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Jorge Andrés Salinas Trigo",
+    "Telefono": "72594593",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. SISTEMA DE RIEGO TECNIFICADO PRESA JALLAYCU - BATALLAS",
+    "Fecha tentativa de la presentación": "5/5/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO TOTAL DEL PROYECTO BS. 1.056.909, Incrementar los ingresos económicos provenientes de la producción agrícola, a través de la implementación de una infraestructura de riego para las familias campesinas de las comunidades Suriquiña, Pairomani Suriquiña, Suriquiña, Jichuraci, Huancane, Janko Kala, San Calixto, Calacoto Turistico, Comanche, Dotar de riego permanente y seguro (ABRO) a 304,0 ha.\nBeneficiar a 715 familias de manera directa.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:34",
+    "Entidad del Estado": "MDRyA",
+    "Nombre completo del funcionario": "RICARDO URGEL PINTO",
+    "Telefono": "62018048",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR COM. QUIRCOHA G.A.M. DE PUCARANI",
+    "Fecha tentativa de la presentación": "7/8/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Inversion (bs) 1.626.082; Objetivo : Contribuir al incremento de la producción agropecuaria de las comunidades beneficiarias del proyecto, a través de la CONSTRUCCIÓN PUENTE VEHICULAR QUIRCOHA, proveyéndolas una vía para una óptima de transitabilidad, que Integre física, social y económica a las comunidades beneficiarias.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:34",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "MADELEY. M. ALVAREZ A.",
+    "Telefono": "60550595",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "IMPLEM. PROGRAMA MAS INVERSION PARA EL AGUA (MIAGUA) - FASE V NACIONAL\n",
+    "Fecha tentativa de la presentación": "6/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO: 31.574.650,00\nOBJETIVO: Contribuir a mejorar las condiciones de vida y de salud de la población a través del incremento del acceso y de la calidad en la provisión del servicio de agua y saneamiento en el territorio nacional.\nAumentar la resiliencia de las familias rurales ante los impactos negativos del cambio climático y reducir su vulnerabilidad en relación con la variabilidad y variaciones climáticas.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:35",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "JUAN JOSE VELASQUEZ MAMANI",
+    "Telefono": "78793238",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. MURO DE CONTENCION COM. LAS CARRERAS (MECAPACA)",
+    "Fecha tentativa de la presentación": "7/16/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "con una inversion de Bs. 2.426.554,00; con un objetivo de mejorar las condiciones de producción agrícola, a través de la implementación de un muro de contención adyacente en el río La Paz, esto con el fin de proteger los cultivos de las riadas e inundaciones, impulsando el desarrollo integral de la población para el bienestar de las familias productoras de la comunidad Las Carreras\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:35",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "MADELEY. M. ALVAREZ A.",
+    "Telefono": "60550595",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "IMPLEM. PROGRAMA GESTION INTEGRAL DE RESIDUOS SOLIDOS EN BOLIVIA\n",
+    "Fecha tentativa de la presentación": "7/31/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO: 10.708.247,00\nOBJETIVO: Apoyar a la ejecución del programa en mejorar la gestión de los residuos solidos urbanos en municipios del Estado Plurinacional de Bolivia.\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:35",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Marvin Alejandro Arias Herrera",
+    "Telefono": "69221211",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "IMPLEM. DEL PROGRAMA SISTEMA DE ADUCCION AREA METROPOLITANA COCHABAMBA",
+    "Fecha tentativa de la presentación": "6/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Inversión de Bs 19.532.225,00 con el objetivo de contribuir al acceso a servicios de agua potable gestionados de manera segura para cerca de 450.000 habitantes en el área metropolitana de Cochabamba.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:35",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "SAUL MEJIA RIVAS",
+    "Telefono": "71887299",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. SISTEMA DE RIEGO TORREJON GRANDE VITICHI :Contribuir al mejoramiento de la calidad de vida de los habitantes de la comunidad de Torrejón Grande, a través de la implementación de un sistema de riego que posibilite el incremento de los niveles de producción y productividad agrícola, como consecuencia de la mayor disponibilidad de agua y su aprovechamiento eficiente para la producción, determinando la generación de mayores ingresos económicos familiares provenientes de la actividad agro productiva",
+    "Fecha tentativa de la presentación": "6/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": " Optimizar el aprovechamiento de los recursos hídricos disponibles, mediante la construcción de una infraestructura de riego que permita la dotación oportuna y suficiente de agua a los cultivos.\n Incrementar y diversificar la producción agrícola como consecuencia de la mayor disponibilidad de agua para riego, alcanzando niveles de producción que permitan satisfacer la demanda del consumo familiar y generar excedentes para la comercialización.\n Desarrollar las capacidades de autogestión sostenida de los beneficiarios para el manejo y administración del sistema de riego, que posibiliten la consolidación de una organización eficiente en torno al riego.\nCosto del Proyecto : Bs. 2.045.504,00",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:36",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Mónica Barrientos",
+    "Telefono": "79109159",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR ALTO PEÑAS, MUNICIPIO BATALLAS",
+    "Fecha tentativa de la presentación": "7/7/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Bs. 782301, Mejorar las condiciones de vida de los habitantes de la zona proyecto, brindándoles seguridad en el transporte peatonal y vehicular, además de permitirles la extracción de productos agrícolas de las zonas de producción a los centros de comercialización más convenientes para el agricultor, principalmente a la ciudad comercial de Batallas.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:36",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Ninfa Quisbert Saavedra",
+    "Telefono": "71542221",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR SACACANI (LAJA): Vincular a las poblaciones del área de influencia del proyecto, implementando un proyecto de construcción de un puente para mejorar las condiciones de transitabilidad, y asegurando un tráfico fluido en toda Época del año.",
+    "Fecha tentativa de la presentación": "7/18/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Construir un puente sobre el Río Sacacani de una longitud de 12.50m, con ancho de calzada de 4.00 m. con paso peatonal que garantice la transitibilidad peatonal y vehicular durante todo el año; Costo Total del Proyecto: Bs630.325; Mejorar las condiciones socioeconómicas de 154.00 familias de la comunidad Sacacani, coadyuvando al mejoramiento de la integración física, económica y social entre las poblaciones beneficiadas del Municipio de Laja con los centros de producción y mercado aledaños.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:36",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "JUAN JOSE VELASQUEZ MAMANI",
+    "Telefono": "78793238",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR SUCUMAYU, COMUNIDAD PALAJLA\n",
+    "Fecha tentativa de la presentación": "5/21/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Con una inversion de Bs. 1.080.344,00 y un objetivo de \"\"Posibilitar la conexión permanente entre las comunidades beneficiadas, para acrecentar el intercambio comercial entre las comunidades de Palajla con el Centro Poblado de Poroma y comunidades aledañas tanto del municipio y el departamento, permitiendo la consolidación de un sistema integral de transporte para atender las necesidades de la región, y de esta manera mejorar las condiciones de vida de sus habitantes, elevando el nivel económico, educativo y participativo, a la vez promoviendo el uso racional de recursos\"\"",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:37",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "RICARDO URGEL PINTO",
+    "Telefono": "62018048",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR LITORAL G.A.M. DE PUCARANI",
+    "Fecha tentativa de la presentación": "7/8/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Inversion (Bs): 2.671.993,00: Objetivo: Realizar la construcción del puente vehicular, que vincule a las comunidades beneficiarias del sector.\nFortalecer la producción agropecuaria mediante la construcción del puente vehicular, facilitando así el acceso de los pobladores agropecuarios a las comunidades de la región y a los centros de comercialización más cercanos y a las ciudades\nOptimizar las condiciones de transporte para los productores de la zona de influencia, quienes se encargan del transporte de productos agropecuarios.\nMejorar las condiciones socioeconómicas de las familias beneficiarias directos e indirectos de la Zona, coadyuvando al mejoramiento de la integración física, económica y social entre las poblaciones beneficiadas del Municipio con los centros de producción permitiendo acceso y salida de productos agropecuarios a los mercados locales y departamentales.\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:37",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "MADELEY. M. ALVAREZ A.",
+    "Telefono": "60550595",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "IMPLEM. GESTION INTEGRAL DE RESUDUOS SOLIDOS POTOSI\n",
+    "Fecha tentativa de la presentación": "7/31/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO: 62.751.261,84\nOBJETIVO: Mejorar la gestión de los Residuos Sólidos Urbanos (RSU) en el Municipio de Potosí, mediante la implementación de esquemas integrales que incluyan los servicios de barrido, limpieza, recolección, transporte, aprovechamiento y disposición final de RSU.\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:37",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Jorge Andrés Salinas Trigo",
+    "Telefono": "72594593",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. REPRESA PUKA CHULO - LAGUNA GRANDE, (RAQAYPAMPA)",
+    "Fecha tentativa de la presentación": "5/5/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO TOTAL BS. 990.575, se garantizara la distribución de agua para riego de manera continua, mediante la construcción de una presa, red de conducción, distribución e infraestructura necesaria, garantizando la producción de la zona y evitando perdidas en la producción, con 351 hectáreas bajo riego óptimo, para mejorar la calidad de vida de las 138 familias beneficiarias.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:38",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "MADELEY. M. ALVAREZ A.",
+    "Telefono": "60550595",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "MEJ. Y AMPL. DEL SISTEMA DE AGUA POTABLE (INTEGRAL) CARANAVI - LA PAZ\n",
+    "Fecha tentativa de la presentación": "6/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO: 52.262.099,00\nOBJETIVO: Contribuir al mejoramiento del nivel de vida de los pobladores de Caranavi, de tal manera de incrementar el bienestar económico y social de la población, a través de la mejora de la calidad y cantidad de agua potable dotada a la población, mediante la ampliación y mejoramiento de del sistema de agua potable (Integral) de la ciudad de Caranavi.\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:38",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Ninfa Quisbert Saavedra",
+    "Telefono": "71542221",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR MASAYA - CHACALLETA (LAJA): Contribuir a mejorar las condiciones de vida de las comunidades Masaya y Chacalleta, a través de la construcción del puente vehicular, que permita vincular de manera permanente y segura con el centro poblado de Laja y Pucarani y poblaciones aledañas durante todo el año.",
+    "Fecha tentativa de la presentación": "7/18/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "El proyecto pretende construir un puente vehicular sobre el Río Katari de una longitud de 30,00 m, con ancho de calzada de 4,00 m. con paso peatonal, Superestructura construida de H°A° y H°P°, asi como la conformacion de accesos y la construccion de colchonetas y gaviones como obras de proteccion; Costo Total del Proyecto: Bs1.519.861; Mejorar las condiciones socioeconómicas de 120 familias campesinas de las Comunidades que se encuentran en el área de influencia, coadyuvando al mejoramiento de la integración física, económica y social entre las poblaciones beneficiadas del Municipio de Laja con los centros de producción y mercado aledaños.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:38",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "JUAN JOSE VELASQUEZ MAMANI",
+    "Telefono": "78793238",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR COMUNIDAD SOCABON (VILLA SERRANO)",
+    "Fecha tentativa de la presentación": "5/21/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Con una inversión de Bs. 1.103.912,00 y un objetivo de Fortalecer al Desarrollo Productivo mejorando las condiciones para la actividad agrícola, en base a la construcción de un puente vehicular en la comunidad de Socabon, en el municipio Villa Serrano.\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:38",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "SAUL MEJIA RIVAS",
+    "Telefono": "71887299",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR HUAñICA: Realizar la construcción de un puente vehicular en el río Huañica, con el fin de mejorar las vías de acceso para que sean transitables en cualquier época del año, garantizando el desarrollo económico – social y bienestar de las familias del sector",
+    "Fecha tentativa de la presentación": "5/19/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "- Implementar un puente vehicular adecuada, para la reintegración de las comunidades a su vez brindar la seguridad de la circulación de vehículos y peatones que viven en el lugar.\n- Mejorar la transitabilidad y circulación de los vehículos en cualquier época del año.\n- Contribuir a la mejora del transporte en la zona, garantizando el transporte de la producción agrícola y pecuaria de las familias involucradas en el proyecto a los centros de consumo.\n- Mejorar la calidad de vida de la población, incrementando la producción agrícola y pecuaria de las familias.\nCosto Total : 665.512,00",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "11/05/2026 17:38:58",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Mónica Barrientos",
+    "Telefono": "79109159",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR CRUZANI, MUNICIPIO DE BATALLAS",
+    "Fecha tentativa de la presentación": "7/7/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Bs. 885137, Construir un puente vehicular para mejorar las condiciones de vida de los habitantes de la zona proyecto, brindándoles seguridad en el transporte peatonal y vehicular, además de permitirles la extracción de productos agrícolas de las zonas de producción a los centros de comercialización más convenientes para el agricultor, principalmente a la ciudad comercial de Batallas.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:39",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "MADELEY. M. ALVAREZ A.",
+    "Telefono": "60550595",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. ADUCCION 1 PTAP JOVE RANCHO TIQUIPAYA - COCHABAMBA - SACABA\n",
+    "Fecha tentativa de la presentación": "6/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO: 280.931.669,00\nOBJETIVO: Coadyuvar en la reducción de la vulnerabilidad hidríca en el área metropolitana de Cochabamba, contribuyendo a la gestión integrada de los servicios de agua potable; asegurando la dotación de agua potable para los municipios de Tiquipaya, Cochabamba y Sacaba, garantizando la cantidad, calidad y continuidad de agua mediante la construcción de la infraestructura que permitirá trasvasar las aguas de la Planta de Tratamiento de Agua Potable de Jove-Rancho, para incrementar el caudal de suministro, contribuyendo de esta manera a la sostenibilidad del servicio. \n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:39",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "RICARDOURGEL PINTO",
+    "Telefono": "62018048",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR CHURUBAMBA G.A.M. DE CHUMA",
+    "Fecha tentativa de la presentación": "5/21/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Inversion: 773.949,00 (Bs): Objetivo: Construcción del Puente Vehicular con una longitud de 15.00 m de longitud, doble vía dotada de elementos de drenaje superficial, obras de seguridad, protección vial.\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:39",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Jorge Andrés Salinas Trigo",
+    "Telefono": "72594593",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PRESA Y SISTEMA DE RIEGO TECNIFICADO COMUNIDAD ICHOCA (ICHOCA)",
+    "Fecha tentativa de la presentación": "5/15/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO TOTAL BS. 888.819, Implementar un sistema integral de riego en la comunidad de Ichoca que garantice el abastecimiento continuo de agua a las parcelas agrícolas, potencie la productividad de los cultivos y eleve de forma sostenible los ingresos económicos de las familias campesinas. Garantizar el riego permanente y seguro (ABRO) en una superficie de 210,00 hectáreas agrícolas.\nBeneficiar de manera directa a 72 familias de la comunidad de Ichoca.\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:39",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Marvin Alejandro Arias Herrera",
+    "Telefono": "69221211",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "EQUIP. PARA MONITOREO DE CAUDAL Y PRESION CIUDAD DE TARIJA",
+    "Fecha tentativa de la presentación": "6/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Inversión de Bs. 4.800.000,00 con el objetivo de reducir las pérdidas y aumentar la eficiencia en la operación y de esta manera controlar y monitorear tanto la producción como la distribución de agua en los diferentes sistemas hidráulicos, para realizar la supervisión, registro y manejo en los distintos dispositivos, generando información y simplificando su procesamiento.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:40",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "MADELEY. M. ALVAREZ A.",
+    "Telefono": "60550595",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "MEJ. Y AMPL. DEL SIST. DE AGUA POTABLE PARA RECIENTES ASENTAMIENTOS URB. DE LA CIUDAD DE ORURO (APRAUR) FASE I\n",
+    "Fecha tentativa de la presentación": "6/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO: 98.609.475,00\nOBJETIVO: Incrementar la dotación de agua potable a la población de la ciudad de Oruro que tiene mayormente un servicio discontinuo, a través del mejoramiento y ampliación de los componentes de agua potable, para contar con un sistema en condiciones óptimas en cantidad y calidad que esté enmarcado entre los rangos exigidos por la norma boliviana, mejorando de esta manera el nivel y calidad de vida de la población de los asentamientos de reciente creación.\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:40",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "JUAN JOSE VELASQUEZ MAMANI",
+    "Telefono": "78793238",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "AMPL. DE SISTEMA DE RIEGO PRESURIZADO EL PERAL\n",
+    "Fecha tentativa de la presentación": "5/20/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Con una inversion de Bs. 3.438.646,00 y un objetivo de cambiar el sistema de riego existente de distribución por gravedad en un sistema de riego por aspersión, con el propósito de incrementar la eficiencia del uso de agua de riego de riego El Peral y con ello aumentar la producción agrícola y los ingresos económicos de las familias campesinas socias del sistema",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:40",
+    "Entidad del Estado": "MDPRYA",
+    "Nombre completo del funcionario": "Mónica Barrientos",
+    "Telefono": "79109159",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR RIO COMPUCO CHOJÑAPAMPA MUNICIPIO DE CAQUIAVIRI DPTO E LA PAZ",
+    "Fecha tentativa de la presentación": "7/7/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Bs. 1.619.608,00 Incrementar la producción agropecuaria y disminuir las perdidas post-cosecha en el área de influencia del proyecto, con la construccion de un puente vehicular.\nLos resultados obtenidos en el análisis de sensibilidad, a precios de mercado, muestran un\nincremento hasta un 10% a la inversión, tanto los resultados de la evaluación socioeconómica\ncomo los resultados del análisis de sensibilidad muestran que el proyecto muestra indicadores\neconómicos que hacen factible su ejecución del proyecto, los que se pueden apreciar en el\nsiguiente cuadro.\nCon la ejecución de las obras, se incrementará la producción agropecuaria con esto se obtiene niveles de rentabilidad económica y financiera que justifiquen ampliamente la inversión del proyecto, con perspectivas de realizar otros proyectos complementarios que busque satisfacer la visión de la comunidad, además con la implementación de este proyecto se garantiza el beneficio de 169 familias.\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:40",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "MADELEY. M. ALVAREZ A.",
+    "Telefono": "60550595",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. DEL SISTEMA DE AGUA POTABLE COROICO LA PAZ\n",
+    "Fecha tentativa de la presentación": "6/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:41",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Ninfa Quisbert Saavedra",
+    "Telefono": "71542221",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR Y ACCESOS MOLLE MOLLE: Mejorar las condiciones de accesibilidad y transitabilidad que permita el acceso a los mercados potenciales a los productores agropecuarios de las comunidades del municipio de Ravelo, provincia Chayanta, departamento de Potosí, Bolivia",
+    "Fecha tentativa de la presentación": "7/1/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Construcción de un puente vehicular de 42.6 metros de longitud y acho de vía de 7.3 metros con dos carriles, que permita la interconexión constante de las comunidades de Tomoyo, Molle Molle, Sorojchi y Yoroca con las comunidades aledañas y el resto del municipio y departamento, coadyuvando así al desarrollo económico productivo de la zona; Costo Total del Proyecto: Bs3.505.885;",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:41",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "SAUL MEJIA RIVAS",
+    "Telefono": "71887299",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR AñAHUAYANI : Realizar la construcción de un puente vehicular en el río Añahuayani, con el fin de mejorar las vías de acceso para que sean transitables en cualquier época del año, garantizando el desarrollo económico – social y bienestar de las familias del sector.",
+    "Fecha tentativa de la presentación": "5/19/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "- Implementar un puente vehicular adecuada, para la reintegración de las comunidades a su vez brindar la seguridad de la circulación de vehículos y peatones que viven en el lugar.\n- Mejorar la transitabilidad y circulación de los vehículos en cualquier época del año.\n- Contribuir a la mejora del transporte en la zona, garantizando el transporte de la producción agrícola y pecuaria de las familias involucradas en el proyecto a los centros de consumo.\n- Mejorar la calidad de vida de la población, incrementando la producción agrícola y pecuaria de las familias.\nCosto Total Bs. 669.339,00",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "11/05/2026 17:41:37",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "RICARDO URGEL PINTO",
+    "Telefono": "62018048",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR PAIRUMANI - HUARINA",
+    "Fecha tentativa de la presentación": "7/11/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Inversion: 3.083.781,00 (Bs); Objetivo: La CONSTRUCCION de un PUENTE VEHICULAR de 60 metros de longitud de 4 tramos y ancho de calzada de 4,0m \n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:41",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Jorge Andrés Salinas Trigo",
+    "Telefono": "72594593",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. REPRESA Y SISTEMA DE RIEGO TECNIFICADO JACHUMA (MUNICIPIOS DE MALLA, CAIROMA, LURIBAY Y SAPAHAQUI )",
+    "Fecha tentativa de la presentación": "5/19/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO TOTAL BS. 1.566.278, aprovechamiento eficiente del agua en la producción agrícola bajo riego, de esta manera incrementar los rendimientos de producción de los cultivos que contribuirá al mejoramiento de la calidad de vida de las familias beneficiarias de las comunidades de Jañumarca, Jachapampa, Huichuraya, Atoroma, Quebrada, Agua Salud, Kallankani, Kara, Sau Sau, Playa Lacayani, Anquioma Baja, Choquesa, Vilacora, Bravo, Bravillo Alto, Bravillo Santa Rosa, Chincha, Bravo Salviani, Anquioma Alta, Huallcota, Bravo Alto, Alto Rosario, Samaca Sewikarani, Poopo, Khola Alta, Khola Baja, Castilluma Sapini, Castilluma. Garantizar la producción agrícola en los meses junio, julio, agosto y septiembre de alrededor de 1065,37 hectáreas bajo riego tecnificado óptimo. Mejorar la calidad de vida de las 1553 familias beneficiarias de las 28 comunidades.\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:41",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "JUAN JOSE VELASQUEZ MAMANI",
+    "Telefono": "78793238",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR SAN LUIS - PALOS BLANCOS\n",
+    "Fecha tentativa de la presentación": "7/17/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Con una Inversion de Bs. 1.281.425,00 y un objetivo de Vincular a las poblaciones del área de influencia del proyecto, implementando un proyecto de construcción de un puente para mejorar las condiciones de transitabilidad, y asegurando un tráfico fluido en toda Época del año.\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:42",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Marvin Alejandro Arias Herrera",
+    "Telefono": "69221211",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. SISTEMA DE AGUA POTABLE SACABA",
+    "Fecha tentativa de la presentación": "6/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Inversión de Bs 76.173.124,00 para asegurar la dotación de agua potable a los habitantes de la ciudad de Sacaba, garantizando la cantidad, calidad y continuidad de agua mediante la construcción de una red principal, que permita en principio transportar aguas complementaria de la fuente de Misicuni hasta los diferentes OTBs, para su distribución en bloque, resolviendo de esta manera el problema del déficit actual existente en el abastecimiento de agua para el consumo doméstico y no doméstico en las áreas urbanas y periurbanas del Municipio de Sacaba.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:42",
+    "Entidad del Estado": "MDPRYA",
+    "Nombre completo del funcionario": "Mónica Barrientos",
+    "Telefono": "79109159",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR HUANCUYO, MUNICIPIO DE BATALLAS",
+    "Fecha tentativa de la presentación": "7/7/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Bs. 1.459.225,00 mejorar las condiciones de vida de los habitantes de la zona proyecto, brindándoles seguridad en el transporte peatonal y vehicular, además de permitirles la extracción de productos agrícolas de las zonas de producción a los centros de comercialización más convenientes para el agricultor. \n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:43",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "JUAN JOSE VELASQUEZ MAMANI",
+    "Telefono": "78793238",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR RIO SAN JUAN DE HORCAS - MUNICIPIO DE SOPACHUY\n",
+    "Fecha tentativa de la presentación": "5/21/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Con una inversion de Bs. 2.201.883,00 y un objetivo de Posibilitar la interconexión permanente del área del proyecto permitiendo incrementar el intercambio comercial entre las comunidades de San Juan de Horcas, Silva y Cuevas con el Centro Poblado de Sopachuy y el resto del departamento, permitiendo la consolidación de un sistema integral de transporte para atender las necesidades básicas y de esta manera mejorar las condiciones de vida de sus habitantes, elevando el nivel económico, educativo y participativo\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:43",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "SAUL MEJIA RIVAS",
+    "Telefono": "71887299",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR YAHUAROCO : Realizar la construcción de un puente vehicular en el río Yahuaroco, con el fin de mejorar las vías de acceso para que sean transitables en cualquier época del año, garantizando el desarrollo económico – social y bienestar de las familias del sector.",
+    "Fecha tentativa de la presentación": "5/19/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "- Implementar un puente vehicular adecuada, para la reintegración de las comunidades a su vez brindar la seguridad de la circulación de vehículos y peatones que viven en el lugar.\n- Mejorar la transitabilidad y circulación de los vehículos en cualquier época del año.\n- Contribuir a la mejora del transporte en la zona, garantizando el transporte de la producción agrícola y pecuaria de las familias involucradas en el proyecto a los centros de consumo.\n- Mejorar la calidad de vida de la población, incrementando la producción agrícola y pecuaria de las familias.\nCosto total Bs. 666.571,00",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "11/05/2026 17:43:46",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Ninfa Quisbert Saavedra",
+    "Telefono": "71542221",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "MEJ. CAMINO VECINAL TRAMO CRUCE MOLLE PUNKU - SAJPAYA MUNICIPIO YAMPARÁEZ: Mejorar la transitabilidad vehicular a la Comunidad de Molle Punku y Sajpaya.",
+    "Fecha tentativa de la presentación": "7/1/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Mejoramiento de camino tramo cruce Molle Punku Sajpaya del municipio de Yamparáez, a través de la construcción de obras de arte que permitan una conexión constante entre las comunidades de la subcentralia Sajpaya con el resto del municipio de Yamparáez y el departamento de Chuquisaca; Costo Total del Proyecto: Bs604.511; Lograr un sistema de transporte de carga por camino, transitable, segura, eficiente, económica y confiable, \nfacilitando la comunicación vial con los centros de consumo, Incorporar con el mejoramiento de la vía, importantes centros poblados y de producción de una importante \nregión al movimiento económico del municipio y el Departamento y Mejorar la integración de la comunidad con la región, municipio y del departamento.\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:44",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Jorge Andrés Salinas Trigo",
+    "Telefono": "72594593",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. REPRESA Y SISTEMA DE RIEGO CALA CAJA (CAPINOTA)",
+    "Fecha tentativa de la presentación": "6/12/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO TOTAL BS. 1.423.520, Garantizar a las comunidades de la zona: Buen Retiro, Viña Nueva, Pampa Capinota zona 5, Sikimirani, CollpaMayu, Alto Yatamoco, Yatamoco, Sakamalla, Villa Isrrael, Capinota zonas 4, 6 y 7, Chiniri, Sarco Kucho y Pirigallo la distribución de agua para riego de manera continua y de buena calidad, a través de la construcción de una presa, red de conducción, distribución e infraestructura, Garantizar la producción agrícola en alrededor de 1349 hectáreas bajo riego óptimo. \nMejorar la calidad de vida de las 855 familias beneficiarias.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:44",
+    "Entidad del Estado": "MDPRYA",
+    "Nombre completo del funcionario": "MONICA BARRIENTOS",
+    "Telefono": "79109159",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR HUAYHUASI MUNICIPIO DE SAPAHAQUI DPTO DE LA PAZ",
+    "Fecha tentativa de la presentación": "7/31/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Bs. 2490730 Mejorar las condiciones socioeconómicas de la zona de influencia del proyecto, incrementando los ingresos actuales de las familias beneficiarias, permitiendo el incremento de la comercialización agropecuaria mediante la construcción de un puente vehicular, el Proyecto pretende facilitar el flujo vehicular, reducir los costos de fletes y pasajes, como también mejorar el intercambio económico con los centros poblados aledaños.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:45",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "JUAN JOSE VELASQUEZ MAMANI",
+    "Telefono": "78793238",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR MONTE MAYOR - PALOS BLANCOS\n",
+    "Fecha tentativa de la presentación": "7/17/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Con una inversion de Bs. 689.546,00 y un objetivo de Vincular a las poblaciones del área de influencia del proyecto, implementando un proyecto de construcción de un puente para mejorar las condiciones de transitabilidad, y asegurando un tráfico fluido en toda Época del año.\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:45",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Jorge Andrés Salinas Trigo",
+    "Telefono": "72594593",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PRESA Y SISTEMA DE RIEGO TAIPI PARARANI (ACHACACHI)",
+    "Fecha tentativa de la presentación": "6/5/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO TOTAL BS. 741.574, Incrementar la producción agrícola para mejorar la calidad de vida de las familias campesinas de las comunidad de Taipi Pararani, incrementando sus ingresos económicos provenientes de la producción agrícola, a través de la implementación de una infraestructura de riego.Dotar de riego permanente y seguro (ABRO) a 152,22 ha.\nBeneficiar a 75 familias de manera directa.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:46",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Ninfa Quisbert Saavedra",
+    "Telefono": "71542221",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "AMPL. DE SISTEMA DE RIEGO SAN JOSE DE MOLLES - SAN ANTONIO MUNICIPIO DE YAMPARAEZ: Asegurar la disponibilidad de agua en cantidad y calidad necesaria en todo el ciclo agrícola mediante la ampliación de la red de distribución de agua del riego tecnificado",
+    "Fecha tentativa de la presentación": "6/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "La solución planteada al problema es la ampliación del sistema de riego existente en su red de distribución y a través de la optimización de la eficiencia del sistema de riego tanto en su infraestructura como en su gestión como tal, mejorar la producción agrícola y los ingresos de los beneficiarios; Costo Total del Proyecto: Bs1.575.944; La solución planteada al problema es la ampliación del sistema de riego existente en su red de distribución y a través de la optimización de la eficiencia del sistema de riego tanto en su infraestructura como en su gestión como tal, mejorar la producción agrícola y los ingresos de los beneficiarios; - Dotar agua de riego permanente a través de la ampliación de red de tubería hasta la cabecera de parcela de riego que permita optimizar el uso del agua, que será empleado en el riego de cultivos, tradicionales y hortícolas.\n- Consolidar el sistema de distribución de agua para el riego tecnificado hasta las parcelas, mediante la construcción de cámaras de purga, derivación y puentes pasarelas.\n- Determinar la operación y mantenimiento del sistema de riego.\n- Incrementar la producción agrícola con el fin de mejorar los ingresos económicos de las familias.\n- Asesorar a los productores regantes en la elaboración de modelos de negocios que identifique alternativas productivas bajo riego y de comercialización local y/o regional.\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:47",
+    "Entidad del Estado": "MDPRYA",
+    "Nombre completo del funcionario": "MONICA BARRIENTOS",
+    "Telefono": "79109159",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR EN EL RIO PUTANI MUNICIPIO DE CHARAÑA DPTO DE LA PAZ",
+    "Fecha tentativa de la presentación": "7/7/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "BS. 739.868,00 Construir un puente vehicular de una vía que contribuirá a la resiliencia ante eventos climáticos extremos, sino que también redundará en un aumento significativo en la calidad de vida de los residentes locales, fortaleciendo la cohesión comunitaria y fomentando un entorno propicio para el crecimiento sostenible\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:48",
+    "Entidad del Estado": "MDPRYA",
+    "Nombre completo del funcionario": "MONICA BARRIENTOS",
+    "Telefono": "79109159",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. INFRAESTRUCTURA PRODUCTIVA PUENTE VEHICULAR COMUNIDAD RINCON GRANDE GAM PADACAYA",
+    "Fecha tentativa de la presentación": "7/7/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Bs. 739.868,00 CONSTRUCCIÓN PUENTE VEHICULAR EN EL RIO PUTANI”, se fundamenta en la necesidad de hacer frente a las consecuencias devastadoras de la crecida del rio Putani recurrente en la zona especialmente durante la temporada húmeda, cuando la crecida del río alcanza niveles críticos y prácticamente imposibilitan el tránsito a través de la estructura actual. En este período, las condiciones deficientes del puente colapsado existente se incrementan, poniendo en riesgo la seguridad de quienes dependen de esta vía para sus desplazamientos diarios. El puente colapsado existente, afectado de manera considerable por las inclemencias del clima, además de ser insuficiente se ha vuelto deficiente y representa un riesgo potencial para la seguridad de quienes lo utilizan diariamente. La construcción de un puente es esencial para restablecer la conectividad y facilitar el tránsito de personas y mercancías, promoviendo así el desarrollo económico de las comunidades circundantes. Además, la mejora de la estructura del puente no solo contribuirá a la resiliencia ante eventos climáticos extremos, sino que también redundará en un aumento significativo en la calidad de vida de los residentes locales, fortaleciendo la cohesión comunitaria y fomentando un entorno propicio para el crecimiento sostenible\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:48",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Ninfa Quisbert Saavedra",
+    "Telefono": "71542221",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "MEJ. SISTEMA DE RIEGO KHOLA ALTA Y KHOLA BAJA: Mejorar las condiciones de vida de 138 familias de las comunidades de Khola Alta y Khola Baja del municipio de Sapahaqui, a través de la implementación de un sistema de riego que posibilite el incremento de los niveles de producción y productividad agrícola, y por tanto la generación de mayores ingresos económicos familiares provenientes de la actividad agro-productiva.",
+    "Fecha tentativa de la presentación": "7/21/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Con el presente proyecto, se pretender mejorar el aprovechamiento del agua para riego, lo cual permitirá mejorar los rendimientos de los actuales cultivos, pero también de introducir algunos nuevos cultivos, lo que, a su vez, permitirá contar con mayores volúmenes de producción con destino al mercado, permitiendo mejorar los ingresos económicos; Costo Total del Proyecto: Bs3.810.694; Mejorar las condiciones de vida de 138 familias de las comunidades de Khola Alta y Khola Baja del municipio de Sapahaqui, a través de la implementación de un sistema de riego que posibilite el incremento de los niveles de producción y productividad agrícola, y por tanto la generación de mayores ingresos económicos familiares provenientes de la actividad agro-productiva.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:50",
+    "Entidad del Estado": "MDPRYA",
+    "Nombre completo del funcionario": "MONICA BARRIENTOS FERNANDEZ",
+    "Telefono": "79109159",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. INFRAESTRUCTURA PRODUCTIVA PUENTE VEHICULAR CRUCE DE ROSILLAS GAM PADCAYA DPTO.TARIJA\n",
+    "Fecha tentativa de la presentación": "7/1/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "BS. 1.633.430,00 Construir de un puente vehicular de una vía sobre el Rio Cabildo que cumpla con las exigencias de las normas vigentes de manera que beneficie a la comunidad de Cruce de Rosillas para que estos puedan transportar su producción agropecuaria en épocas húmedas e incrementar sus ingresos.\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:56",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Jorge Andrés Salinas Trigo",
+    "Telefono": "72594593",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PRESA Y SISTEMA DE RIEGO TECNIFICADO TICA PAMPA (TOTORA)",
+    "Fecha tentativa de la presentación": "5/13/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO TOTAL BS. 739.133, Incrementar la producción agrícola para mejorar la calidad de vida de las familias campesinas de las comunidad de Tica Pampa, a través de la implementación de una infraestructura de riego que garantice la producción agrícola de manera estable e incrementen sus ingresos económicos, Dotar de riego permanente y seguro (ABRO) a 87,81 ha. Beneficiar a 54 familias de manera directa.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:57",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "RICARDO URGEL PINTO",
+    "Telefono": "62018048",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR CENTRAL 5 DE SEPTIEMBRE - PALOS BLANCOS",
+    "Fecha tentativa de la presentación": "5/20/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Inversion: 2.017.032,00: Objetivo: La gran dificultad de poder transportar productos, insumos, y semovientes a traves de un rio cuyo lecho supera los 30 metros, ante la inexistencia de una infraestructura vial que conecte ambas orillas. lo cual Construir un puente vehicular con las siguientes caracteristicas:\n-Longitud de puente: 38,00 metros\n-Ancho de vía: 4,00 metros\n-Numero de vigas: 2 hormigos pos tensado\n-Tipo de fundación: estribo de H°A°\n-Tipo de puente: Puente de un tramo isostático consistente en losa de hormigón armado vaciado sobre vigas de HºPº apoyadas sobre dos estribos.\n-Ancho de acera: 0,60 metros por lado\n-Alto de losa de rodadura: 20 cm.\n-Camión de diseño: HL-93\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 17:58",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Jorge Andrés Salinas Trigo",
+    "Telefono": "72594593",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PRESA PONGO MAYU - SISTEMA DE RIEGO DISTRITO D (TOCO)",
+    "Fecha tentativa de la presentación": "5/18/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO TOTAL BS. 890.490, garantizará el almacenamiento y distribución de agua para riego de manera continua y de buena calidad, mediante la construcción de una presa, una galería filtrante, red de conducción, distribución e infraestructura necesaria, garantizando así la producción agrícola de las comunidades beneficiarias. Garantizar la producción agrícola en alrededor de 193,81 hectáreas bajo riego óptimo. Mejorar la calidad de vida de las 134 familias beneficiarias.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 18:00",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Jorge Andrés Salinas Trigo",
+    "Telefono": "72594593",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PRESA MULTIPROPÓSITO CONDORCHINOCA (SORACACHI – ORURO)",
+    "Fecha tentativa de la presentación": "6/14/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO TOTAL BS. 1.371.707, garantizar el suministro permanente y de alta calidad de agua para riego y consumo humano, a través de la construcción de una presa, la implementación de una red de distribución para riego, una línea de aducción para agua potable y una planta de tratamiento. De esta manera, se asegurará la sostenibilidad de la producción, se minimiza las pérdidas y se garantiza el agua potable para la población. Garantizar la producción agrícola en alrededor de 760,71 hectáreas bajo riego óptimo. Dotar de agua potable alrededor de 96.564,00 habitantes.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 18:00",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "RICARDO URGEL PINTO",
+    "Telefono": "62018048",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR COPACABANA GAM DE COLCHA",
+    "Fecha tentativa de la presentación": "6/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Inversion: 6.224.290 (Bs); Objetivo: construcción de un puente de hormigón armado de 54 metros de longitud y 4 metros de ancho, con la construcción de 4 vigas postensadas, construcción de aceras peatonales de un mínimo de 60 cm de ancho en ambos lados del puente. Puente de 2 tramos con una pila central. Construcción de barandado y accesos para la complementación del puente. se considera la construcción de actividades de Mitigación Ambiental y gestión de riesgos.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 18:02",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Jorge Andrés Salinas Trigo",
+    "Telefono": "72594593",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "IMPLEM. DE LA INDUSTRIA DE CAMéLIDOS DE ORURO",
+    "Fecha tentativa de la presentación": "6/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO TOTAL BS. 74.327.694, aprovechamiento de la carne, huesos, colágeno, entre otros y mejoramiento genético para el aumento de los rendimientos en producción de fibra y carne, para el desarrollo económico en la región. Desarrollar la innovación genética de carne y fibra, Implementar la línea de producción de subproductos de carne. Impulsar la línea de aprovechamiento del cuero de camélidos. Impulsar la línea de aprovechamiento del tejido óseo de los camélidos. \n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 18:03",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "RICARDO URGEL PINTO",
+    "Telefono": "62018048",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "IMPLEM. PLAN DIREC. DE LA CUENCA KATARI Y EL LAGO MENOR DEL TITICACA LA PAZ",
+    "Fecha tentativa de la presentación": "7/13/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Inversion: 30.171.474,00 (Bs); Objetivo: Promover y fortalecer la gestión el agua para diferentes usos y acciones de manejo integral de cuencas, de tal manera se logre contribuir a mejorar la calidad de vida de las comunidades que viven en la cuenca Katari y el lago menor del Titicaca, incidiendo en garantizar un acceso al agua en calidad y cantidad suficientes, así como un saneamiento adecuado al medio. \n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 18:04",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Marvin Alejandro Arias Herrera",
+    "Telefono": "69221211",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "IMPLEM. PROGRAMA DE GESTIóN INTEGRAL DEL AGUA EN AREAS URBANAS - GIAAU/FCAS-AECID NACIONAL",
+    "Fecha tentativa de la presentación": "7/13/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Inversión de Bs. 3.373.595,00 para contribuir a hacer efectivo el derecho humano de acceso al agua potable y saneamiento, mejorando la calidad de vida y respondiendo a las necesidades de la población en áreas urbanas del país.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 18:04",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "RICARDO URGEL PINTO",
+    "Telefono": "62018048",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "IMPLEM. PLAN DIREC. DE LA CUENCA KATARI Y EL LAGO MENOR DEL TITICACA LA PAZ",
+    "Fecha tentativa de la presentación": "7/13/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Inversion: 976.617 (Bs); Objetivo: Construcción del Puente Vehicular de 18.00 metros luz de longitud, la misma que estará diseñada de acuerdo a las normas en actual vigencia.\nConstrucción de la superestructura con dos vigas postensadas de 18.00 m de longitud.\nConstrucción de la infraestructura de Pilotes de hormigón armado con una altura de 10.00 m \nAlcance del beneficio a cuatro comunidades de 120 familias.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 18:07",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Marvin Alejandro Arias Herrera",
+    "Telefono": "69221211",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "DESAR. PLAN DE GESTIóN Y SEGURIDAD HIDRICA EN AREAS URBANAS DE BOLIVIA",
+    "Fecha tentativa de la presentación": "7/13/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Inversión de Bs 17.584.869,00 con el objetivo de contribuir al mejoramiento de la gestión integral del recurso hídrico en áreas urbanas de Bolivia, en el marco al apoyo al Programa de Gestión Integral del Agua en Área Urbanas (GIAAU).",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 18:15",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "SAUL MEJIA",
+    "Telefono": "71887299",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR JACHA PASA : Realizar la construcción de un puente vehicular en el río Jacha Pasa, con el fin de mejorar las vías de acceso para que sean transitables en cualquier época del año, garantizando el desarrollo económico – social y bienestar de las familias del sector.",
+    "Fecha tentativa de la presentación": "5/19/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "- Implementar un puente vehicular adecuada, para la reintegración de las comunidades a su vez brindar la seguridad de la circulación de vehículos y peatones que viven en el lugar.\n- Mejorar la transitabilidad y circulación de los vehículos en cualquier época del año.\n- Contribuir a la mejora del transporte en la zona, garantizando el transporte de la producción agrícola y pecuaria de las familias involucradas en el proyecto a los centros de consumo.\n- Mejorar la calidad de vida de la población, incrementando la producción agrícola y pecuaria de las familias.\nCosto Total del Proyecto : 666.770,00",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "11/05/2026 18:16:39",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Marvin Alejandro Arias Herrera",
+    "Telefono": "69221211",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. SISTEMA DE AGUA POTABLE DE TIQUIPAYA DISTRITOS 4,5 Y 6 COCHABAMBA",
+    "Fecha tentativa de la presentación": "6/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Inversión de Bs. 1.387.915,00 con el objetivo de identificar fuentes de agua que permita mejorar el servicio de agua potable a los Distritos 4, 5 y 6 del municipio, para que la población pueda contar con el liquido elemento por varias horas al día, además ser agua con las condiciones sanitarias correspondientes",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 18:17",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "SAUL MEJIA RIVAS",
+    "Telefono": "71887299",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR COM. IQUIACA ARRIBA: Contribuir al incremento de la producción agropecuaria de las comunidades beneficiarias del proyecto, a través de la CONSTRUCCIÓN PUENTE VEHICULAR COM. IQUIACA ARRIBA, proveyéndolas una vía para una optima de transitabilidad, que Integre física, social y económica a las comunidades beneficiarias.",
+    "Fecha tentativa de la presentación": "7/7/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "• Fortalecer la producción agropecuaria mediante la construcción del puente vehicular, facilitando así el acceso de los pobladores agropecuarios a las comunidades de la región y a los centros de comercialización más cercanos y a las ciudades\n• Optimizar las condiciones de transporte para los productores de la zona de influencia, quienes se encargan del transporte de productos agropecuarios.\n• Mejorar las condiciones socioeconómicas de las familias beneficiarias directos e indirectos de la Zona, coadyuvando al mejoramiento de la integración física, económica y social entre las poblaciones beneficiadas del Municipio con los centros de producción permitiendo acceso y salida de productos agropecuarios a los mercados locales y departamentales.\nCosto Bs. 1.382.521,00",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 18:19",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Marvin Alejandro Arias Herrera",
+    "Telefono": "69221211",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. SISTEMA DE ALCANTARILLADO SANITARIO Y PTAR COROICO",
+    "Fecha tentativa de la presentación": "6/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Inversión de Bs 1.848.924,00 para contar con el diseño final de un sistema de alcantarillado sanitario y planta de tratamiento de aguas residuales, que establezca la viabilidad técnica, económica, financiera, legal, social, institucional, medio ambiental, de gestión de riesgos y adaptación al cambio climático, para su posterior ejecución, que permita coadyuvar a mejorar las condiciones de salubridad en Coroico.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 18:22",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Marvin Alejandro Arias Herrera",
+    "Telefono": "69221211",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PRESA Y ADUCCION KELLHUANI",
+    "Fecha tentativa de la presentación": "7/26/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Inversión de Bs 2.822.051,00 para incrementar una media anual mayor o igual a 6.000.000 de metros cúbicos de agua regulada al Sistema de Abastecimiento de El Alto, para mejorar las condiciones de cobertura de la ciudad.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 18:24",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "Marvin Alejandro Arias Herrera",
+    "Telefono": "69221211",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. TRASVASE DE AGUAS SACABA - READECUACION INTERCONEXIONES FASE II REDES PRIMARIAS - COCHABAMBA",
+    "Fecha tentativa de la presentación": "6/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Inversión de Bs 8.000.000,00 para asegurar la dotación de agua potable a los habitantes de la ciudad de Sacaba, garantizando la cantidad, calidad y continuidad de agua mediante la construcción de las interconexiones que permita en principio transportar aguas complementaria de la fuente de Misicuni hasta los diferentes OTBs o juntas vecinales, para su distribución, resolviendo de esta manera el problema del déficit actual existente en el abastecimiento de agua para el consumo doméstico y no doméstico en las áreas urbanas y periurbanas del municipio de Sacaba.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 18:35",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "SAUL MEJIA RIVAS",
+    "Telefono": "71887299",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE DE ENLACE COMUNIDAD DE POMATA Y SAN ANTONIO (CORQUE): Contribuir al mejoramiento vial del Municipio de Corque a través de la construcción de un Puente Vehicular, que coadyuve al flujo del tráfico existente en la zona garantizando de esta manera la transitabilidad continua y segura.",
+    "Fecha tentativa de la presentación": "7/29/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "- Generar, inducir y atraer un mayor tráfico por la ruta, permitiendo una vinculación rápida y segura, evitando de esta manera el despoblamiento de la zona debido a la migración campo - ciudad.\n- Contribuir al desarrollo Social, Económico y Cultural de las poblaciones y beneficiarios directos o indirectos con este proyecto\nCosto 3.613.338,00",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "11/05/2026 18:36:17",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "SAUL MEJIA",
+    "Telefono": "71887299",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. PUENTE VEHICULAR RIO SAN JUAN MUNICIPIO DE CARANAVI: Mejorar la integración vial física, social y económica a los pobladores perteneciente a Cantón Carrasco la Reserva y Cantón Calama - Municipio de Caranavi y comunidades aledañas, con la Construcción de un Puente Vehicular sobre Rio San Juan, mejorando las condiciones de seguridad vial y contribuyendo elevar los índices de producción para la solvencia económica",
+    "Fecha tentativa de la presentación": "7/7/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Garantizar la transitabilidad permanente, desde y hacia las comunidades beneficiadas permitiendo la integración Municipal y Provincial.\n• Construir un puente vehicular de una sola vía y de un tramo de 14 m.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 18:37",
+    "Entidad del Estado": "MDPRyA",
+    "Nombre completo del funcionario": "SAUL MEJIA RIVAS",
+    "Telefono": "71887299",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. DEFENSIVO EL RÍO LA PAZ COM. HUAJCHILLA (MECAPACA): Implementar en la comunidad de Huajchilla la Construcción de defensivos en base a Muro de Contención en Rio La Paz, para la protección de áreas de cultivo, garantizando el desarrollo integral de la población en beneficio del bienestar de las familias y, así, elevar la calidad de vida de la población.",
+    "Fecha tentativa de la presentación": "5/20/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "• Implementar la construcción de defensivos con muro de contención con base técnica del diseño para la protección de los cultivos de las riadas.\n• Implementar el componente de la Supervisión y Fiscalización a objeto de hacer cumplir los parámetros de diseño y especificaciones técnicas.\n• Promover la participación de la población beneficiaria en las etapas de ejecución, operación y mantenimiento del proyecto.\nCosto Bs2.431.823,00\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 18:51",
+    "Entidad del Estado": "FONDO NACIONAL DE INVERSION PRODUCTIVA Y SOCIAL (FPS)",
+    "Nombre completo del funcionario": "FABIO SANTISTEVAN ALPIRE",
+    "Telefono": "76317177",
+    "Tipo de intervención": "Programa",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "PROGRAMA DE APOYO A LA GESTIÓN DE RIESGOS ANTE EVENTOS EXTREMOS DEL CLIMA, PARA EL MUNICIPIO DE NUESTRA SEÑORA DE LA PAZ",
+    "Fecha tentativa de la presentación": "8/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Bs. 28.934.000,00 (Veintiocho Millones Novecientos Treinta y Cuatro mil 00/100 bolivianos); La ejecución física - Financiera esta sujeta al pagos de planillas pendientes.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 19:05",
+    "Entidad del Estado": "FONDO NACIONAL DE INVERSIÓN PRODUCTIVA Y SOCIAL",
+    "Nombre completo del funcionario": "FABIO SANTISTEVAN ALPIRE",
+    "Telefono": "76317177",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "PROYECTO: Const. Obras para la Reducción de Riesgos y Adaptación al Cambio Climático en el Río Palca - Tramo Población de Palca - Municipio (Palca) - PROGRAMA: BOLIVIA RESILIENTE A LOS RIESGOS CLIMÁTICOS",
+    "Fecha tentativa de la presentación": "6/26/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO: 15.298.400,97 Bs\nPOBLACIÓN BENEFICIADA: 4470 Habitantes",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 19:13",
+    "Entidad del Estado": "FONDO DE INVERSIÓN PRODUCTIVA Y SOCIAL",
+    "Nombre completo del funcionario": "FABIO SANTISTEVAN ALPIRE",
+    "Telefono": "76317177",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "PROYECTO: CONST. SISTEMA DE RIEGO LAURAWANI (BATALLAS) - PROGRAMA: Programa Mas Inversión para el Riego II, Mejora del Riego Tradicional y Tecnificado Contrato de Préstamo 9757 - CAF",
+    "Fecha tentativa de la presentación": "8/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO: 18.575.705,17\n",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 19:24",
+    "Entidad del Estado": "INSTITUTO NACIONAL DE INNOVACION AGROPECUARIA Y FORESTAL",
+    "Nombre completo del funcionario": "HECTOR JORGE VARGAS VARGAS",
+    "Telefono": "77959283",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "1.- Dentro del proyecto “Establecimiento de comunidades modelo para el incremento de la productividad del cultivo de papa a través del uso de semilla de alta calidad y tecnologías apropiadas en cinco departamentos de Bolivia”, cuyas actividades de campo concluyeron en diciembre de 2025, la cooperación Coreana- KOPIA amplió un componente orientado al fortalecimiento de los Centros de Innovación de Papa (Mantenimiento de infraestructura de invernaderos, adquisición de insumos, adquisición de implementos y maquinaria) alta calidad y tecnologías apropiadas en cinco departamentos de Bolivia”, cuyas actividades de campo concluyeron en diciembre de 2025, la cooperación Coreana- KOPIA amplió un componente orientado al fortalecimiento de los Centros de Innovación de Papa. \n(Fecha estimada 30/07/2026)\nDos centros de innovación de papa Fortalecidos (Centro de Innovación de Tarata y Zudáñez) \nBs. 754.600,00\n2.- Dentro del proyecto “Selección de accesiones de frijol tolerantes a la sequía como criterio de adaptación al cambio climático”, se realizará la liberación de nuevas variedades de frijol. Actualmente, se cuenta con dos variedades ya liberadas y una tercera en etapa de evaluación, cuyo trámite de liberación concluirá hasta la primera semana de agosto.\nEn ese marco, se prevé llevar a cabo la presentación oficial de tres nuevas variedades de frijol, las cuales se caracterizan por su mayor rendimiento, precocidad y tolerancia al estrés hídrico. \n(Fecha estimada 30/08/2026).\n3 nuevas variedades de frijol liberadas - Produtores de frijol de Cochabamba y Santa Cruz \nBs.102,900,00",
+    "Fecha tentativa de la presentación": "7/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "1.- Dos Centros de Innovación de Papa Fortalecidos (Centro de Innovación de Tarata y Zudáñez). Bs. 754.600,00\n2.- Tres (3) nuevas variedades de frijol liberadas - Ciento veinte (120) produtores de frijol de Cochabamba y Santa Cruz. Bs.102,900,00",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 19:41",
+    "Entidad del Estado": "ADUANA NACIONAL",
+    "Nombre completo del funcionario": "Roberto Fernando Chavez Barrionuevo",
+    "Telefono": "70411560",
+    "Tipo de intervención": "Decreto/Norma",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "Modificacion Decreto Supremo 29681 sobre Control de Divisas",
+    "Fecha tentativa de la presentación": "7/28/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "El Formulario 250 sera presentado solo por personas que tengan algo para declarar, lo que permitira agilizar el control de viajeros en aeropuertos internacionales",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 19:43",
+    "Entidad del Estado": "FONDO NACIONAL DE INVERSION PRODUCTIVA Y SOCIAL (FPS)",
+    "Nombre completo del funcionario": "FABIO SANTISTEVAN ALPIRE",
+    "Telefono": "76317177",
+    "Tipo de intervención": "Programa",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "PROGRAMA DE APOYO A LA GESTIÓN DE RIESGOS ANTE EVENTOS ADVERSOS DEL CLIMA, PARA EL MUNICIPIO DE COBIJA",
+    "Fecha tentativa de la presentación": "8/31/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Bs 36.000.000,00 (Treinta y Seis Millones de Bolivianos), Se encuentra 5 proyectos en ejecución, 17 proyectos para inicio de obra (sujetas a inscripción presupuestaria).",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 19:53",
+    "Entidad del Estado": "FONDO NACIONAL DE INVERSION PRODUCTIVA Y SOCIAL (FPS)",
+    "Nombre completo del funcionario": "FABIO SANTISTEVAN ALPIRE",
+    "Telefono": "76317177",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. ENLOSETADO DE CALLES Y AVENIDAS EN LAS URBANIZACIONES ALTO CHIJINI U.V. D Y SENOR DE EXALTACION A DISTRITO 12 ( CIUDAD EL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+    "Fecha tentativa de la presentación": "8/31/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Monto: Bs. 2.473.114,26. Proyecto para inicio de obra.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 19:55",
+    "Entidad del Estado": "FONDO NACIONAL DE INVERSION PRODUCTIVA Y SOCIAL (FPS)",
+    "Nombre completo del funcionario": "FABIO SANTISTEVAN ALPIRE",
+    "Telefono": "76317177",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. ENLOSETADO DE CALLE Y AVENIDAS EN EL DISTRITO 12 (CIUDAD EL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+    "Fecha tentativa de la presentación": "8/31/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Monto: Bs.2.554.389,77.- Proyecto para inicio de obras.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 19:57",
+    "Entidad del Estado": "FONDO NACIONAL DE INVERSION PRODUCTIVA Y SOCIAL (FPS)",
+    "Nombre completo del funcionario": "FABIO SANTISTEVAN ALPIRE",
+    "Telefono": "76317177",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST.ENLOSETADO AVENIDAS LUIS ESPINAL CAMPOS, VILOCO, 20 DE AGOSTO, AV.JAZMINES Y CLALE FEDERICO BLANCO (CIUDAD DE EL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+    "Fecha tentativa de la presentación": "8/31/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Monto: Bs.2.992.073,58.- Proyecto para inicio de obras.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 19:58",
+    "Entidad del Estado": "FONDO NACIONAL DE INVERSION PRODUCTIVA Y SOCIAL (FPS)",
+    "Nombre completo del funcionario": "FABIO SANTISTEVAN ALPIRE",
+    "Telefono": "76317177",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST.ENLOSETADO AV. 1RO DE MAYO, AV. 9 DE SEPTIEMBRE, CALLE JERUSALEM Y CALLE VIRGEN DEL ROSARIO D-8 (CIUDAD DEL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+    "Fecha tentativa de la presentación": "8/31/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Monto: Bs.2.895.028,14.- Proyecto para inicio de obra.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 20:00",
+    "Entidad del Estado": "FONDO NACIONAL DE INVERSION PRODUCTIVA Y SOCIAL (FPS)",
+    "Nombre completo del funcionario": "FABIO SANTISTEVAN ALPIRE",
+    "Telefono": "76317177",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST.ENLOSETADO DE CALLES Y AVENIDAS EN EL DISTRITO 14 (CIUDAD DE EL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+    "Fecha tentativa de la presentación": "8/31/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO: Bs. 2.692.533,99.- Proyecto para inicio de obras.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 20:02",
+    "Entidad del Estado": "FONDO NACIONAL DE INVERSIÓN PRODUCTIVA Y SOCIAL (FPS)",
+    "Nombre completo del funcionario": "FABIO SANTISTEVAN ALPIRE",
+    "Telefono": "76317177",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. ENLOSETADO URBANIZACION LOS PINOS II DISTRITO MUNICIAPAL N14 (CIUDAD EL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+    "Fecha tentativa de la presentación": "8/31/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO: BS.2.370.800,26 .- Proyecto para inicio de obras.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 20:04",
+    "Entidad del Estado": "FONDO NACIONAL DE INVERSIÓN PRODUCTIVA Y SOCIAL (FPS)",
+    "Nombre completo del funcionario": "FABIO SANTISTEVAN ALPIRE",
+    "Telefono": "76317177",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. ENLOSETADO DE CALLES Y AVENIDAS EN EL DISTRITO 4Y 5 (CIUDAD DEL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+    "Fecha tentativa de la presentación": "8/31/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO: BS.2.308.511,87.- Proyecto para inicio de obras.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 20:06",
+    "Entidad del Estado": "FONDO NACIONAL DE INVERSION PRODUCTIVA Y SOCIAL (FPS)",
+    "Nombre completo del funcionario": "FABIO SANTISTEVAN ALPIRE",
+    "Telefono": "76317177",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. ENLOSETADO AV.4 DE ENERO, AV. DIANA SPENCER Y AV. CUBAY (CIUDAD DEL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+    "Fecha tentativa de la presentación": "8/31/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO: Bs.1.455.766,05.- Proyecto para inicio de obras.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 20:08",
+    "Entidad del Estado": "FONDO NACIONAL DE INVERSION PRODUCTIVA Y SOCIAL (FPS)",
+    "Nombre completo del funcionario": "FABIO SANTISTEVAN ALPIRE",
+    "Telefono": "76317177",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. ENLOSETADO CALLE ROBLES (CIUDAD EL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+    "Fecha tentativa de la presentación": "8/31/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO: Bs.1.855.781,82.- Proyecto para inicio de obras.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 20:10",
+    "Entidad del Estado": "FONDO NACIONAL DE INVERSION PRODUCTIVA Y SOCIAL (FPS)",
+    "Nombre completo del funcionario": "FABIO SANTISTEVAN ALPIRE",
+    "Telefono": "76317177",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST.ENLOSETADO CALLES Y AVENIDAS URBANIZACION LEON D-7 (CUIDAD EL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+    "Fecha tentativa de la presentación": "8/31/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO: Bs.2.593.591,82.- Proyecto para inicio de obras.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 20:12",
+    "Entidad del Estado": "FONDO NACIONAL DE INVERSION PRODUCTIVA Y SOCIAL (FPS)",
+    "Nombre completo del funcionario": "FABIO SANTISTEVAN ALPIRE",
+    "Telefono": "76317177",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. ENLOSETADO AV. ILLIMANI D-8 (CIUDAD EL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+    "Fecha tentativa de la presentación": "8/31/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO: Bs.2.913.197,97.- Proyecto para inicio de obras.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 20:13",
+    "Entidad del Estado": "FONDO NACIONAL DE INVERSION PRODUCTIVA Y SOCIAL (FPS)",
+    "Nombre completo del funcionario": "FABIO SANTISTEVAN ALPIRE",
+    "Telefono": "76317177",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. ENLOSETADO AV.MARCELO QUIROGA SANTA CRUZ, AV. SAJAMA, AV. CALAMA Y CALLES ADYACENTES 9 CIUDAD EL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+    "Fecha tentativa de la presentación": "8/31/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO: Bs. 2.400.274,28.- Proyecto para inicio de obras.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 20:14",
+    "Entidad del Estado": "ABC",
+    "Nombre completo del funcionario": "ANDRES ZAMORA MOLINA",
+    "Telefono": "78515892",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "ACHERAL CHOERE",
+    "Fecha tentativa de la presentación": "5/14/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "ENTREGA PROVISIONAR DE OBRAS COMPLEMENTARIOS DE PROYECTO ACHERAL CHOERE",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 20:15",
+    "Entidad del Estado": "FONDO NACIONAL DE INVERSION PRODUCTIVA Y SOCIAL (FPS)",
+    "Nombre completo del funcionario": "FABIO SANTISTEVAN ALPIRE",
+    "Telefono": "76317177",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "CONST. ENLOSETADO AV. SANTA CRUZ Y TIAHUANACU, TITICACA Y PASAJE LA PAZ (CIUDAD EL ALTO) - PROGRAMA MUJERES LUCHADORAS",
+    "Fecha tentativa de la presentación": "8/31/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "MONTO: Bs.1.551.432,44.- Proyecto para inicio de obras.",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 20:16",
+    "Entidad del Estado": "ABC",
+    "Nombre completo del funcionario": "ANDRES ZAMORA",
+    "Telefono": "78515892",
+    "Tipo de intervención": "Proyecto de inversión/Obra",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "SAN JOSE SAN IGNACIO",
+    "Fecha tentativa de la presentación": "7/15/27",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "ENTREGA DE PROYECYO CARRETERA SAN JOSE SAN IGNACIO, EN PROVINCIA DE SANTA CRUZ MONTO DE OBRA 122.000.000 $U$",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 20:17",
+    "Entidad del Estado": "Aduana Nacional de Bolivia",
+    "Nombre completo del funcionario": "Nimia Mikaela C. Tapia Pinto",
+    "Telefono": "78932666",
+    "Tipo de intervención": "Otro",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "Implementación de la Ventanilla Única de Comercio Exterior Bolivia - VUCE, algunos procesos",
+    "Fecha tentativa de la presentación": "9/30/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "Procesos de emisión de Autorización y Certificación para Importación y Exportación, implementados en la VUCE",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  },
+  {
+    "Marca temporal": "5/11/26 20:17",
+    "Entidad del Estado": "ABC",
+    "Nombre completo del funcionario": "ANDRES ZAMORA",
+    "Telefono": "78515892",
+    "Tipo de intervención": "Decreto/Norma",
+    "Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)": "DECRETO TUNEL DE AGUARAGUE TARIJA",
+    "Fecha tentativa de la presentación": "5/20/26",
+    "Resultados esperados(Monto, Población beneficiada, etc.)": "DECRETO QUE DECLARA DE PRIORIDAD NACIONAL LA CONSTRUCCION DEL TUNER DE AGUARAGUE EN TARIJA",
+    "rango": "Fuera de Rango",
+    "DEPTO/MUNIC": "",
+    "ESTRATEGICO/NO ESTRATEGICO": ""
+  }
 ]
