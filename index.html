@@ -23,19 +23,107 @@
             padding: 50px;
             margin-top: 150px;
         }
+
+        h1 span {
+            font-weight: normal;
+            display: block;
+            font-size: 14px;
+        }
     </style>
 </head>
 
 <body class="">
 
     <div style="width: 100%;">
-        <br>
-        <h1 style="font-size: 25px; text-align: center; font-weight: bold;padding-top: 20px; ">DASHBOARD DE
+
+
+        <h1 style="font-size: 25px; text-align: center; font-weight: bold; ">DASHBOARD DE
             INTERVENCIONES</h1>
 
+        <br><br>
+        <div class="container">
+            <div class="container mt-5">
+                <div class="row g-4">
+                    <!-- KPI 1: Cantidad Total Principal -->
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm h-100 bg-primary text-white">
+                            <div class="card-body">
+                                <h6 class="text-uppercase fw-bold opacity-75">Cantidad Total de Intervenciones</h6>
+                                <h2 class="display-5 fw-bold mb-0" id="cti"></h2>
+                                <!-- <small class="text-white-50">+5% vs mes anterior</small> -->
+                            </div>
+                        </div>
+                    </div>
 
+                    <!-- KPI 2: Cantidad Total Secundaria -->
+                    <!-- <div class="col-md-3">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body">
+                                <h6 class="text-uppercase fw-bold text-muted">Ingresos (BOB)</h6>
+                                <h2 class="display-5 fw-bold mb-0 text-dark">45,200</h2>
+                                <small class="text-success fw-bold">En crecimiento</small>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- KPI 3: Lista Variable (Ej: Estado de Proyectos) -->
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body">
+                                <h6 class="text-uppercase fw-bold text-muted mb-3">Tipo de Intervenciones</h6>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                        Proyectos de Inversión/Obras <span class="badge bg-success rounded-pill"
+                                            id="proyecto">120</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                        Programa <span class="badge bg-warning text-dark rounded-pill"
+                                            id="programa">45</span>
+                                    </li>
+                                    <li
+                                        class="list-group-item d-flex justify-content-between align-items-center px-0 border-bottom-0">
+                                        Actividad<span class="badge bg-danger rounded-pill" id="actividad">12</span>
+                                    </li>
+                                    <li
+                                        class="list-group-item d-flex justify-content-between align-items-center px-0 border-bottom-0">
+                                        Norma<span class="badge bg-danger rounded-pill" id="norma">12</span>
+                                    </li>
+                                    <li
+                                        class="list-group-item d-flex justify-content-between align-items-center px-0 border-bottom-0">
+                                        Otro<span class="badge bg-danger rounded-pill" id="norma">12</span>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- KPI 4: Lista Variable (Ej: Categorías) -->
+                    <!-- <div class="col-md-3">
+      <div class="card border-0 shadow-sm h-100">
+        <div class="card-body">
+          <h6 class="text-uppercase fw-bold text-muted mb-3">Top Regiones</h6>
+          <div class="d-flex justify-content-between mb-2">
+            <span>La Paz</span> <span class="fw-bold">45%</span>
+          </div>
+          <div class="progress mb-3" style="height: 6px;">
+            <div class="progress-bar bg-info" style="width: 45%"></div>
+          </div>
+          <div class="d-flex justify-content-between mb-2">
+            <span>Santa Cruz</span> <span class="fw-bold">30%</span>
+          </div>
+          <div class="progress mb-1" style="height: 6px;">
+            <div class="progress-bar bg-info" style="width: 30%"></div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+                </div>
+            </div>
+        </div>
         <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 20px;">Por Entidades del Estado
-            (En número)</h1>
+            <span>(En número)</span>
+        </h1>
 
         <!-- Selector de Gráficos -->
         <!-- <div class="flex justify-center space-x-4 mb-10">
@@ -54,39 +142,69 @@
         <div id="chartdiv" style="height: 600px; width: 100%;"></div>
 
         <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Por Tipo de Intervención
-            (En número)</h1>
+            <span>(En número)</span>
+        </h1>
 
         <div id="chartdiv2" style="height: 600px; width: 100%;"></div>
         <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Mes tentativo de la
-            Presentación (En número)</h1>
+            presentación de intervenciones <span>(En número)</span></h1>
 
         <div id="chartdiv3" style="height: 600px; width: 100%;"></div>
 
         <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Por
-            Departamento/Municipio (En número)</h1>
+            Departamento/Municipio <span>(En número)</span></h1>
 
         <div id="chartdiv4" style="height: 600px; width: 100%;"></div>
         <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Estratégico/ No
-            estratégico</h1>
+            estratégico <span>(En porcentaje)</span></h1>
 
         <div id="chartdiv5" style="height: 600px; width: 100%;"></div>
-		
-		
-		
-		
-		
-		
 
         <!-- <div id="chartdiv4" style="height: 600px; width: 100%;"></div> -->
+        <br> <br><br> <br>
+        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Visualizador de Datos
+        </h1>
+
+
+
+        <table id="miTabla" class="table table-striped shadow-sm" style="width:100%">
+            <thead class="table-dark">
+                <tr>
+                    <th>Entidad del Estado</th>
+                    <th>Tipo de intervención</th>
+                    <th>Descripción breve de la intervención (Proyecto, Programa, Actividad u otro)</th>
+                    <th>Fecha tentativa de la presentación</th>
+
+                    <th>Resultados esperados</th>
+                    <th>ESTRATEGICO/NO ESTRATEGICO</th>
+                    <th>DEPTO/MUNIC</th>
+                    <th>MES"</th>
+
+                    <!-- <th>Puesto</th>
+                <th>Ciudad</th>
+                <th>Fecha de Ingreso</th> -->
+                </tr>
+            </thead>
+            <tbody id="contenidoTabla">
+            </tbody>
+        </table>
+
+
 
 
     </div>
-    <script src="js/data.js?v=12052026"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    <script src="js/data.js"></script>
 
     <script>
 
         const dataX = dataJSON;
+        let dataJSONtable = dataJSON;
 
+
+        $("#cti").html(dataX.length);
         function contarFrecuencia(data, campo) {
             const frecuencias = data.reduce((acc, item) => {
                 const valor = item[campo];
@@ -106,6 +224,9 @@
 
         const entidad = contarFrecuencia(dataX, "Entidad del Estado");
         const tipoIntervencion = contarFrecuencia(dataX, "Tipo de intervención");
+
+
+
         const mes = contarFrecuencia(dataX, "MES");
         const depto = contarFrecuencia(dataX, "DEPTO/MUNIC");
         const estrategico = contarFrecuencia(dataX, "ESTRATEGICO/NO ESTRATEGICO");
@@ -113,6 +234,14 @@
         console.log(tipoIntervencion);
         console.log(mes);
         let root; let root2; let root3; let root4; let root5; let root6;
+
+        console.log()
+
+        $("#proyecto").html(tipoIntervencion[0].value);
+        $("#programa").html(tipoIntervencion[1].value);
+        $("#actividad").html(tipoIntervencion[2].value);
+        $("#norma").html(tipoIntervencion[3].value);
+        $("#otro").html(tipoIntervencion[4].value);
 
         // const data = [
         //     { category: "Ventas", value: 450 },
@@ -144,9 +273,6 @@
                 "value": 2
             }
         ];
-
-
-
 
 
         function changeChart(type) {
@@ -226,6 +352,9 @@
                 layout: root.verticalLayout
             }));
 
+            var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {}));
+            cursor.lineY.set("visible", false);
+
             // --- EJE Y (Ahora es el eje de Categorías) ---
             let yRenderer = am5xy.AxisRendererY.new(root, {
                 minGridDistance: 30,
@@ -242,7 +371,9 @@
 
             // --- EJE X (Ahora es el eje de Valores) ---
             let xAxis = chart.xAxes.push(am5xy.ValueAxis.new(root, {
-                renderer: am5xy.AxisRendererX.new(root, {})
+                renderer: am5xy.AxisRendererX.new(root, {}),
+                tooltip: am5.Tooltip.new(root, {})
+
             }));
 
             // --- CREAR SERIE (Intercambiamos X por Y) ---
@@ -250,19 +381,36 @@
                 name: "Valores",
                 xAxis: xAxis,
                 yAxis: yAxis,
-                valueXField: "value",      // El valor va en X
-                categoryYField: "category", // La categoría va en Y
+                valueXField: "value",       // Asegúrate que sea X
+                categoryYField: "category",  // Asegúrate que sea Y
                 tooltip: am5.Tooltip.new(root, {
-                    pointerOrientation: "horizontal",
+                    pointerOrientation: "left",
                     labelText: "{valueX}"
                 })
+
             }));
+
+            //             name: "Series 1",
+            //   xAxis: xAxis,
+            //   yAxis: yAxis,
+            //   valueXField: "value",
+            //   categoryYField: "network",
+            //   tooltip: am5.Tooltip.new(root, {
+            //     pointerOrientation: "left",
+            //     labelText: "{valueX}"
+            //   })
 
             // Estilizar columnas
             series.columns.template.setAll({
                 cornerRadiusTR: 5,
                 cornerRadiusBR: 5,
-                strokeOpacity: 0
+                strokeOpacity: 0,
+                interactive: true,
+            });
+
+            series.columns.template.setAll({
+                interactive: true, // Permite que la barra "sienta" el mouse
+                tooltipText: "{categoryX}: [bold]{valueY}[/]" // Configuración extra del texto
             });
 
             series.columns.template.adapters.add("fill", (fill, target) => {
@@ -325,6 +473,8 @@
                 wheelY: "zoomX",
                 pinchZoomX: true
             }));
+            var cursor = chart.set("cursor", am5xy.XYCursor.new(root2, {}));
+            cursor.lineY.set("visible", false);
 
             // Crear ejes
             let xRenderer = am5xy.AxisRendererX.new(root2, { minGridDistance: 30 });
@@ -354,6 +504,10 @@
                 categoryXField: "category",
                 tooltip: am5.Tooltip.new(root2, { labelText: "{valueY}" })
             }));
+            series.columns.template.setAll({
+                interactive: true, // Permite que la barra "sienta" el mouse
+                tooltipText: "{categoryX}: [bold]{valueY}[/]" // Configuración extra del texto
+            });
 
             // Estilizar columnas
             series.columns.template.setAll({ cornerRadiusTL: 5, cornerRadiusTR: 5, strokeOpacity: 0 });
@@ -393,6 +547,10 @@
                 wheelY: "zoomX",
                 pinchZoomX: true
             }));
+
+            var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {}));
+            cursor.lineY.set("visible", false);
+
 
             // Crear ejes
             let xRenderer = am5xy.AxisRendererX.new(root3, { minGridDistance: 30 });
@@ -452,6 +610,10 @@
                 wheelY: "zoomX",
                 pinchZoomX: true
             }));
+
+            var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {}));
+            cursor.lineY.set("visible", false);
+
 
             // Crear ejes
             let xRenderer = am5xy.AxisRendererX.new(root4, { minGridDistance: 30 });
@@ -528,6 +690,49 @@
         changeChart3('bar');
         createBarChart4();
         createPercentChart5('donut');
+
+        $(document).ready(function () {
+            // 2. Insertar los datos en el cuerpo de la tabla
+            const tbody = $('#contenidoTabla');
+            dataJSONtable.forEach(item => {
+                tbody.append(`
+                    <tr>
+                        <td>${item["Entidad del Estado"]}</td>
+                        <td>${item["Tipo de intervención"]}</td>
+                        <td>${item["Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)"]}</td>
+                        <td>${item["Fecha tentativa de la presentación"]}</td>
+                        <td>${item["Resultados esperados(Monto, Población beneficiada, etc.)"]}</td>
+                        <td>${item["ESTRATEGICO/NO ESTRATEGICO"]}</td>
+                        <td>${item["DEPTO/MUNIC"]}</td>
+                        <td>${item["MES"]}</td>
+                       
+                    </tr>
+                `);
+            });
+
+
+            // <th>Entidad del Estado</th>
+            //         <th>Tipo de intervención</th>
+            //         <th>Descripción breve de la intervención (Proyecto, Programa, Actividad u otro)</th>
+            //         <th>Fecha tentativa de la presentación"]</th>
+            //         <th>Resultados esperados"]</th>
+            //         <th>ESTRATEGICO/NO ESTRATEGICO"]</th>
+            //         <th>DEPTO/MUNIC"]</th>
+            //         <th>MES"</th>
+            // 3. Inicializar DataTables
+            $('#miTabla').DataTable({
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/1.13.6/i18n/es-ES.json" // Traducción al español
+                },
+                "pageLength": 10, // Cantidad de filas por página
+                "responsive": true
+            });
+        });
+
+
+
+
+
 
 
     </script>
