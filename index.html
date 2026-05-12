@@ -4,9 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard amCharts 5</title>
+    <title>Dashboard de Intervenciones</title>
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" rel="stylesheet">
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -27,10 +30,12 @@
 
     <div style="width: 100%;">
         <br>
-        <h1 style="font-size: 25px; text-align: center; font-weight: bold;padding-top: 20px; ">DASHBOARD DE INTERVENCIONES</h1>
+        <h1 style="font-size: 25px; text-align: center; font-weight: bold;padding-top: 20px; ">DASHBOARD DE
+            INTERVENCIONES</h1>
 
 
-        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 20px;">Por Entidades del Estado (En número)</h1>
+        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 20px;">Por Entidades del Estado
+            (En número)</h1>
 
         <!-- Selector de Gráficos -->
         <!-- <div class="flex justify-center space-x-4 mb-10">
@@ -47,11 +52,28 @@
 
         <!-- Contenedor del Gráfico -->
         <div id="chartdiv" style="height: 600px; width: 100%;"></div>
-                <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 20px;">Por Tipo de Intervención (En número)</h1>
+
+        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Por Tipo de Intervención
+            (En número)</h1>
 
         <div id="chartdiv2" style="height: 600px; width: 100%;"></div>
-        <!-- <div id="chartdiv3" style="height: 600px; width: 100%;"></div>
-        <div id="chartdiv4" style="height: 600px; width: 100%;"></div> -->
+        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Mes tentativo de la
+            Presentación (En número)</h1>
+
+        <div id="chartdiv3" style="height: 600px; width: 100%;"></div>
+
+        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Por
+            Departamento/Municipio (En número)</h1>
+
+        <div id="chartdiv4" style="height: 600px; width: 100%;"></div>
+        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Estratégico/ No
+            estratégico</h1>
+
+        <div id="chartdiv5" style="height: 600px; width: 100%;"></div>
+
+        <!-- <div id="chartdiv4" style="height: 600px; width: 100%;"></div> -->
+
+
     </div>
     <script src="js/data.js"></script>
 
@@ -78,11 +100,13 @@
 
         const entidad = contarFrecuencia(dataX, "Entidad del Estado");
         const tipoIntervencion = contarFrecuencia(dataX, "Tipo de intervención");
-
+        const mes = contarFrecuencia(dataX, "MES");
+        const depto = contarFrecuencia(dataX, "DEPTO/MUNIC");
+        const estrategico = contarFrecuencia(dataX, "ESTRATEGICO/NO ESTRATEGICO");
         console.log(entidad);
         console.log(tipoIntervencion);
-        console.log();
-        let root; let root2; let root3;
+        console.log(mes);
+        let root; let root2; let root3; let root4; let root5; let root6;
 
         // const data = [
         //     { category: "Ventas", value: 450 },
@@ -288,7 +312,7 @@
         }
 
         function createBarChart2() {
-            let chart = root.container.children.push(am5xy.XYChart.new(root2, {
+            let chart = root2.container.children.push(am5xy.XYChart.new(root2, {
                 panX: true,
                 panY: true,
                 wheelX: "panX",
@@ -377,7 +401,7 @@
                 renderer: xRenderer,
                 tooltip: am5.Tooltip.new(root3, {})
             }));
-            xAxis.data.setAll(data);
+            xAxis.data.setAll(mes);
 
             let yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root3, {
                 renderer: am5xy.AxisRendererY.new(root3, {})
@@ -399,14 +423,105 @@
                 return chart.get("colors").getIndex(series.columns.indexOf(target));
             });
 
-            series.data.setAll(data);
+            series.data.setAll(mes);
             series.appear(1000);
             chart.appear(1000, 100);
         }
 
+
+        function createBarChart4() {
+            if (root4) {
+                root4.dispose();
+            }
+
+            // 2. Crear nuevo elemento Root
+            root4 = am5.Root.new("chartdiv4");
+
+            // 3. Aplicar tema animado
+            root4.setThemes([am5themes_Animated.new(root)]);
+            let chart = root4.container.children.push(am5xy.XYChart.new(root4, {
+                panX: true,
+                panY: true,
+                wheelX: "panX",
+                wheelY: "zoomX",
+                pinchZoomX: true
+            }));
+
+            // Crear ejes
+            let xRenderer = am5xy.AxisRendererX.new(root4, { minGridDistance: 30 });
+            xRenderer.labels.template.setAll({
+                rotation: -90,
+                centerY: am5.p50,
+                centerX: am5.p100,
+                paddingRight: 15
+            });
+            let xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(root4, {
+                categoryField: "category",
+                renderer: xRenderer,
+                tooltip: am5.Tooltip.new(root4, {})
+            }));
+            xAxis.data.setAll(depto);
+
+            let yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root4, {
+                renderer: am5xy.AxisRendererY.new(root4, {})
+            }));
+
+            // Crear Serie
+            let series = chart.series.push(am5xy.ColumnSeries.new(root4, {
+                name: "Valores",
+                xAxis: xAxis,
+                yAxis: yAxis,
+                valueYField: "value",
+                categoryXField: "category",
+                tooltip: am5.Tooltip.new(root4, { labelText: "{valueY}" })
+            }));
+
+            // Estilizar columnas
+            series.columns.template.setAll({ cornerRadiusTL: 5, cornerRadiusTR: 5, strokeOpacity: 0 });
+            series.columns.template.adapters.add("fill", (fill, target) => {
+                return chart.get("colors").getIndex(series.columns.indexOf(target));
+            });
+
+            series.data.setAll(depto);
+            series.appear(1000);
+            chart.appear(1000, 100);
+        }
+
+        function createPercentChart5(type) {
+
+            if (root5) {
+                root5.dispose();
+            }
+
+            // 2. Crear nuevo elemento Root
+            root5 = am5.Root.new("chartdiv5");
+
+            // 3. Aplicar tema animado
+            root5.setThemes([am5themes_Animated.new(root5)]);
+            let chart = root5.container.children.push(am5percent.PieChart.new(root5, {
+                layout: root5.verticalLayout,
+                innerRadius: type === 'donut' ? am5.percent(50) : 0
+            }));
+
+            let series = chart.series.push(am5percent.PieSeries.new(root5, {
+                valueField: "value",
+                categoryField: "category",
+                alignLabels: false
+            }));
+
+            series.labels.template.setAll({ textType: "circular", centerX: 0, centerY: 0 });
+            series.data.setAll(estrategico);
+
+            // Aparecer con animación
+            series.appear(1000, 100);
+        }
+
+
         changeChart('bar');
         changeChart2('bar');
         changeChart3('bar');
+        createBarChart4();
+        createPercentChart5('donut');
 
 
     </script>
