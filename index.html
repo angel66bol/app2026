@@ -33,20 +33,21 @@
 </head>
 
 <body class="">
+    <div style="padding: 20px 0px; font-size: 14px;">Fecha de actualización: <b>Mayo 12, Hrs. 16:00</b></div>
 
     <div style="width: 100%;">
 
 
-        <h1 style="font-size: 25px; text-align: center; font-weight: bold; ">DASHBOARD DE
+        <h1 style="font-size: 25px; text-align: center; font-weight: bold; color: #102c2d; ">DASHBOARD DE
             INTERVENCIONES</h1>
 
-        <br><br>
+
         <div class="container">
             <div class="container mt-5">
                 <div class="row g-4">
                     <!-- KPI 1: Cantidad Total Principal -->
                     <div class="col-md-4">
-                        <div class="card border-0 shadow-sm h-100 bg-primary text-white">
+                        <div class="card border-0 shadow-sm h-100 text-white" style="background:#102c2d;">
                             <div class="card-body">
                                 <h6 class="text-uppercase fw-bold opacity-75">Cantidad Total de Intervenciones</h6>
                                 <h2 class="display-5 fw-bold mb-0" id="cti"></h2>
@@ -98,6 +99,33 @@
                         </div>
                     </div>
 
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body">
+                                <h6 class="text-uppercase fw-bold text-muted mb-3">Rango de montos</h6>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                        Inferiores(Menor a 10.000.000 Bs.)<span class="badge bg-success rounded-pill"
+                                            id="inferior">120</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                        Sin Monto<span class="badge bg-warning text-dark rounded-pill"
+                                            id="sinmonto">45</span>
+                                    </li>
+                                    <li
+                                        class="list-group-item d-flex justify-content-between align-items-center px-0 border-bottom-0">
+                                        Mayores(mayor a 100.000.000 Bs.)<span class="badge bg-danger rounded-pill" id="mayor">12</span>
+                                    </li>
+                                    <li
+                                        class="list-group-item d-flex justify-content-between align-items-center px-0 border-bottom-0">
+                                        Regulares(de 10.000.000 a 100.000.000 Bs.)<span class="badge bg-danger rounded-pill" id="regular">12</span>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- KPI 4: Lista Variable (Ej: Categorías) -->
                     <!-- <div class="col-md-3">
       <div class="card border-0 shadow-sm h-100">
@@ -121,6 +149,7 @@
                 </div>
             </div>
         </div>
+        <br><br>
         <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 20px;">Por Entidades del Estado
             <span>(En número)</span>
         </h1>
@@ -178,25 +207,19 @@
                     <th>Resultados esperados</th>
                     <th>ESTRATEGICO/NO ESTRATEGICO</th>
                     <th>DEPTO/MUNIC</th>
-                    <th>MES"</th>
-
-                    <!-- <th>Puesto</th>
-                <th>Ciudad</th>
-                <th>Fecha de Ingreso</th> -->
+                    <th>MES"</th>                
                 </tr>
             </thead>
             <tbody id="contenidoTabla">
             </tbody>
         </table>
 
-
-
-
     </div>
+    <div style="padding: 20px 0px; font-size: 14px;">Fecha de actualización: <b>Mayo 12, Hrs. 16:00</b></div>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
-    <script src="js/data.js"></script>
+    <script src="js/data.js?v=12052026_2"></script>
 
     <script>
 
@@ -225,9 +248,7 @@
         const entidad = contarFrecuencia(dataX, "Entidad del Estado");
         const tipoIntervencion = contarFrecuencia(dataX, "Tipo de intervención");
 
-
-
-        const mes = contarFrecuencia(dataX, "MES");
+        const mes = contarFrecuencia(dataX, "fecha final");
         const depto = contarFrecuencia(dataX, "DEPTO/MUNIC");
         const estrategico = contarFrecuencia(dataX, "ESTRATEGICO/NO ESTRATEGICO");
         console.log(entidad);
@@ -250,6 +271,15 @@
         //     { category: "Soporte", value: 150 },
         //     { category: "RRHH", value: 100 }
         // ];
+
+        const montos = contarFrecuencia(dataX, " MONTO RANGOS ");
+console.log(montos);
+
+        $("#inferior").html(montos[0].value);
+        $("#sinmonto").html(montos[1].value);
+        $("#mayor").html(montos[2].value);
+        $("#regular").html(montos[3].value);
+
 
         const data = [
             {
