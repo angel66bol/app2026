@@ -87,8 +87,8 @@ console.log(montos);
 
 $("#inferior").html(montos[0].value);
 $("#sinmonto").html(montos[3].value);
-$("#mayor").html(montos[1].value);
-$("#regular").html(montos[2].value);
+$("#mayor").html(montos[2].value);
+$("#regular").html(montos[1].value);
 
 $("#fecha-header").html(fechaActualizacion);
 $("#fecha-footer").html(fechaActualizacion);
@@ -714,13 +714,27 @@ changeChart8('bar');
 $(document).ready(function () {
     // 2. Insertar los datos en el cuerpo de la tabla
     const tbody = $('#contenidoTabla');
+
+
+
     dataJSONtable.forEach(item => {
+        const fechaTxt = item["Fecha tentativa de la presentación"];
+        let orden = "";
+
+        if (fechaTxt && fechaTxt.includes('/')) {
+            const p = fechaTxt.split('/');
+            const dia = p[0].padStart(2, '0');
+            const mes = p[1].padStart(2, '0');
+            const anio = p[2];
+
+            orden = anio + mes + dia;
+        }
         tbody.append(`
                     <tr>
                         <td>${item["Entidad del Estado"]}</td>
                         <td>${item["Tipo de intervención"]}</td>
                         <td>${item["Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)"]}</td>
-                        <td>${item["Fecha tentativa de la presentación"]}</td>
+                        <td data-order="${orden}">${item["Fecha tentativa de la presentación"]}</td>
                                                 <td>${item["MONTOS"]}</td>
 
                         <td>${item["DEPTO/MUNIC"]}</td>
