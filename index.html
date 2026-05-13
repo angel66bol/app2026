@@ -18,22 +18,21 @@
     <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
-    <link href="css/styles.css?v=13052026_2" rel="stylesheet">
+    <link href="css/styles.css?v=13052026_3" rel="stylesheet">
 </head>
 
 <body class="">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <img src="images/cengob.jpg" style="float: right; width: 300px;" />
-                <img src="images/logo_escudo_bolivia_500x500.png" style="float: left; width: 120px;" />
+                <img src="images/cengob.jpg" class="logo-cengob" />
+                <img src="images/logo_escudo_bolivia_500x500.png" class="logo-escudo" />
             </div>
         </div>
     </div>
 
     <div style="width: 100%;">
-
-        <h1 style="font-size: 25px; text-align: center; font-weight: bold; color: #102c2d;  clear: both">DASHBOARD DE
+        <h1 class="header-title">DASHBOARD DE
             INTERVENCIONES</h1>
         <div class="container">
             <div class="container mt-5">
@@ -43,7 +42,7 @@
                         <div class="card border-0 shadow-sm h-100 text-white" style="background:#198754">
                             <div class="card-body">
                                 <h6 class="text-uppercase fw-bold opacity-75">Cantidad Total de Intervenciones</h6>
-                                <h2 class="display-5 fw-bold mb-0" id="cti" style="font-size: 150px;"></h2>
+                                <h2 class="display-5 fw-bold mb-0 total-intervenciones" id="cti"></h2>
                                 <!-- <small class="text-white-50">+5% vs mes anterior</small> -->
                             </div>
                         </div>
@@ -170,201 +169,115 @@
         <!-- Contenedor del Gráfico -->
 
         <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div id="chartdiv" style="height: 600px; width: 100%;"></div>
-
-        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Por Tipo de Intervención
-            <span>(En número)</span>
-        </h1>
-
-        <div id="chartdiv2" style="height: 600px; width: 100%;"></div>
-        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Mes tentativo de la
-            presentación de intervenciones <span>(En número)</span></h1>
-
-        <div id="chartdiv3" style="height: 600px; width: 100%;"></div>
-
-        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Por
-            Departamento/Municipio <span>(En número)</span></h1>
-
-        <div id="chartdiv4" style="height: 600px; width: 100%;"></div>
-        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Proyectos estratégicos/no
-            estratégicos <span>(En número)</span></h1>
-
-        <!-- <div id="chartdiv5" style="height: 600px; width: 100%;"></div> -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                </div>
-                <div class="col-md-6">
-                    <div id="chartdiv8" style="height: 600px; width: 100%;"></div>
-                </div>
-                <div class="col-md-3">
-                </div>
-            </div>
-        </div>
-        <!-- <div id="chartdiv4" style="height: 600px; width: 100%;"></div> -->
-        <br> <br><br> <br>
-        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Ranking de Intervenciones
-            por Departamento
-        </h1>
-        <br> <br>
-        </div>
-
-    </div>
-        
-        
-        <div class="container">
-            <!-- <div class="row">
-                <div class="col-md-6">
-                    <h2 class="rank">LA PAZ</h2>
-                    <table id="miTablaLP" class="table table-striped shadow-sm" style="width:100%">
-                        <thead class="table-dark">
-                            <tr>
-                                <th>Proyecto</th>
-                                <th>Monto</th>
-                            </tr>
-                        </thead>
-                        <tbody id="contenidoTablaLP">
-                        </tbody>
-                    </table>
-                </div>
-                <div class="col-md-6">
-                    <h2 class="rank">COCHABAMBA</h2>
-                    <table id="miTablaCB" class="table table-striped shadow-sm" style="width:100%">
-                        <thead class="table-dark">
-                            <tr>
-                                <th>Proyecto</th>
-                                <th>Monto</th>
-                            </tr>
-                        </thead>
-                        <tbody id="contenidoTablaCB">
-                        </tbody>
-                    </table>
-                </div>
-            </div> -->
-            <!-- <div class="row">
-                <div class="col-md-6">
-                    <h2 class="rank">BENI</h2>
-                    <table id="miTablaBE" class="table table-striped shadow-sm" style="width:100%">
-                        <thead class="table-dark">
-                            <tr>
-                                <th>Proyecto</th>
-                                <th>Monto</th>
-                            </tr>
-                        </thead>
-                        <tbody id="contenidoTablaBE">
-                        </tbody>
-                    </table>
-                </div>
-                <div class="col-md-6">
-                    <h2 class="rank">ORURO</h2>
-                    <table id="miTablaOR" class="table table-striped shadow-sm" style="width:100%">
-                        <thead class="table-dark">
-                            <tr>
-                                <th>Proyecto</th>
-                                <th>Monto</th>
-                            </tr>
-                        </thead>
-                        <tbody id="contenidoTablaOR">
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <h2 class="rank">PANDO</h2>
-                    <table id="miTablaPA" class="table table-striped shadow-sm" style="width:100%">
-                        <thead class="table-dark">
-                            <tr>
-                                <th>Proyecto</th>
-                                <th>Monto</th>
-                            </tr>
-                        </thead>
-                        <tbody id="contenidoTablaPA">
-                        </tbody>
-                    </table>
-                </div>
-                <div class="col-md-6">
-                    <h2 class="rank">POTOSI</h2>
-                    <table id="miTablaPO" class="table table-striped shadow-sm" style="width:100%">
-                        <thead class="table-dark">
-                            <tr>
-                                <th>Proyecto</th>
-                                <th>Monto</th>
-                            </tr>
-                        </thead>
-                        <tbody id="contenidoTablaPO">
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <h2 class="rank">SUCRE</h2>
-                    <table id="miTablaSC" class="table table-striped shadow-sm" style="width:100%">
-                        <thead class="table-dark">
-                            <tr>
-                                <th>Proyecto</th>
-                                <th>Monto</th>
-                            </tr>
-                        </thead>
-                        <tbody id="contenidoTabla">
-                        </tbody>
-                    </table>
-                </div>
-                <div class="col-md-6">
-                    <h2 class="rank">TARIJA</h2>
-                    <table id="miTablaTJ" class="table table-striped shadow-sm" style="width:100%">
-                        <thead class="table-dark">
-                            <tr>
-                                <th>Proyecto</th>
-                                <th>Monto</th>
-                            </tr>
-                        </thead>
-                        <tbody id="contenidoTablaCB">
-                        </tbody>
-                    </table>
-                </div>
-            </div> -->
-        </div>
-
-        <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div id="contenedor-tablas"></div>
+                    <div style="width: 100%; overflow: auto;">
+                        <div id="chartdiv" style="height: 600px;"></div>
+                    </div>
+                    <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Por Tipo de
+                        Intervención
+                        <span>(En número)</span>
+                    </h1>
+
+                    <div id="chartdiv2" style="height: 600px; width: 100%;"></div>
+                    <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Mes tentativo
+                        de la
+                        presentación de intervenciones <span>(En número)</span></h1>
+
+                    <div id="chartdiv3" style="height: 600px; width: 100%;"></div>
+
+                    <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Por
+                        Departamento/Municipio <span>(En número)</span></h1>
+
+                    <div id="chartdiv4" style="height: 600px; width: 100%;"></div>
+                    <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Proyectos
+                        estratégicos/no
+                        estratégicos <span>(En número)</span></h1>
+
+                    <!-- <div id="chartdiv5" style="height: 600px; width: 100%;"></div> -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                            </div>
+                            <div class="col-md-6">
+                                <div id="chartdiv8" style="height: 600px; width: 100%;"></div>
+                            </div>
+                            <div class="col-md-3">
+                            </div>
+                        </div>
+                    </div>
+
+                    <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">
+                        Intervenciones Efeméride de Mayo <br> CHUQUISACA
+                    </h1>
+                    <br><br>
+                    <div class="table-responsive">
+                        <table id="miTablaCH" class="table table-striped shadow-sm" style="width:100%">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Descripción</th>
+                                    <th>Monto (Bs.)</th>
+                                    <th>Fecha</th>
+                                    <th>Departamento</th>
+                                    <th>Municipio</th>
+                                </tr>
+                            </thead>
+                            <tbody id="contenidoTablaCH">
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- <div id="chartdiv4" style="height: 600px; width: 100%;"></div> -->
+                    <br> <br><br> <br>
+
+                </div>
+
+            </div>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Ranking
+                            de
+                            Intervenciones
+                            por Departamento
+                        </h1>
+                        <br> <br>
+                        <div id="contenedor-tablas"></div>
+                    </div>
                 </div>
             </div>
+            <br> <br><br> <br>
         </div>
-        <br> <br><br> <br>
-        
-
-    </div>
-    <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Visualizador de Datos
+        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Visualizador de Datos
         </h1>
-        <table id="miTabla" class="table table-striped shadow-sm" style="width:100%">
-            <thead class="table-dark">
-                <tr>
-                    <th>Entidad del Estado</th>
-                    <th>Tipo de intervención</th>
-                    <th>Descripción breve de la intervención (Proyecto, Programa, Actividad u otro)</th>
-                    <th>Fecha tentativa de la presentación</th>
-                    <th>Monto</th>
-                    <th>Dapartamento/Municipio</th>
-                </tr>
-            </thead>
-            <tbody id="contenidoTabla">
-            </tbody>
-        </table>
+        <div class="table-responsive">
 
-    <div style="padding: 20px 0px; font-size: 14px;">Fecha de actualización: <b id="fecha-footer"></b></div>
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
-    <script src="js/data.js?v=13052026_2"></script>
-    <script src="js/dataRanking.js?v=13052026_2"></script>
+            <table id="miTabla" class="table table-striped shadow-sm" style="width:100%">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Entidad del Estado</th>
+                        <th>Tipo de intervención</th>
+                        <th>Descripción breve de la intervención (Proyecto, Programa, Actividad u otro)</th>
+                        <th>Fecha tentativa de la presentación</th>
+                        <th>Monto</th>
+                        <th>Dapartamento/Municipio</th>
+                    </tr>
+                </thead>
+                <tbody id="contenidoTabla">
+                </tbody>
+            </table>
+        </div>
+        <!-- </div> -->
+        <div style="padding: 20px 0px; font-size: 14px;">Fecha de actualización: <b id="fecha-footer"></b></div>
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+        <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+        <script src="js/data.js?v=13052026_3"></script>
+        <script src="js/dataRanking.js?v=13052026_3"></script>
+        <script src="js/dataCH.js?v=13052026_3"></script>
 
-    <script src="js/app.js?v=13052026_2"></script>
+        <script src="js/app.js?v=13052026_3"></script>
 
 </body>
 

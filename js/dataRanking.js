@@ -136,7 +136,7 @@ let dataRanking = [
     },
     {
         "id": "3",
-        "desc": "CONST. PUENTE DE ENLACE COMUNIDAD DE POMATA Y SAN ANTONIO (CORQUE): Contribuir al mejoramiento vial del Municipio de Corque a través de la construcción de un Puente Vehicular, que coadyuve al flujo del tráfico existente en la zona garantizando de esta manera la transitabilidad continua y segura.",
+        "desc": "CONST. PUENTE DE ENLACE COMUNIDAD DE POMATA Y SAN ANTONIO (CORQUE)",
         "monto": " 3.613.338 "
     },
     {
@@ -181,12 +181,12 @@ let dataRanking = [
     },
     {
         "id": "4",
-        "desc": "CONST. PUENTE VEHICULAR Y ACCESOS MOLLE MOLLE: Mejorar las condiciones de accesibilidad y transitabilidad que permita el acceso a los mercados potenciales a los productores agropecuarios de las comunidades del municipio de Ravelo, provincia Chayanta, departamento de Potosí, Bolivia",
+        "desc": "CONST. PUENTE VEHICULAR Y ACCESOS MOLLE MOLLE",
         "monto": " 3.505.885 "
     },
     {
         "id": "5",
-        "desc": "CONST. SISTEMA DE RIEGO TORREJON GRANDE VITICHI :Contribuir al mejoramiento de la calidad de vida de los habitantes de la comunidad de Torrejón Grande, a través de la implementación de un sistema de riego que posibilite el incremento de los niveles de producción y productividad agrícola, como consecuencia de la mayor disponibilidad de agua y su aprovechamiento eficiente para la producción, determinando la generación de mayores ingresos económicos familiares provenientes de la actividad agro productiva",
+        "desc": "CONST. SISTEMA DE RIEGO TORREJON GRANDE VITICHI",
         "monto": " 2.045.504 "
     },
     {
@@ -201,7 +201,7 @@ let dataRanking = [
     },
     {
         "id": "1",
-        "desc": "Proyecto: “CONST. ELECTRIFICACION RURAL CULPINA (CHUQUISACA)”, El Proyecto de CONST. ELECTRIFICACION RURAL CULPINA (CHUQUISACA) consiste en la construcción de 59,56 km de líneas de media tensión, 53,09 km de redes de baja tensión y 38 puestos de transformación MT/BT, ampliando la cobertura del servicio eléctrico a zonas rurales.",
+        "desc": "Proyecto: “CONST. ELECTRIFICACION RURAL CULPINA (CHUQUISACA)”",
         "monto": " 8.014.554 "
     },
     {
@@ -216,7 +216,7 @@ let dataRanking = [
     },
     {
         "id": "4",
-        "desc": "Proyecto: CONST. PLANTA SOLAR OCCIDENTE (CHUQUISACA)\" El proyecto \"Planta Solar Occidente (Chuquisaca)\", tendrá una potencia de 30 MW que serán inyectados al SIN mediante el uso de tecnología fotovoltaica. Contribuyendo al desplazamiento de gas natural y la reducción de emisiones de Gases de Efecto durante la vida útil del proyecto",
+        "desc": "Proyecto: CONST. PLANTA SOLAR OCCIDENTE (CHUQUISACA)",
         "monto": " 2.211.640 "
     },
     {
@@ -231,7 +231,7 @@ let dataRanking = [
     },
     {
         "id": "7",
-        "desc": "AMPL. DE SISTEMA DE RIEGO SAN JOSE DE MOLLES - SAN ANTONIO MUNICIPIO DE YAMPARAEZ: Asegurar la disponibilidad de agua en cantidad y calidad necesaria en todo el ciclo agrícola mediante la ampliación de la red de distribución de agua del riego tecnificado",
+        "desc": "AMPL. DE SISTEMA DE RIEGO SAN JOSE DE MOLLES - SAN ANTONIO MUNICIPIO DE YAMPARAEZ",
         "monto": " 1.575.944 "
     },
     {

@@ -16,12 +16,72 @@
      padding: 10px auto;
      text-align: center;
  }
- h3{
-    color: #102c2d;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    background-color: rgb(103, 183, 220, 0.2);
-    border-radius: 6px;
-    padding: 10px;
+
+ h3 {
+     color: #102c2d;
+     font-size: 18px;
+     font-weight: bold;
+     text-align: center;
+     background-color: rgb(103, 183, 220, 0.2);
+     border-radius: 6px;
+     padding: 10px;
+ }
+
+ .header-title {
+     font-size: 25px;
+     text-align: center;
+     font-weight: bold;
+     color: #102c2d;
+     clear: both
+ }
+
+ .logo-cengob {
+     float: right;
+     width: 300px;
+ }
+
+ .logo-escudo {
+     float: left;
+     width: 120px;
+ }
+
+ .total-intervenciones {
+     font-size: 150px;
+ }
+
+ .table-responsive {
+     /* border: 5px solid #d43a87; */
+ }
+
+
+ @media screen and (max-width: 768px) {
+     body {
+         padding: 5px;
+         margin-top: 10px;
+     }
+
+     .logo-cengob {
+         float: right;
+         width: 150px;
+     }
+
+     .logo-escudo {
+         float: left;
+         width: 60px;
+     }
+
+     .total-intervenciones {
+         font-size: 100px;
+     }
+
+     .header-title {
+         padding-top: 20px;
+     }
+
+     .table-responsive {
+        overflow: auto;
+        width: 100%;
+        /* border: 5px solid #102c2d; */
+     }
+
  }

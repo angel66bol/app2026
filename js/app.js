@@ -1,6 +1,7 @@
 let fechaActualizacion = "Mayo 12, Hrs. 16:00";
 let root; let root2; let root3; let root4; let root5; let root6; let root7; let root8;
-
+let winWidth = $(window).width();
+let winHeight = $(window).height();
 let monthsValue = {
     "enero": "01",
     "febrero": "02",
@@ -512,7 +513,80 @@ function createBarChart8() {
     series.data.setAll(estrategico);
     series.appear(1000);
     chart.appear(1000, 100);
-    
+
+}
+
+function changeChart9(type) {
+    // 1. Limpiar el root anterior si existe para evitar conflictos de memoria
+    if (root) {
+        root.dispose();
+    }
+
+    // 2. Crear nuevo elemento Root
+    root = am5.Root.new("chartdiv");
+
+    // 3. Aplicar tema animado
+    root.setThemes([am5themes_Animated.new(root)]);
+
+    if (type === 'bar') {
+        createBarChart9();
+    } else {
+        createPercentChart(type);
+    }
+}
+
+function createBarChart9() {
+    let chart = root.container.children.push(am5xy.XYChart.new(root, {
+        panX: true,
+        panY: true,
+        wheelX: "panX",
+        wheelY: "zoomX",
+        pinchZoomX: true
+    }));
+
+    var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {}));
+    cursor.lineY.set("visible", false);
+
+
+    // Crear ejes
+    let xRenderer = am5xy.AxisRendererX.new(root, { minGridDistance: 30 });
+    xRenderer.labels.template.setAll({
+        rotation: -90,
+        centerY: am5.p50,
+        centerX: am5.p100,
+        paddingRight: 15
+    });
+    let xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(root, {
+        categoryField: "category",
+        renderer: xRenderer,
+        tooltip: am5.Tooltip.new(root, {})
+    }));
+    xAxis.data.setAll(entidad);
+
+    let yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root, {
+        renderer: am5xy.AxisRendererY.new(root, {})
+    }));
+
+    // Crear Serie
+    let series = chart.series.push(am5xy.ColumnSeries.new(root, {
+        name: "Valores",
+        xAxis: xAxis,
+        yAxis: yAxis,
+        valueYField: "value",
+        categoryXField: "category",
+        tooltip: am5.Tooltip.new(root, { labelText: "{valueY}" })
+    }));
+
+    // Estilizar columnas
+    series.columns.template.setAll({ cornerRadiusTL: 5, cornerRadiusTR: 5, strokeOpacity: 0 });
+    series.columns.template.adapters.add("fill", (fill, target) => {
+        return chart.get("colors").getIndex(series.columns.indexOf(target));
+    });
+
+    series.data.setAll(entidad);
+    series.appear(1000);
+    chart.appear(1000, 100);
+
 }
 
 
@@ -618,8 +692,15 @@ function createPercentChart5(type) {
     series.appear(1000, 100);
 }
 
-
+if(winWidth>768){
 changeChart('bar');
+$("#chartdiv").css("height", 600 );
+}
+else{
+changeChart9('bar');
+$("#chartdiv").css("height", 800 );
+
+}
 changeChart2('bar');
 changeChart3('bar');
 createBarChart4();
@@ -673,13 +754,49 @@ $(document).ready(function () {
         "responsive": true
     });
 
-    $('#miTablaCB').DataTable({
-        "language": {
-            "url": "//cdn.datatables.net/plug-ins/1.13.6/i18n/es-ES.json" // Traducción al español
+    let dataJSONtableCH = dataCH;
+
+    const tbodyCH = $('#contenidoTablaCH');
+    dataJSONtableCH.forEach(item => {
+        tbodyCH.append(`
+                    <tr>
+                        <td>${item["DESCRIPCIÓN DE LA INTERVENCIÓN"]}</td>
+                        <td>${item["MONTOS"]}</td>
+                        <td>${item["MES"]}</td>
+                        <td>${item["DEPTO"]}</td>
+                        <td>${item["MUNICIPIO"]}</td>                       
+                    </tr>
+                `);
+    });
+
+    $('#miTablaCH').DataTable({
+        language: {
+            processing: "Procesando...",
+            search: "Buscar:",
+            lengthMenu: "Mostrar _MENU_ registros",
+            info: "Mostrando del registro _START_ al _END_ de un total de _TOTAL_ registros",
+            infoEmpty: "Mostrando 0 de 0 registros",
+            infoFiltered: "(filtrado de un total de _MAX_ registros)",
+            loadingRecords: "Cargando registros...",
+            zeroRecords: "No se encontraron resultados",
+            emptyTable: "No hay datos disponibles en la tabla",
+            paginate: {
+                first: "Primero",
+                previous: "Anterior",
+                next: "Siguiente",
+                last: "Último"
+            },
+            aria: {
+                sortAscending: ": Activar para ordenar la columna de manera ascendente",
+                sortDescending: ": Activar para ordenar la columna de manera descendente"
+            }
         },
-        "paging": false,
-        "responsive": true,
-        "info": false
+
+        paging: false,
+        responsive: true,
+        info: false,
+        searching: false,
+        ordering: false
     });
 
 
