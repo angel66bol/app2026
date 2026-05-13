@@ -1,4 +1,4 @@
-let fechaActualizacion = "Mayo 13, Hrs. 16:00";
+let fechaActualizacion = "Mayo 12, Hrs. 16:00";
 let root; let root2; let root3; let root4; let root5; let root6; let root7; let root8;
 let winWidth = $(window).width();
 let winHeight = $(window).height();
@@ -74,11 +74,10 @@ function orderDeptoMunicipio(data) {
 depto = orderDeptoMunicipio(depto);
 depto.sort((a, b) => b.index - a.index);
 
-console.log(tipoIntervencion[4].value);
 
 $("#proyecto").html(tipoIntervencion[0].value);
-$("#programa").html(tipoIntervencion[2].value);
-$("#actividad").html(tipoIntervencion[1].value);
+$("#programa").html(tipoIntervencion[1].value);
+$("#actividad").html(tipoIntervencion[2].value);
 $("#norma").html(tipoIntervencion[3].value);
 $("#otro").html(tipoIntervencion[4].value);
 
@@ -86,9 +85,9 @@ const montos = contarFrecuencia(dataX, " MONTO RANGOS ");
 console.log(montos);
 
 $("#inferior").html(montos[0].value);
-$("#sinmonto").html(montos[3].value);
-$("#mayor").html(montos[1].value);
-$("#regular").html(montos[2].value);
+$("#sinmonto").html(montos[1].value);
+$("#mayor").html(montos[2].value);
+$("#regular").html(montos[3].value);
 
 $("#fecha-header").html(fechaActualizacion);
 $("#fecha-footer").html(fechaActualizacion);
@@ -194,13 +193,15 @@ function createBarChart() {
         layout: root.verticalLayout
     }));
 
-    // chart.get("colors").set("colors", [
-    //     am5.color(0x095256),
-    //     am5.color(0x087f8c),
-    //     am5.color(0x5aaa95),
-    //     am5.color(0x86a873),
-    //     am5.color(0xbb9f06)
-    // ]);
+    
+    chart.get("colors").set("colors", [
+        am5.color(0x095256),
+        am5.color(0x087f8c),
+        am5.color(0x5aaa95),
+        am5.color(0x86a873),
+        am5.color(0xbb9f06)
+    ]);
+
 
     var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {}));
     cursor.lineY.set("visible", false);
@@ -290,7 +291,7 @@ function createPercentChart(type) {
     series.appear(1000, 100);
 }
 
-// changeChart('bar');
+changeChart('bar');
 
 
 
@@ -317,17 +318,18 @@ function createBarChart2() {
         wheelY: "zoomX",
         pinchZoomX: true
     }));
-    // chart.get("colors").set("colors", [
-    //     am5.color(0x095256),
-    //     am5.color(0x087f8c),
-    //     am5.color(0x5aaa95),
-    //     am5.color(0x86a873),
-    //     am5.color(0xbb9f06)
-    // ]);
+    chart.get("colors").set("colors", [
+        am5.color(0x095256),
+        am5.color(0x087f8c),
+        am5.color(0x5aaa95),
+        am5.color(0x86a873),
+        am5.color(0xbb9f06)
+    ]);
 
+    
     var cursor = chart.set("cursor", am5xy.XYCursor.new(root2, {}));
     cursor.lineY.set("visible", false);
-
+    
     // Crear ejes
     let xRenderer = am5xy.AxisRendererX.new(root2, { minGridDistance: 30 });
     xRenderer.labels.template.setAll({
@@ -402,6 +404,13 @@ function createBarChart3() {
     var cursor = chart.set("cursor", am5xy.XYCursor.new(root3, {}));
     cursor.lineY.set("visible", false);
 
+    chart.get("colors").set("colors", [
+        am5.color(0x095256),
+        am5.color(0x087f8c),
+        am5.color(0x5aaa95),
+        am5.color(0x86a873),
+        am5.color(0xbb9f06)
+    ]);
 
     // Crear ejes
     let xRenderer = am5xy.AxisRendererX.new(root3, { minGridDistance: 30 });
@@ -475,6 +484,14 @@ function createBarChart8() {
     var cursor = chart.set("cursor", am5xy.XYCursor.new(root8, {}));
     cursor.lineY.set("visible", false);
 
+    chart.get("colors").set("colors", [
+        am5.color(0x095256),
+        am5.color(0x087f8c),
+        am5.color(0x5aaa95),
+        am5.color(0x86a873),
+        am5.color(0xbb9f06)
+    ]);
+
 
     // Crear ejes
     let xRenderer = am5xy.AxisRendererX.new(root8, { minGridDistance: 30 });
@@ -492,8 +509,7 @@ function createBarChart8() {
     xAxis.data.setAll(estrategico);
 
     let yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root8, {
-        renderer: am5xy.AxisRendererY.new(root8, {}),
-        min: 0
+        renderer: am5xy.AxisRendererY.new(root8, {})
     }));
 
     // Crear Serie
@@ -549,6 +565,13 @@ function createBarChart9() {
     var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {}));
     cursor.lineY.set("visible", false);
 
+    chart.get("colors").set("colors", [
+        am5.color(0x095256),
+        am5.color(0x087f8c),
+        am5.color(0x5aaa95),
+        am5.color(0x86a873),
+        am5.color(0xbb9f06)
+    ]);
 
     // Crear ejes
     let xRenderer = am5xy.AxisRendererX.new(root, { minGridDistance: 30 });
@@ -613,6 +636,13 @@ function createBarChart4() {
     var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {}));
     cursor.lineY.set("visible", false);
 
+    chart.get("colors").set("colors", [
+        am5.color(0x095256),
+        am5.color(0x087f8c),
+        am5.color(0x5aaa95),
+        am5.color(0x86a873),
+        am5.color(0xbb9f06)
+    ]);
 
     // Crear ejes
     let xRenderer = am5xy.AxisRendererX.new(root4, { minGridDistance: 30 });
@@ -696,7 +726,7 @@ function createPercentChart5(type) {
 
 if (winWidth > 768) {
     changeChart('bar');
-    $("#chartdiv").css("height", 900);
+    $("#chartdiv").css("height", 600);
 }
 else {
     changeChart9('bar');
