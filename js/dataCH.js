@@ -35,13 +35,6 @@ let dataCH = [
     "MUNICIPIO": "SIN IDENTIFICAR"
   },
   {
-    "DESCRIPCIÓN DE LA INTERVENCIÓN": "Proyecto del PER III\nPiedra Fundamental del Proyecto: CONST. AMPLIACION DE RED ELÉCTRICA RURAL CULPINA (CHUQUISACA)",
-    "MONTOS": " Sin Referencia ",
-    "MES": "15/5/2026",
-    "DEPTO": "CHUQUISACA",
-    "MUNICIPIO": "SIN IDENTIFICAR"
-  },
-  {
     "DESCRIPCIÓN DE LA INTERVENCIÓN": "AMPL. DE SISTEMA DE RIEGO PRESURIZADO EL PERAL",
     "MONTOS": " 3.438.646 ",
     "MES": "20/5/2026",
