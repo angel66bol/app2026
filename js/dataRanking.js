@@ -21,7 +21,7 @@ let dataRanking = [
     },
     {
         "id": "4",
-        "desc": "CONST. DEFENSIVO EL RÍO LA PAZ COM. HUAJCHILLA (MECAPACA): Implementar en la comunidad de Huajchilla la Construcción de defensivos en base a Muro de Contención en Rio La Paz, para la protección de áreas de cultivo, garantizando el desarrollo integral de la población en beneficio del bienestar de las familias y, así, elevar la calidad de vida de la población.",
+        "desc": "CONST. DEFENSIVO EL RÍO LA PAZ COM. HUAJCHILLA (MECAPACA)",
         "monto": " 2.431.823 "
     },
     {
@@ -61,7 +61,7 @@ let dataRanking = [
     },
     {
         "id": "1",
-        "desc": "Proyecto: CONST. PLANTA DE GENERACIÓN HIDROELÉCTRICA IVIRIZU\" Componente Línea de Transmisión 230 kV Interconexión IVIRIZU al SIN”, El proyecto Línea de Transmisión Interconexión de Ivirizu al SIN, permitira la inyección de la energía eléctrica generada por las centrales de Sehuencas y Juntas al sistema interconectado nacional mediante la construcción de la línea de transmisión eléctrica 230 kV Santiváñez II - Sehuencas y línea de transmisión eléctrica 230 kV Sehuencas – Sucre contemplando además, la ampliación de las subestaciones eléctricas de Santiváñez ii, Sucre y la incorporación de un nodo de compensación próximo a la población de Mizque”",
+        "desc": "Proyecto: CONST. PLANTA DE GENERACIÓN HIDROELÉCTRICA IVIRIZU Componente Línea de Transmisión 230 kV Interconexión IVIRIZU al SIN",
         "monto": " 674.943.235 "
     },
     {
