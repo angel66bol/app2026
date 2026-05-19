@@ -1,5 +1,5 @@
-window.console.log = () => { };
-let fechaActualizacion = "Mayo 19, Hrs. 14:00";
+//window.console.log = () => { };
+let fechaActualizacion = "Mayo 19, Hrs. 18:00";
 let root; let root2; let root3; let root4; let root5; let root6; let root7; let root8; let root9; let root10; let root11; let root12;
 let winWidth = $(window).width();
 let winHeight = $(window).height();
@@ -87,6 +87,10 @@ const tipoIntervencion = contarFrecuencia(dataX, "Tipo de intervención");
 
 let mes = contarFrecuencia(dataX, "fecha final");
 let mes2 = contarFrecuencia(dataX, "fecha final");
+mes2 = orderMonthYear(mes2);
+mes2.sort((a, b) => a.index - b.index);
+
+console.log(mes2);
 
 let depto = contarFrecuencia(dataX, "DEPTO/MUNIC");
 let estrategico = contarFrecuencia(dataX, "ESTRATEGICO/NO ESTRATEGICO");
