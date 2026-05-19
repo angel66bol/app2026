@@ -1,5 +1,6 @@
-let fechaActualizacion = "Mayo 13, Hrs. 16:00";
-let root; let root2; let root3; let root4; let root5; let root6; let root7; let root8;
+//window.console.log = () => { };
+let fechaActualizacion = "Mayo 19, Hrs. 14:00";
+let root; let root2; let root3; let root4; let root5; let root6; let root7; let root8; let root9; let root10; let root11; let root12;
 let winWidth = $(window).width();
 let winHeight = $(window).height();
 let monthsValue = {
@@ -16,6 +17,49 @@ let monthsValue = {
     "noviembre": "11",
     "diciembre": "12"
 };
+
+let pieData = [
+    {
+        "category": "Beni",
+        "value": "10"
+    },
+    {
+        "category": "Chuquisaca",
+        "value": "10"
+    },
+    {
+        "category": "Cochabamba",
+        "value": "10"
+    },
+    {
+        "category": "La Paz",
+        "value": "10"
+    },
+    {
+        "category": "Oruro",
+        "value": "10"
+    },
+    {
+        "category": "Pando",
+        "value": "10"
+    },
+    {
+        "category": "Potosí",
+        "value": "10"
+    },
+    {
+        "category": "Santa Cruz",
+        "value": "5"
+    },
+    {
+        "category": "Tarija",
+        "value": "20"
+    },
+    {
+        "category": "Varios Depto",
+        "value": "5"
+    }
+]
 
 const dataX = dataJSON;
 let dataJSONtable = dataJSON;
@@ -42,6 +86,8 @@ const entidad = contarFrecuencia(dataX, "Entidad del Estado");
 const tipoIntervencion = contarFrecuencia(dataX, "Tipo de intervención");
 
 let mes = contarFrecuencia(dataX, "fecha final");
+let mes2 = contarFrecuencia(dataX, "fecha final");
+
 let depto = contarFrecuencia(dataX, "DEPTO/MUNIC");
 let estrategico = contarFrecuencia(dataX, "ESTRATEGICO/NO ESTRATEGICO");
 console.log(entidad);
@@ -74,6 +120,13 @@ function orderDeptoMunicipio(data) {
 depto = orderDeptoMunicipio(depto);
 depto.sort((a, b) => b.index - a.index);
 
+console.log(depto);
+
+let cardDepto = new Array();
+for (let i = 0; i < depto.length; i++) {
+    cardDepto.push(depto[i]);
+}
+
 console.log(tipoIntervencion[4].value);
 
 $("#proyecto").html(tipoIntervencion[0].value);
@@ -85,14 +138,17 @@ $("#otro").html(tipoIntervencion[4].value);
 const montos = contarFrecuencia(dataX, " MONTO RANGOS ");
 console.log(montos);
 
-$("#inferior").html(montos[0].value);
+$("#inferior").html(montos[1].value);
 $("#sinmonto").html(montos[3].value);
 $("#mayor").html(montos[2].value);
-$("#regular").html(montos[1].value);
+$("#regular").html(montos[0].value);
 
 $("#fecha-header").html(fechaActualizacion);
 $("#fecha-footer").html(fechaActualizacion);
 
+
+const pieDataJSON = contarFrecuencia(pieData, " MONTO RANGOS ");
+console.log(montos);
 
 const data = [
     {
@@ -194,13 +250,13 @@ function createBarChart() {
         layout: root.verticalLayout
     }));
 
-    // chart.get("colors").set("colors", [
-    //     am5.color(0x095256),
-    //     am5.color(0x087f8c),
-    //     am5.color(0x5aaa95),
-    //     am5.color(0x86a873),
-    //     am5.color(0xbb9f06)
-    // ]);
+    chart.get("colors").set("colors", [
+        am5.color(0x198754),
+        am5.color(0x31A354),
+        am5.color(0x74C476),
+        am5.color(0xA1D99B),
+        am5.color(0xC7E9C0)
+    ]);
 
     var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {}));
     cursor.lineY.set("visible", false);
@@ -291,9 +347,6 @@ function createPercentChart(type) {
 }
 
 // changeChart('bar');
-
-
-
 function changeChart2(type) {
     if (root2) {
         root2.dispose();
@@ -443,6 +496,86 @@ function createBarChart3() {
     chart.appear(1000, 100);
 }
 
+function changeChart11(type) {
+    // 1. Limpiar el root anterior si existe para evitar conflictos de memoria
+    if (root11) {
+        root11.dispose();
+    }
+
+    // 2. Crear nuevo elemento Root
+    root11 = am5.Root.new("chartdiv11");
+
+    // 3. Aplicar tema animado
+    root11.setThemes([am5themes_Animated.new(root11)]);
+
+    if (type === 'bar') {
+        createBarChart11();
+    } else {
+        createPercentChart(type);
+    }
+}
+
+function createBarChart11() {
+    let chart = root11.container.children.push(am5xy.XYChart.new(root11, {
+        panX: true,
+        panY: true,
+        wheelX: "panX",
+        wheelY: "zoomX",
+        pinchZoomX: true
+    }));
+
+    chart.get("colors").set("colors", [
+        am5.color(0x198754),
+        am5.color(0x31A354),
+        am5.color(0x74C476),
+        am5.color(0xA1D99B),
+        am5.color(0xC7E9C0)
+    ]);
+
+    var cursor = chart.set("cursor", am5xy.XYCursor.new(root11, {}));
+    cursor.lineY.set("visible", false);
+
+
+    // Crear ejes
+    let xRenderer = am5xy.AxisRendererX.new(root11, { minGridDistance: 30 });
+    xRenderer.labels.template.setAll({
+        rotation: -90,
+        centerY: am5.p50,
+        centerX: am5.p100,
+        paddingRight: 15
+    });
+    let xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(root11, {
+        categoryField: "category",
+        renderer: xRenderer,
+        tooltip: am5.Tooltip.new(root11, {})
+    }));
+    xAxis.data.setAll(mes2);
+
+    let yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root11, {
+        renderer: am5xy.AxisRendererY.new(root11, {})
+    }));
+
+    // Crear Serie
+    let series = chart.series.push(am5xy.ColumnSeries.new(root11, {
+        name: "Valores",
+        xAxis: xAxis,
+        yAxis: yAxis,
+        valueYField: "value",
+        categoryXField: "category",
+        tooltip: am5.Tooltip.new(root11, { labelText: "{valueY}" })
+    }));
+
+    // Estilizar columnas
+    series.columns.template.setAll({ cornerRadiusTL: 5, cornerRadiusTR: 5, strokeOpacity: 0 });
+    series.columns.template.adapters.add("fill", (fill, target) => {
+        return chart.get("colors").getIndex(series.columns.indexOf(target));
+    });
+
+    series.data.setAll(mes2);
+    series.appear(1000);
+    chart.appear(1000, 100);
+}
+
 function changeChart8(type) {
     // 1. Limpiar el root anterior si existe para evitar conflictos de memoria
     if (root8) {
@@ -471,6 +604,14 @@ function createBarChart8() {
         wheelY: "zoomX",
         pinchZoomX: true
     }));
+
+    chart.get("colors").set("colors", [
+        am5.color(0x198754),
+        am5.color(0x31A354),
+        am5.color(0x74C476),
+        am5.color(0xA1D99B),
+        am5.color(0xC7E9C0)
+    ]);
 
     var cursor = chart.set("cursor", am5xy.XYCursor.new(root8, {}));
     cursor.lineY.set("visible", false);
@@ -656,24 +797,35 @@ function createBarChart4() {
 
 function createPercentChart5(type) {
 
-    if (root5) {
-        root5.dispose();
+    console.log(depto)
+
+    if (root10) {
+        root10.dispose();
     }
 
     // 2. Crear nuevo elemento Root
-    root5 = am5.Root.new("chartdiv5");
+    root10 = am5.Root.new("chartdiv10");
 
     // 3. Aplicar tema animado
-    root5.setThemes([am5themes_Animated.new(root5)]);
-    let chart = root5.container.children.push(am5percent.PieChart.new(root5, {
-        layout: root5.verticalLayout,
-        innerRadius: type === 'donut' ? am5.percent(50) : 0
+    root10.setThemes([am5themes_Animated.new(root10)]);
+    let chart = root10.container.children.push(am5percent.PieChart.new(root10, {
+        layout: root10.verticalLayout,
+        // innerRadius: type === 'donut' ? am5.percent(50) : 0
     }));
 
-    let series = chart.series.push(am5percent.PieSeries.new(root5, {
+    let series = chart.series.push(am5percent.PieSeries.new(root10, {
         valueField: "value",
         categoryField: "category",
-        alignLabels: false
+        colors: am5.ColorSet.new(root10, {
+            colors: [
+                am5.color(0x198754),
+                am5.color(0x31A354),
+                am5.color(0x74C476),
+                am5.color(0xA1D99B),
+                am5.color(0xC7E9C0)
+            ]
+        })
+        // alignLabels: false
     }));
 
     // //series.labels.template.setAll({ textType: "circular", centerX: 0, centerY: 0 });
@@ -685,10 +837,19 @@ function createPercentChart5(type) {
 
     series.slices.template.setAll({
         // Esto sobreescribe el comportamiento por defecto del hover
-
         tooltipText: "{category}: {value}"
     });
-    series.data.setAll(estrategico);
+    series.data.setAll(depto);
+
+
+    // var legend = chart.children.push(am5.Legend.new(root5, {
+    //     centerX: am5.percent(50),
+    //     x: am5.percent(50),
+    //     marginTop: 15,
+    //     marginBottom: 15
+    // }));
+
+    // legend.data.setAll(series.dataItems);
 
     // Aparecer con animación
     series.appear(1000, 100);
@@ -696,17 +857,18 @@ function createPercentChart5(type) {
 
 if (winWidth > 768) {
     changeChart('bar');
-    $("#chartdiv").css("height", 900);
+    $("#chartdiv").css("height", 780);
 }
 else {
     changeChart9('bar');
     $("#chartdiv").css("height", 800);
-
 }
-changeChart2('bar');
-changeChart3('bar');
-createBarChart4();
-// createPercentChart5('donut');
+// changeChart2('bar');
+// changeChart3('bar');
+changeChart11('bar');
+
+// createBarChart4();
+createPercentChart5('pie');
 
 
 changeChart8('bar');
@@ -717,6 +879,7 @@ $(document).ready(function () {
 
 
 
+    let montoTotal = 0
     dataJSONtable.forEach(item => {
         const fechaTxt = item["Fecha tentativa de la presentación"];
         let orden = "";
@@ -729,23 +892,37 @@ $(document).ready(function () {
 
             orden = anio + mes + dia;
         }
+        let ordenMonto = 10000000000;
+        console.log(item);
+        let monto = item["MONTOS"];
+        console.log(monto)
+        if (monto.trim() != "Sin Referencia") {
+            console.log(monto);
+            monto = item["MONTOS"].replaceAll(",", ".");
+            ordenMonto = parseInt(monto.replaceAll(".", ""));
+            console.log(monto, ordenMonto)
+            montoTotal += ordenMonto;
+        }
         tbody.append(`
                     <tr>
                         <td>${item["Entidad del Estado"]}</td>
                         <td>${item["Tipo de intervención"]}</td>
                         <td>${item["Descripción breve de la intervención (Proyecto,  Programa,  Actividad u otro)"]}</td>
                         <td data-order="${orden}">${item["Fecha tentativa de la presentación"]}</td>
-                                                <td>${item["MONTOS"]}</td>
+                        <td data-order="${ordenMonto}">${monto}</td>
 
                         <td>${item["DEPTO/MUNIC"]}</td>
                        
                     </tr>
                 `);
     });
-
-
+    console.log(montoTotal);
 
     $('#miTabla').DataTable({
+        // columnDefs: [
+        //     { type: 'num', targets: 4 }
+        //     // 4 es el índice de la columna de montos (empezando desde 0)
+        // ],
         language: {
             processing: "Procesando...",
             search: "Buscar:",
@@ -849,7 +1026,7 @@ $(document).ready(function () {
         const tablaHtml = `
         <div class="contenedor-tabla-individual" style="margin-bottom: 40px;">
             <h3>${tabla.titulo}</h3>
-            <table id="${tablaId}" class="display" style="width:100%">
+            <table id="${tablaId}" class="display table-departamento" style="width:100%">
                 <thead>
                     <tr >
                         <th style="width:80px">RANKING</th>

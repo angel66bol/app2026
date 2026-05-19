@@ -18,7 +18,7 @@
     <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
-    <link href="css/styles.css?v=13052026_7" rel="stylesheet">
+    <link href="css/styles.css?v=19052026" rel="stylesheet">
 </head>
 
 <body class="">
@@ -34,34 +34,58 @@
     <div style="width: 100%;">
         <h1 class="header-title">DASHBOARD DE
             INTERVENCIONES</h1>
+
         <div class="container">
-            <div class="container mt-5">
-                <div class="row g-4">
-                    <!-- KPI 1: Cantidad Total Principal -->
-                    <div class="col-md-4">
-                        <div class="card border-0 shadow-sm h-100 text-white" style="background:#198754">
-                            <div class="card-body">
-                                <h6 class="text-uppercase fw-bold opacity-75">Cantidad Total de Intervenciones</h6>
-                                <h2 class="display-5 fw-bold mb-0 total-intervenciones" id="cti"></h2>
-                                <!-- <small class="text-white-50">+5% vs mes anterior</small> -->
-                                <div style="background: #002724; padding: 10px 10px;border-radius: 5px;">
-                                    <h6 class=" fw-bold opacity-75">MONTO TOTAL EN Millones de Bs.</h6>
-                                    <h2 class="display-5 fw-bold mb-0" id="mtm"
-                                        style="font-size: 30px; border-radius: 5px; text-align: center;padding: 10px 0px;">
-                                        4.225.693.365</h2>
+            <div class="row">
+                <div style="padding: 2px 12px; font-size: 14px;">Fecha de actualización: <b id="fecha-header"></b>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="card border-0 shadow-sm h-100 text-white" style="background:#198754">
+                        <div class="card-body">
+                            <h6 class="text-uppercase fw-bold opacity-75">Cantidad Total de Intervenciones</h6>
+                            <div class="contenedor-padre">
+                                <div class="div-centrado">
+                                    <h2 class="display-5 fw-bold mb-0 total-intervenciones" id="cti"></h2>
                                 </div>
-                                <!-- <small class="text-white-50">+5% vs mes anterior</small> -->
                             </div>
-                        </div>
-                        <div style="padding: 20px 0px; font-size: 14px;">Fecha de actualización: <b
-                                id="fecha-header"></b>
+                            <!-- <small class="text-white-50">+5% vs mes anterior</small> -->
+                            <!-- <div style="background: #36aa74; padding: 10px 10px;border-radius: 5px;">
+                                <h6 class=" fw-bold opacity-75">MONTO TOTAL EN Millones de Bs.</h6>
+                                <h2 class="display-5 fw-bold mb-0" id="mtm"
+                                    style="font-size: 30px; border-radius: 5px; text-align: center;padding: 10px 0px;">
+                                    4.225</h2>
+                            </div> -->
+                            <!-- <small class="text-white-50">+5% vs mes anterior</small> -->
                         </div>
                     </div>
+                </div>
 
+                <div class="col-md-3">
+                    <div class="card border-0 shadow-sm h-100 text-white" style="background:#31A354">
+                        <div class="card-body">
+                            <h6 class="text-uppercase fw-bold opacity-75">MONTO TOTAL EN Millones de Bs.</h6>
+                            <div class="contenedor-padre">
+                                <div class="div-centrado">
+                                    <h2 class="display-5 fw-bold mb-0 total-intervenciones" id="ctim">4.336</h2>
+                                </div>
+                            </div>
 
+                            <!-- <small class="text-white-50">+5% vs mes anterior</small> -->
+                            <!-- <div style="background: #002724; padding: 10px 10px;border-radius: 5px;">
+                                <h6 class=" fw-bold opacity-75">MONTO TOTAL EN Millones de Bs.</h6>
+                                <h2 class="display-5 fw-bold mb-0" id="mtm"
+                                    style="font-size: 30px; border-radius: 5px; text-align: center;padding: 10px 0px;">
+                                    4.225.</h2>
+                            </div> -->
+                            <!-- <small class="text-white-50">+5% vs mes anterior</small> -->
+                        </div>
+                    </div>
+                </div>
 
-                    <!-- KPI 2: Cantidad Total Secundaria -->
-                    <!-- <div class="col-md-3">
+                <!-- KPI 2: Cantidad Total Secundaria -->
+                <!-- <div class="col-md-3">
                         <div class="card border-0 shadow-sm h-100">
                             <div class="card-body">
                                 <h6 class="text-uppercase fw-bold text-muted">Ingresos (BOB)</h6>
@@ -71,100 +95,125 @@
                         </div>
                     </div> -->
 
-                    <!-- KPI 3: Lista Variable (Ej: Estado de Proyectos) -->
-                    <div class="col-md-4">
-                        <div class="card border-0 shadow-sm h-100">
-                            <div class="card-body">
-                                <h6 class="text-uppercase fw-bold text-muted mb-3">Tipo de Intervenciones</h6>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-                                        Proyectos de Inversión/Obras <span class="badge bg-success rounded-pill"
-                                            id="proyecto">120</span>
-                                    </li>
-                                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-                                        Programa <span class="badge bg-warning text-dark rounded-pill"
-                                            id="programa">45</span>
-                                    </li>
-                                    <li
-                                        class="list-group-item d-flex justify-content-between align-items-center px-0 border-bottom-0">
-                                        Actividad<span class="badge bg-danger rounded-pill" id="actividad">12</span>
-                                    </li>
-                                    <li
-                                        class="list-group-item d-flex justify-content-between align-items-center px-0 border-bottom-0">
-                                        Norma<span class="badge bg-danger rounded-pill" id="norma">12</span>
-                                    </li>
-                                    <li
-                                        class="list-group-item d-flex justify-content-between align-items-center px-0 border-bottom-0">
-                                        Otro<span class="badge bg-danger rounded-pill" id="otro">12</span>
-                                    </li>
+                <!-- KPI 3: Lista Variable (Ej: Estado de Proyectos) -->
+                <div class="col-md-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body">
+                            <h6 class="text-uppercase fw-bold text-muted mb-3">Tipo de Intervenciones</h6>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                    Proyectos de Inversión/Obras <span class="badge bg-success rounded-pill"
+                                        id="proyecto">120</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                    Programa <span class="badge bg-warning text-dark rounded-pill"
+                                        id="programa">45</span>
+                                </li>
+                                <li
+                                    class="list-group-item d-flex justify-content-between align-items-center px-0 border-bottom-0">
+                                    Actividad<span class="badge bg-danger rounded-pill" id="actividad">12</span>
+                                </li>
+                                <li
+                                    class="list-group-item d-flex justify-content-between align-items-center px-0 border-bottom-0">
+                                    Norma<span class="badge bg-danger rounded-pill" id="norma">12</span>
+                                </li>
+                                <li
+                                    class="list-group-item d-flex justify-content-between align-items-center px-0 border-bottom-0">
+                                    Otro<span class="badge bg-danger rounded-pill" id="otro">12</span>
+                                </li>
 
-                                </ul>
-                            </div>
+                            </ul>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-md-4">
-                        <div class="card border-0 shadow-sm h-100">
-                            <div class="card-body">
-                                <h6 class="text-uppercase fw-bold text-muted mb-3">Rango de montos</h6>
-                                <ul class="list-group list-group-flush">
+                <div class="col-md-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body">
+                            <h6 class="text-uppercase fw-bold text-muted mb-3">Rango de montos</h6>
+                            <ul class="list-group list-group-flush">
 
-                                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-                                        Proyectos menores a 2 Millones Bs.<span class="badge bg-success rounded-pill"
-                                            id="inferior">120</span>
-                                    </li>
-                                    <li
-                                        class="list-group-item d-flex justify-content-between align-items-center px-0 border-bottom-0">
-                                        Proyectos entre 2 a 7 Millones Bs.<span class="badge bg-danger rounded-pill"
-                                            id="regular">12</span>
-                                    </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                    Proyectos menores a 2 Millones Bs.<span class="badge bg-success rounded-pill"
+                                        id="inferior">120</span>
+                                </li>
+                                <li
+                                    class="list-group-item d-flex justify-content-between align-items-center px-0 border-bottom-0">
+                                    Proyectos entre 2 a 7 Millones Bs.<span class="badge bg-danger rounded-pill"
+                                        id="regular">12</span>
+                                </li>
 
-                                    <li
-                                        class="list-group-item d-flex justify-content-between align-items-center px-0 border-bottom-0">
-                                        Proyectos Mayores a 7 Millones Bs.<span class="badge bg-danger rounded-pill"
-                                            id="mayor">12</span>
-                                    </li>
+                                <li
+                                    class="list-group-item d-flex justify-content-between align-items-center px-0 border-bottom-0">
+                                    Proyectos Mayores a 7 Millones Bs.<span class="badge bg-danger rounded-pill"
+                                        id="mayor">12</span>
+                                </li>
 
-                                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-                                        Sin Referencia<span class="badge bg-warning text-dark rounded-pill"
-                                            id="sinmonto">45</span>
-                                    </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                    Sin Referencia<span class="badge bg-warning text-dark rounded-pill"
+                                        id="sinmonto">45</span>
+                                </li>
 
-                                </ul>
-                            </div>
+                            </ul>
                         </div>
                     </div>
-
-                    <!-- KPI 4: Lista Variable (Ej: Categorías) -->
-                    <!-- <div class="col-md-3">
-      <div class="card border-0 shadow-sm h-100">
-        <div class="card-body">
-          <h6 class="text-uppercase fw-bold text-muted mb-3">Top Regiones</h6>
-          <div class="d-flex justify-content-between mb-2">
-            <span>La Paz</span> <span class="fw-bold">45%</span>
-          </div>
-          <div class="progress mb-3" style="height: 6px;">
-            <div class="progress-bar bg-info" style="width: 45%"></div>
-          </div>
-          <div class="d-flex justify-content-between mb-2">
-            <span>Santa Cruz</span> <span class="fw-bold">30%</span>
-          </div>
-          <div class="progress mb-1" style="height: 6px;">
-            <div class="progress-bar bg-info" style="width: 30%"></div>
-          </div>
-        </div>
-      </div>
-    </div> -->
                 </div>
             </div>
-        </div>
-        <br><br>
-        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 20px;">Por Entidades del Estado
-            <span>(En número)</span>
-        </h1>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body">
+                            <h6 class="text-uppercase fw-bold text-muted mb-3">Proyectos por departamento (%)</h6>
+                            <div id="chartdiv10" style="height: 300px;"></div>
+                        </div>
+                    </div>
+                </div>
 
-        <!-- Selector de Gráficos -->
-        <!-- <div class="flex justify-center space-x-4 mb-10">
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body">
+                            <h6 class="text-uppercase fw-bold text-muted mb-3">Mes tentativo
+                                de la
+                                presentación de intervenciones</h6>
+                            <div id="chartdiv11" style="height: 300px;"></div>
+                            <!-- <div class="d-flex justify-content-between mb-2">
+                                <span>La Paz</span> <span class="fw-bold">45%</span>
+                            </div>
+                            <div class="progress mb-3" style="height: 6px;">
+                                <div class="progress-bar bg-info" style="width: 45%"></div>
+                            </div>
+                            <div class="d-flex justify-content-between mb-2">
+                                <span>Santa Cruz</span> <span class="fw-bold">30%</span>
+                            </div>
+                            <div class="progress mb-1" style="height: 6px;">
+                                <div class="progress-bar bg-info" style="width: 30%"></div>
+                            </div>
+                            <div class="d-flex justify-content-between mb-2">
+                                <span>La Paz</span> <span class="fw-bold">45%</span>
+                            </div>
+                            <div class="progress mb-3" style="height: 6px;">
+                                <div class="progress-bar bg-info" style="width: 45%"></div>
+                            </div>
+                            <div class="d-flex justify-content-between mb-2">
+                                <span>Santa Cruz</span> <span class="fw-bold">30%</span>
+                            </div>
+                            <div class="progress mb-1" style="height: 6px;">
+                                <div class="progress-bar bg-info" style="width: 30%"></div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- </div> -->
+    </div>
+    <br><br>
+
+
+    <!-- Selector de Gráficos -->
+    <!-- <div class="flex justify-center space-x-4 mb-10">
             <button onclick="changeChart('bar')" class="flex items-center bg-emerald-500 hover:bg-emerald-600 text-white px-5 py-2.5 rounded-lg transition-all shadow-lg active:scale-95">
                 <i class="fa-solid fa-chart-column mr-2"></i> Barras
             </button>
@@ -176,118 +225,137 @@
             </button>
         </div> -->
 
-        <!-- Contenedor del Gráfico -->
+    <!-- Contenedor del Gráfico -->
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div style="width: 100%; overflow: auto;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 20px;">Por
+                            Entidades del Estado
+                            <span>(En número)</span>
+                        </h1>
                         <div id="chartdiv" style="height: 1000px;"></div>
                     </div>
-                    <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Por Tipo de
-                        Intervención
-                        <span>(En número)</span>
-                    </h1>
+                </div>
+            </div>
 
-                    <div id="chartdiv2" style="height: 600px; width: 100%;"></div>
-                    <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Mes tentativo
-                        de la
-                        presentación de intervenciones <span>(En número)</span></h1>
+            <div class="col-md-4">
 
-                    <div id="chartdiv3" style="height: 600px; width: 100%;"></div>
+                <div class="card border-0 shadow-sm h-100">
 
-                    <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Por
-                        Departamento/Municipio <span>(En número)</span></h1>
+                    <div class="card-body">
+                        <h1 style="font-size: 20px; text-align: center; font-weight: bold;">
+                            Proyectos
+                            estratégicos/no
+                            estratégicos <span>(En número)</span></h1>
+                        <div id="chartdiv8" style="height: 600px; width: 100%;"></div>
 
-                    <div id="chartdiv4" style="height: 600px; width: 100%;"></div>
-                    <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Proyectos
-                        estratégicos/no
-                        estratégicos <span>(En número)</span></h1>
-
-                    <!-- <div id="chartdiv5" style="height: 600px; width: 100%;"></div> -->
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-3">
-                            </div>
-                            <div class="col-md-6">
-                                <div id="chartdiv8" style="height: 600px; width: 100%;"></div>
-                            </div>
-                            <div class="col-md-3">
-                            </div>
-                        </div>
                     </div>
 
-                    <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">
-                        Intervenciones Efeméride de Mayo <br> CHUQUISACA
-                    </h1>
-                    <br><br>
-                    <div class="table-responsive">
-                        <table id="miTablaCH" class="table table-striped shadow-sm" style="width:100%">
-                            <thead class="table-dark">
-                                <tr>
-                                    <th>Descripción</th>
-                                    <th>Monto (Bs.)</th>
-                                    <th>Fecha</th>
-                                    <th>Departamento</th>
-                                    <th>Municipio</th>
-                                </tr>
-                            </thead>
-                            <tbody id="contenidoTablaCH">
-                            </tbody>
-                        </table>
-                    </div>
-                    <!-- <div id="chartdiv4" style="height: 600px; width: 100%;"></div> -->
-                    <br> <br><br> <br>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">
+                    Intervenciones Efeméride de Mayo <br> CHUQUISACA
+                </h1>
+                <br><br>
 
+                <div class="table-responsive">
+                    <table id="miTablaCH" class="table table-striped shadow-sm table-efemeride" style="width:100%">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Descripción</th>
+                                <th>Monto (Bs.)</th>
+                                <th>Fecha</th>
+                                <th>Departamento</th>
+                                <th>Municipio</th>
+                            </tr>
+                        </thead>
+                        <tbody id="contenidoTablaCH">
+                        </tbody>
+                    </table>
                 </div>
 
             </div>
+        </div>
+
+    </div>
+    </div>
+    <!-- <div style="width: 100%; overflow: auto;">
+                    <div id="chartdiv" style="height: 1000px;"></div>
+                </div> -->
+    <!-- <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Por Tipo de
+                    Intervención
+                    <span>(En número)</span>
+                </h1>
+
+                <div id="chartdiv2" style="height: 600px; width: 100%;"></div>
+                <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Mes tentativo
+                    de la
+                    presentación de intervenciones <span>(En número)</span></h1>
+
+                <div id="chartdiv3" style="height: 600px; width: 100%;"></div>
+
+                <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Por
+                    Departamento/Municipio <span>(En número)</span></h1>
+
+                <div id="chartdiv4" style="height: 600px; width: 100%;"></div> -->
 
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Ranking
-                            de
-                            Intervenciones
-                            por Departamento
-                        </h1>
-                        <br> <br>
-                        <div id="contenedor-tablas"></div>
-                    </div>
-                </div>
+
+    <!-- <div id="chartdiv4" style="height: 600px; width: 100%;"></div> -->
+
+    </div>
+
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Ranking
+                    de
+                    Intervenciones
+                    por Departamento
+                </h1>
+                <br> <br>
+                <div id="contenedor-tablas"></div>
             </div>
-            <br> <br><br> <br>
         </div>
-        <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Visualizador de Datos
-        </h1>
-        <div class="table-responsive">
+    </div>
+    <h1 style="font-size: 20px; text-align: center; font-weight: bold;padding-top: 100px;">Visualizador de Datos
+    </h1>
+    <div class="table-responsive">
 
-            <table id="miTabla" class="table table-striped shadow-sm" style="width:100%">
-                <thead class="table-dark">
-                    <tr>
-                        <th>Entidad del Estado</th>
-                        <th>Tipo de intervención</th>
-                        <th>Descripción breve de la intervención (Proyecto, Programa, Actividad u otro)</th>
-                        <th>Fecha tentativa de la presentación</th>
-                        <th>Monto</th>
-                        <th>Dapartamento/Municipio</th>
-                    </tr>
-                </thead>
-                <tbody id="contenidoTabla">
-                </tbody>
-            </table>
-        </div>
-        <!-- </div> -->
-        <div style="padding: 20px 0px; font-size: 14px;">Fecha de actualización: <b id="fecha-footer"></b></div>
-        <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-        <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-        <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
-        <script src="js/data.js?v=13052026_7"></script>
-        <script src="js/dataRanking.js?v=13052026_7"></script>
-        <script src="js/dataCH.js?v=13052026_7"></script>
+        <table id="miTabla" class="table table-striped shadow-sm table-efemeride" style="width:100%">
+            <thead class="table-dark">
+                <tr>
+                    <th>Entidad del Estado</th>
+                    <th>Tipo de intervención</th>
+                    <th>Descripción breve de la intervención (Proyecto, Programa, Actividad u otro)</th>
+                    <th>Fecha tentativa de la presentación</th>
+                    <th>Monto</th>
+                    <th>Dapartamento/Municipio</th>
+                </tr>
+            </thead>
+            <tbody id="contenidoTabla">
+            </tbody>
+        </table>
+    </div>
+    <!-- </div> -->
+    <div style="padding: 20px 0px; font-size: 14px;">Fecha de actualización: <b id="fecha-footer"></b></div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    <script src="js/data.js?v=19052026"></script>
+    <script src="js/dataRanking.js?v=19052026"></script>
+    <script src="js/dataCH.js?v=19052026"></script>
 
-        <script src="js/app.js?v=13052026_7"></script>
+    <script src="js/app.js?v=19052026"></script>
 
 </body>
 

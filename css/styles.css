@@ -1,6 +1,7 @@
  body {
-     padding: 50px;
+     padding: 5px;
      margin-top: 150px;
+     font-family: sans-serif;
  }
 
  h1 span {
@@ -22,9 +23,22 @@
      font-size: 18px;
      font-weight: bold;
      text-align: center;
-     background-color: rgb(103, 183, 220, 0.2);
+     /* background-color: #a1d99b; */
      border-radius: 6px;
-     padding: 10px;
+     padding: 5px;
+     margin: 0px;
+ }
+
+ h3 span {
+     color: #fff;
+     background: #198754;
+     font-size: 18px;
+     font-weight: bold;
+     text-align: center;
+     /* background-color: #a1d99b; */
+     border-radius: 6px;
+     padding: 5px;
+     margin: 0px;
  }
 
  .header-title {
@@ -32,17 +46,19 @@
      text-align: center;
      font-weight: bold;
      color: #102c2d;
-     clear: both
+     clear: both;
+     margin: 0px;
+     padding: 0px;
  }
 
  .logo-cengob {
      float: right;
-     width: 300px;
+     width: 200px;
  }
 
  .logo-escudo {
      float: left;
-     width: 120px;
+     width: 80px;
  }
 
  .total-intervenciones {
@@ -53,6 +69,106 @@
      /* border: 5px solid #d43a87; */
  }
 
+ .card-body {
+     flex: 1 1 auto;
+     padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+     color: var(--bs-card-color);
+     border: 1px solid #009879;
+     border-radius: 5px;
+     box-shadow: 0px 4px 8px 0px #ccc
+ }
+
+ .table-dark {
+     --bs-table-bg: #009879 !important;
+     background: #009879 !important;
+     font-size: 0.9em;
+     font-family: sans-serif;
+ }
+
+ .table-efemeride {
+     border-radius: 5px !important;
+     background: #b8d6d0 !important;
+     font-size: 0.9em;
+     font-family: sans-serif;
+     padding: 10px;
+
+ }
+
+ /* .table-departamento{
+    border-radius: 5px !important;
+    padding: 2px;
+         border: 1px solid #198754;
+ } */
+
+ /* Configuración general de la tabla */
+ .table-departamento {
+     border-collapse: collapse;
+     /* Elimina el doble borde entre celdas */
+     margin: 25px 0;
+     font-size: 0.9em;
+     font-family: sans-serif;
+     min-width: 400px;
+     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+     /* Sombra CSS3 sutil */
+     border-radius: 5px 5px 0 0;
+     overflow: hidden;
+     /* Mantiene las esquinas redondeadas */
+ }
+
+ /* Estilo del encabezado */
+ .table-departamento thead tr {
+     background-color: #009879;
+     color: #ffffff;
+     text-align: left;
+     font-weight: bold;
+ }
+
+ /* Espaciado (Padding) en filas y celdas */
+ .table-departamento th,
+ .table-departamento td {
+     padding: 12px 15px;
+ }
+
+ /* Bordes inferiores suaves en las filas del cuerpo */
+ .table-departamento tbody tr {
+     border-bottom: 1px solid #dddddd;
+ }
+
+ /* Efecto Cebra: Filas alternas con fondo gris claro */
+ .table-departamento tbody tr:nth-child(even) {
+     background-color: #f3f3f3;
+ }
+
+ /* Resaltado de la última fila (Opcional) */
+ .table-departamento tbody tr:last-of-type {
+     border-bottom: 2px solid #009879;
+ }
+
+ /* Efecto Hover: Resalta la fila al pasar el cursor */
+ .table-departamento tbody tr:hover {
+     background-color: #f1f1f1;
+     cursor: pointer;
+ }
+
+ .contenedor-tabla-individual {}
+
+ .active>.page-link,
+ .page-link.active {
+     z-index: 3;
+     color: var(--bs-pagination-active-color);
+     background-color: #198754;
+     border-color: #102c2d
+ }
+
+ .contenedor-padre {
+     display: flex;
+     justify-content: center;
+     /* Centra horizontalmente */
+     align-items: center;
+     /* Centra verticalmente */
+     height: 230px;
+     /* Es necesario darle una altura al padre para el eje vertical */
+ }
 
  @media screen and (max-width: 768px) {
      body {
@@ -79,9 +195,9 @@
      }
 
      .table-responsive {
-        overflow: auto;
-        width: 100%;
-        /* border: 5px solid #102c2d; */
+         overflow: auto;
+         width: 100%;
+         /* border: 5px solid #102c2d; */
      }
 
  }
