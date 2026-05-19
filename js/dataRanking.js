@@ -326,7 +326,7 @@ let dataRanking = [
   },
   {
     "id": "0",
-    "desc": "SUCRE",
+    "desc": "CHUQUISACA",
     "monto": "MONTOS"
   },
   {
