@@ -1,4 +1,4 @@
-//window.console.log = () => { };
+window.console.log = () => { };
 let fechaActualizacion = "Mayo 19, Hrs. 14:00";
 let root; let root2; let root3; let root4; let root5; let root6; let root7; let root8; let root9; let root10; let root11; let root12;
 let winWidth = $(window).width();
