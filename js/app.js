@@ -691,6 +691,14 @@ function createBarChart9() {
         pinchZoomX: true
     }));
 
+    chart.get("colors").set("colors", [
+        am5.color(0x198754),
+        am5.color(0x31A354),
+        am5.color(0x74C476),
+        am5.color(0xA1D99B),
+        am5.color(0xC7E9C0)
+    ]);
+
     var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {}));
     cursor.lineY.set("visible", false);
 
